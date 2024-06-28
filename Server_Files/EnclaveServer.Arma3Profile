@@ -18,7 +18,7 @@ class DifficultyPresets
 			staminaBar = 0;
 			weaponCrosshair = 0;
 			visionAid = 0;
-			thirdPersonView = PSthirdPersonView;
+			thirdPersonView = 2;
 			cameraShake = 0;
 			scoreTable = 1;
 			deathMessages = 1;
