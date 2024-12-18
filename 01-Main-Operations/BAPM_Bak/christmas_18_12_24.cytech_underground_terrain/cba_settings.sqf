@@ -1,0 +1,2281 @@
+// ACE Advanced Ballistics
+force ace_advanced_ballistics_ammoTemperatureEnabled = true;
+force ace_advanced_ballistics_barrelLengthInfluenceEnabled = true;
+force ace_advanced_ballistics_bulletTraceEnabled = true;
+force ace_advanced_ballistics_enabled = true;
+force ace_advanced_ballistics_muzzleVelocityVariationEnabled = true;
+force ace_advanced_ballistics_simulationInterval = 0.05;
+
+// ACE Advanced Fatigue
+force ace_advanced_fatigue_enabled = true;
+force ace_advanced_fatigue_enableStaminaBar = true;
+ace_advanced_fatigue_fadeStaminaBar = true;
+force ace_advanced_fatigue_loadFactor = 1;
+force force ace_advanced_fatigue_performanceFactor = 5;
+force ace_advanced_fatigue_recoveryFactor = 2;
+force ace_advanced_fatigue_terrainGradientFactor = 1;
+
+// ACE Advanced Throwing
+ace_advanced_throwing_enabled = true;
+force ace_advanced_throwing_enablePickUp = true;
+force ace_advanced_throwing_enablePickUpAttached = true;
+ace_advanced_throwing_enableTempWindInfo = true;
+ace_advanced_throwing_showMouseControls = true;
+ace_advanced_throwing_showThrowArc = true;
+
+// ACE Advanced Vehicle Damage
+force ace_vehicle_damage_enableCarDamage = false;
+force ace_vehicle_damage_enabled = true;
+
+// ACE AI
+force ace_ai_assignNVG = true;
+
+// ACE Arsenal
+force ace_arsenal_allowDefaultLoadouts = true;
+force ace_arsenal_allowSharedLoadouts = true;
+ace_arsenal_camInverted = false;
+ace_arsenal_defaultToFavorites = false;
+force ace_arsenal_enableIdentityTabs = true;
+ace_arsenal_enableModIcons = true;
+force ace_arsenal_EnableRPTLog = false;
+ace_arsenal_favoritesColor = [0.9,0.875,0.6];
+ace_arsenal_fontHeight = 4.5;
+force ace_arsenal_loadoutsSaveFace = true;
+force ace_arsenal_loadoutsSaveInsignia = true;
+force ace_arsenal_loadoutsSaveVoice = true;
+
+// ACE Artillery
+force ace_artillerytables_advancedCorrections = true;
+force ace_artillerytables_disableArtilleryComputer = false;
+force ace_mk6mortar_airResistanceEnabled = true;
+force ace_mk6mortar_allowCompass = true;
+force ace_mk6mortar_allowComputerRangefinder = true;
+force ace_mk6mortar_useAmmoHandling = true;
+
+// ACE Captives
+force force ace_captives_allowHandcuffOwnSide = true;
+force force ace_captives_allowSurrender = true;
+force force ace_captives_requireSurrender = 2;
+force force ace_captives_requireSurrenderAi = false;
+
+// ACE Casings
+force ace_casings_enabled = true;
+force ace_casings_maxCasings = 250;
+
+// ACE Common
+force ace_common_allowFadeMusic = true;
+force ace_common_checkPBOsAction = 0;
+force ace_common_checkPBOsCheckAll = false;
+force ace_common_checkPBOsWhitelist = "[]";
+force ace_common_deployedSwayFactor = 1;
+ace_common_displayTextColor = [0,0,0,0.1];
+ace_common_displayTextFontColor = [1,1,1,1];
+force ace_common_enableSway = true;
+ace_common_epilepsyFriendlyMode = false;
+ace_common_progressBarInfo = 2;
+force ace_common_restedSwayFactor = 1;
+ace_common_settingFeedbackIcons = 1;
+ace_common_settingProgressBarLocation = 0;
+force ace_common_swayFactor = 1;
+
+// ACE Cook-off
+force ace_cookoff_ammoCookoffDuration = 1;
+force ace_cookoff_cookoffDuration = 1;
+force ace_cookoff_destroyVehicleAfterCookoff = false;
+force ace_cookoff_enableAmmobox = true;
+force ace_cookoff_enableAmmoCookoff = true;
+force ace_cookoff_enableFire = true;
+force ace_cookoff_probabilityCoef = 1;
+force ace_cookoff_removeAmmoDuringCookoff = true;
+
+// ACE Crew Served Weapons
+force ace_csw_ammoHandling = 2;
+force ace_csw_defaultAssemblyMode = false;
+force ace_csw_dragAfterDeploy = true;
+force ace_csw_handleExtraMagazines = true;
+force ace_csw_handleExtraMagazinesType = 0;
+force ace_csw_progressBarTimeCoefficent = 1;
+
+// ACE Dragging
+force ace_dragging_allowRunWithLightweight = true;
+ace_dragging_dragAndFire = true;
+force ace_dragging_skipContainerWeight = false;
+force ace_dragging_weightCoefficient = 1;
+
+// ACE Explosives
+force ace_explosives_customTimerDefault = 30;
+force ace_explosives_customTimerMax = 900;
+force ace_explosives_customTimerMin = 5;
+force ace_explosives_explodeOnDefuse = true;
+force ace_explosives_punishNonSpecialists = true;
+force ace_explosives_requireSpecialist = false;
+
+// ACE Field Rations
+force acex_field_rations_affectAdvancedFatigue = true;
+force acex_field_rations_enabled = false;
+acex_field_rations_hudShowLevel = 0;
+acex_field_rations_hudTransparency = -1;
+acex_field_rations_hudType = 0;
+force acex_field_rations_hungerSatiated = 1;
+force acex_field_rations_terrainObjectActions = true;
+force acex_field_rations_thirstQuenched = 1;
+force acex_field_rations_timeWithoutFood = 2;
+force acex_field_rations_timeWithoutWater = 2;
+force acex_field_rations_waterSourceActions = 2;
+
+// ACE Fire
+force ace_fire_dropWeapon = 1;
+force ace_fire_enabled = true;
+force ace_fire_enableFlare = false;
+ace_fire_enableScreams = true;
+
+// ACE Fortify
+force ace_fortify_markObjectsOnMap = 1;
+force ace_fortify_timeCostCoefficient = 1;
+force ace_fortify_timeMin = 1.5;
+acex_fortify_settingHint = 2;
+
+// ACE Fragmentation Simulation
+force ace_frag_enabled = true;
+force ace_frag_reflectionsEnabled = false;
+force ace_frag_spallEnabled = true;
+force ace_frag_spallIntensity = 1;
+
+// ACE G-Forces
+force ace_gforces_coef = 0.8;
+force ace_gforces_enabledFor = 1;
+
+// ACE Goggles
+force force ace_goggles_effects = 2;
+ace_goggles_showClearGlasses = false;
+ace_goggles_showInThirdPerson = false;
+
+// ACE Grenades
+force ace_grenades_convertExplosives = true;
+
+// ACE Headless
+force acex_headless_delay = 15;
+force acex_headless_enabled = true;
+force acex_headless_endMission = 0;
+force acex_headless_log = false;
+force acex_headless_transferLoadout = 1;
+
+// ACE Hearing
+force ace_hearing_autoAddEarplugsToUnits = 1;
+ace_hearing_disableEarRinging = false;
+force ace_hearing_earplugsVolume = 0.5;
+force ace_hearing_enableCombatDeafness = true;
+force ace_hearing_enabledForZeusUnits = true;
+force ace_hearing_explosionDeafnessCoefficient = 1;
+force ace_hearing_unconsciousnessVolume = 0.4;
+
+// ACE Interaction
+force ace_interaction_disableNegativeRating = false;
+force ace_interaction_enableAnimActions = true;
+force ace_interaction_enableGroupRenaming = true;
+ace_interaction_enableMagazinePassing = true;
+force ace_interaction_enableTeamManagement = true;
+ace_interaction_enableWeaponAttachments = true;
+force ace_interaction_interactWithEnemyCrew = 0;
+force ace_interaction_interactWithTerrainObjects = false;
+force ace_interaction_remoteTeamManagement = true;
+
+// ACE Interaction Menu
+ace_gestures_showOnInteractionMenu = 2;
+ace_interact_menu_actionOnKeyRelease = true;
+ace_interact_menu_addBuildingActions = false;
+ace_interact_menu_alwaysUseCursorInteraction = false;
+ace_interact_menu_alwaysUseCursorSelfInteraction = true;
+ace_interact_menu_colorShadowMax = [0,0,0,1];
+ace_interact_menu_colorShadowMin = [0,0,0,0.25];
+ace_interact_menu_colorTextMax = [1,1,1,1];
+ace_interact_menu_colorTextMin = [1,1,1,0.25];
+ace_interact_menu_consolidateSingleChild = false;
+ace_interact_menu_cursorKeepCentered = false;
+ace_interact_menu_cursorKeepCenteredSelfInteraction = false;
+ace_interact_menu_menuAnimationSpeed = 0;
+ace_interact_menu_menuBackground = 0;
+ace_interact_menu_menuBackgroundSelf = 0;
+ace_interact_menu_selectorColor = [1,0,0];
+ace_interact_menu_shadowSetting = 2;
+ace_interact_menu_textSize = 2;
+ace_interact_menu_useListMenu = true;
+ace_interact_menu_useListMenuSelf = false;
+
+// ACE Interaction Menu (Self) - More
+ace_interact_menu_more__ACE_CheckAirTemperature = false;
+ace_interact_menu_more__ace_csw_deploy = false;
+ace_interact_menu_more__ACE_Equipment = false;
+ace_interact_menu_more__ACE_Explosives = false;
+ace_interact_menu_more__ace_field_rations = false;
+ace_interact_menu_more__ace_fortify = false;
+ace_interact_menu_more__ace_gestures = false;
+ace_interact_menu_more__ace_intelitems = false;
+ace_interact_menu_more__ACE_MapFlashlight = false;
+ace_interact_menu_more__ACE_MapGpsHide = false;
+ace_interact_menu_more__ACE_MapGpsShow = false;
+ace_interact_menu_more__ACE_MapTools = false;
+ace_interact_menu_more__ACE_Medical = false;
+ace_interact_menu_more__ace_medical_ai_heal = false;
+ace_interact_menu_more__ACE_Medical_Menu = false;
+ace_interact_menu_more__ACE_MoveRallypoint = false;
+ace_interact_menu_more__ACE_PlottingBoard = false;
+ace_interact_menu_more__ACE_PlottingBoardHide = false;
+ace_interact_menu_more__ACE_RepackMagazines = false;
+ace_interact_menu_more__ace_sandbag_place = false;
+ace_interact_menu_more__ACE_StartSurrenderingSelf = false;
+ace_interact_menu_more__ACE_StopEscortingSelf = false;
+ace_interact_menu_more__ACE_StopSurrenderingSelf = false;
+ace_interact_menu_more__ACE_Tags = false;
+ace_interact_menu_more__ACE_TeamManagement = false;
+ace_interact_menu_more__ace_zeus_create = false;
+ace_interact_menu_more__ace_zeus_delete = false;
+ace_interact_menu_more__acex_sitting_Stand = false;
+ace_interact_menu_more__KAT_Equipment = false;
+ace_interact_menu_more__Medical = false;
+ace_interact_menu_more__OpenCHVDSettings = false;
+ace_interact_menu_more__TFAR_Radio = false;
+ace_interact_menu_more__UPSL_aime_change_ammo_ammo_class = false;
+ace_interact_menu_more__UPSL_aime_inventory_assemble_action = false;
+ace_interact_menu_more__UPSL_aime_uav_terminal_uav_action = false;
+ace_interact_menu_more__UPSL_aime_vehicle_controls_user_actions = false;
+ace_interact_menu_more__UPSL_aime_vehicle_seats_change_action = false;
+ace_interact_menu_more__UPSL_aime_vehicle_seats_eject_action = false;
+ace_interact_menu_more__UPSL_aime_vehicle_seats_getout_action = false;
+ace_interact_menu_more__UPSL_aime_vehicle_seats_turnin_action = false;
+
+// ACE Interaction Menu (Self) - Move to Root
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_atragmx_open = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_attach_Attach = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_attach_Detach = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ACE_CheckDogtags = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ACE_Chemlights = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_dagr_menu = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_dagr_menu__ace_dagr_toggle = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_goggles_wipeGlasses = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_gunbag_actions = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_gunbag_actions__ace_gunbag_status = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_gunbag_actions__ace_gunbag_weaponOff = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_gunbag_actions__ace_gunbag_weaponSwap = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_gunbag_actions__ace_gunbag_weaponTo = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_huntir_open = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_interaction_weaponAttachments = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_kestrel4500_open = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_kestrel4500_open__ace_kestrel4500_hide = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_kestrel4500_open__ace_kestrel4500_show = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_marker_flags = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_microdagr_configure = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_microdagr_configure__ace_microdagr_close = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_microdagr_configure__ace_microdagr_show = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_minedetector_metalDetector = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_minedetector_metalDetector__ace_minedetector_activate = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_minedetector_metalDetector__ace_minedetector_connectHeadphones = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_minedetector_metalDetector__ace_minedetector_deactivate = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_minedetector_metalDetector__ace_minedetector_disconnectHeadphones = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_mk6mortar_rangetable = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_overheating_CheckTemperature = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_overheating_CheckTemperatureSpareBarrels = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_overheating_CoolWeaponWithItem = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_overheating_SwapBarrel = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_overheating_UnJam = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ACE_PutInEarplugs = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_rangecard_open = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_rangecard_open__ace_rangecard_makeCopy = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_rangecard_open__ace_rangecard_openCopy = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_reload_checkAmmo = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ACE_RemoveEarplugs = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_scopes_adjustZero = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_scopes_resetZero = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_spottingscope_place = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ACE_TacticalLadders = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_trenches = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_trenches__ace_trenches_digEnvelopeBig = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_trenches__ace_trenches_digEnvelopeSmall = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_trenches__grad_trenches_digEnvelopeGiant = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_trenches__grad_trenches_digEnvelopeLongNameEmplacment = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_trenches__grad_trenches_digEnvelopeShort = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_trenches__grad_trenches_digEnvelopeVehicle = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_tripod_place = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__AR2_Unpack = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ED1D_Unpack = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ED1E_Unpack = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__exchange_blade = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__exchange_dd = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__exchange_whip = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__extend_antenna = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__GRAD_slingHelmet_sling = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__GRAD_slingHelmet_swap = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__GRAD_slingHelmet_unsling = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__retract_antenna = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__tfw_radios_rf3080_place = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__tsp_melee_ak_bayonet = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__tsp_melee_ak_knife = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__tsp_melee_m9s_bayonet = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__tsp_melee_m9s_knife = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__tsp_melee_m9s_knife_m27 = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__tsp_melee_okc3s_bayonet = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__tsp_melee_okc3s_knife = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__tsp_melee_okc3s_knife_m27 = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__UK3CB_Assemble_Javelin = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__UK3CB_Attach = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__UK3CB_Attach_Helmet = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__UK3CB_BAF_Weapons_L16_RangeTable = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__UK3CB_BAF_Weapons_M6_RangeTable = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__UK3CB_Detach = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__UK3CB_Detach_Helmet = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__UK3CB_Disassemble_Javelin = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__UK3CB_DropBackpack = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__UK3CB_PickupBackpack = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__UPSL_aime_uav_terminal_gps_action = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__UPSL_aime_uav_terminal_term_action = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__UPSL_aime_uav_terminal_uav_action = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__zade_boc_onBack = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__zade_boc_onChest = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__zade_boc_swap = false;
+ace_interact_menu_moveToRoot__ACE_Explosives__ACE_Cellphone = false;
+ace_interact_menu_moveToRoot__ACE_Explosives__ACE_Place = false;
+ace_interact_menu_moveToRoot__ace_gestures__ace_gestures_Advance = false;
+ace_interact_menu_moveToRoot__ace_gestures__ace_gestures_CeaseFire = false;
+ace_interact_menu_moveToRoot__ace_gestures__ace_gestures_Cover = false;
+ace_interact_menu_moveToRoot__ace_gestures__ace_gestures_Engage = false;
+ace_interact_menu_moveToRoot__ace_gestures__ace_gestures_Follow = false;
+ace_interact_menu_moveToRoot__ace_gestures__ace_gestures_Forward = false;
+ace_interact_menu_moveToRoot__ace_gestures__ace_gestures_Freeze = false;
+ace_interact_menu_moveToRoot__ace_gestures__ace_gestures_Go = false;
+ace_interact_menu_moveToRoot__ace_gestures__ace_gestures_Hold = false;
+ace_interact_menu_moveToRoot__ace_gestures__ace_gestures_Point = false;
+ace_interact_menu_moveToRoot__ace_gestures__ace_gestures_Regroup = false;
+ace_interact_menu_moveToRoot__ace_gestures__ace_gestures_Stop = false;
+ace_interact_menu_moveToRoot__ace_gestures__ace_gestures_Up = false;
+ace_interact_menu_moveToRoot__ace_gestures__ace_gestures_Warning = false;
+ace_interact_menu_moveToRoot__ACE_MapTools__ACE_MapToolsAlign = false;
+ace_interact_menu_moveToRoot__ACE_MapTools__ACE_MapToolsAlign__ACE_MapToolsAlignCompass = false;
+ace_interact_menu_moveToRoot__ACE_MapTools__ACE_MapToolsAlign__ACE_MapToolsAlignNorth = false;
+ace_interact_menu_moveToRoot__ACE_MapTools__ACE_MapToolsAlign__ACE_MapToolsAlignToPlottingBoard = false;
+ace_interact_menu_moveToRoot__ACE_MapTools__ACE_MapToolsAlign__ACE_MapToolsAlignToPlottingBoardAcrylic = false;
+ace_interact_menu_moveToRoot__ACE_MapTools__ACE_MapToolsAlign__ACE_MapToolsAlignToPlottingBoardRuler = false;
+ace_interact_menu_moveToRoot__ACE_MapTools__ACE_MapToolsHide = false;
+ace_interact_menu_moveToRoot__ACE_MapTools__ACE_MapToolsShowNormal = false;
+ace_interact_menu_moveToRoot__ACE_MapTools__ACE_MapToolsShowSmall = false;
+ace_interact_menu_moveToRoot__ACE_Medical__ACE_ArmLeft = false;
+ace_interact_menu_moveToRoot__ACE_Medical__ACE_ArmRight = false;
+ace_interact_menu_moveToRoot__ACE_Medical__ACE_Head = false;
+ace_interact_menu_moveToRoot__ACE_Medical__ACE_LegLeft = false;
+ace_interact_menu_moveToRoot__ACE_Medical__ACE_LegRight = false;
+ace_interact_menu_moveToRoot__ACE_Medical__ACE_Torso = false;
+ace_interact_menu_moveToRoot__ACE_Medical__ACE_Torso__TriageCard = false;
+ace_interact_menu_moveToRoot__ACE_PlottingBoardHide__ACE_PlottingBoardAlign = false;
+ace_interact_menu_moveToRoot__ACE_PlottingBoardHide__ACE_PlottingBoardAlign__ACE_PlottingBoardAlignAcrylic = false;
+ace_interact_menu_moveToRoot__ACE_PlottingBoardHide__ACE_PlottingBoardAlign__ACE_PlottingBoardAlignAcrylic__ACE_PlottingBoardAlignAcrylicMaptool = false;
+ace_interact_menu_moveToRoot__ACE_PlottingBoardHide__ACE_PlottingBoardAlign__ACE_PlottingBoardAlignAcrylic__ACE_PlottingBoardAlignAcrylicUp = false;
+ace_interact_menu_moveToRoot__ACE_PlottingBoardHide__ACE_PlottingBoardAlign__ACE_PlottingBoardAlignBoard = false;
+ace_interact_menu_moveToRoot__ACE_PlottingBoardHide__ACE_PlottingBoardAlign__ACE_PlottingBoardAlignBoard__ACE_PlottingBoardAlignBoardMaptool = false;
+ace_interact_menu_moveToRoot__ACE_PlottingBoardHide__ACE_PlottingBoardAlign__ACE_PlottingBoardAlignBoard__ACE_PlottingBoardAlignBoardUp = false;
+ace_interact_menu_moveToRoot__ACE_PlottingBoardHide__ACE_PlottingBoardAlign__ACE_PlottingBoardAlignRuler = false;
+ace_interact_menu_moveToRoot__ACE_PlottingBoardHide__ACE_PlottingBoardAlign__ACE_PlottingBoardAlignRuler__ACE_PlottingBoardAlignRulerMaptool = false;
+ace_interact_menu_moveToRoot__ACE_PlottingBoardHide__ACE_PlottingBoardAlign__ACE_PlottingBoardAlignRuler__ACE_PlottingBoardAlignRulerUp = false;
+ace_interact_menu_moveToRoot__ACE_PlottingBoardHide__ACE_PlottingBoardRulerHide = false;
+ace_interact_menu_moveToRoot__ACE_PlottingBoardHide__ACE_PlottingBoardRulerShow = false;
+ace_interact_menu_moveToRoot__ACE_PlottingBoardHide__ACE_PlottingBoardWipe = false;
+ace_interact_menu_moveToRoot__ACE_TeamManagement__ACE_BecomeLeader = false;
+ace_interact_menu_moveToRoot__ACE_TeamManagement__ACE_JoinTeamBlue = false;
+ace_interact_menu_moveToRoot__ACE_TeamManagement__ACE_JoinTeamGreen = false;
+ace_interact_menu_moveToRoot__ACE_TeamManagement__ACE_JoinTeamMain = false;
+ace_interact_menu_moveToRoot__ACE_TeamManagement__ACE_JoinTeamRed = false;
+ace_interact_menu_moveToRoot__ACE_TeamManagement__ACE_JoinTeamYellow = false;
+ace_interact_menu_moveToRoot__ACE_TeamManagement__ACE_LeaveGroup = false;
+ace_interact_menu_moveToRoot__ACE_TeamManagement__ACE_remoteTeamManagement = false;
+ace_interact_menu_moveToRoot__ACE_TeamManagement__ACE_RenameGroup = false;
+ace_interact_menu_moveToRoot__ACE_TeamManagement__diwako_dui_buddy_buddy_action_team_remove = false;
+ace_interact_menu_moveToRoot__ACE_TeamManagement__UPSL_aime_group_drop_leader_action = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__LeftArm = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__LeftArm__Doctor = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__LeftArm__Doctor_NVG = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__LeftArm__Kat = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__LeftArm__Kat_NVG = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__LeftArm__Medic = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__LeftArm__Medic_NVG = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__LeftArm__RedCross = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__LeftArm__RedCross_NVG = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__LeftLeg = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__LeftLeg__Doctor = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__LeftLeg__Doctor_NVG = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__LeftLeg__Kat = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__LeftLeg__Kat_NVG = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__LeftLeg__Medic = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__LeftLeg__Medic_NVG = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__LeftLeg__RedCross = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__LeftLeg__RedCross_NVG = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__RightArm = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__RightArm__Doctor = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__RightArm__Doctor_NVG = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__RightArm__Kat = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__RightArm__Kat_NVG = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__RightArm__Medic = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__RightArm__Medic_NVG = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__RightArm__RedCross = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__RightArm__RedCross_NVG = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__RightLeg = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__RightLeg__Doctor = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__RightLeg__Doctor_NVG = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__RightLeg__Kat = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__RightLeg__Kat_NVG = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__RightLeg__Medic = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__RightLeg__Medic_NVG = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__RightLeg__RedCross = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__RightLeg__RedCross_NVG = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__UnSlingLeftArm = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__UnSlingLeftLeg = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__UnSlingRightArm = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Armband__UnSlingRightLeg = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__BubbleWrapPopping = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AED_X_Interactions = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AED_X_Interactions__KAT_AED_X_addSound = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AED_X_Interactions__KAT_AED_X_removeSound = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AED_X_Interactions__KAT_AED_X_ViewMonitor = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AFAK_Item = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AFAK_Item__AFAKInfo = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AFAK_Item__Slot1 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AFAK_Item__Slot2 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AFAK_Item__Slot3 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AFAK_Item__Slot4 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AFAK_Item__Slot5 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AFAK_Item__Slot6 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AFAK_Mag = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AFAK_Mag__AFAKInfo = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AFAK_Mag__Slot1 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AFAK_Mag__Slot1_Repack = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AFAK_Mag__Slot2 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AFAK_Mag__Slot2_Repack = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AFAK_Mag__Slot3 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AFAK_Mag__Slot3_Repack = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AFAK_Mag__Slot4 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AFAK_Mag__Slot4_Repack = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AFAK_Mag__Slot5 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AFAK_Mag__Slot5_Repack = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AFAK_Mag__Slot6 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_AFAK_Mag__Slot6_Repack = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_ChangeGasMaskFilter = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_CheckGasMaskDur = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_CheckHandWarmersSelf = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_DeployStretcher = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_IFAK_Item = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_IFAK_Item__IFAKInfo = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_IFAK_Item__Slot1 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_IFAK_Item__Slot2 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_IFAK_Item__Slot3 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_IFAK_Item__Slot4 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_IFAK_Mag = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_IFAK_Mag__IFAKInfo = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_IFAK_Mag__Slot1 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_IFAK_Mag__Slot1_Repack = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_IFAK_Mag__Slot2 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_IFAK_Mag__Slot2_Repack = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_IFAK_Mag__Slot3 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_IFAK_Mag__Slot3_Repack = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_IFAK_Mag__Slot4 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_IFAK_Mag__Slot4_Repack = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Item = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Item__MFAKInfo = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Item__Slot1 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Item__Slot2 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Item__Slot3 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Item__Slot4 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Item__Slot5 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Item__Slot6 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Item__Slot7 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Item__Slot8 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Mag = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Mag__MFAKInfo = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Mag__Slot1 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Mag__Slot1_Repack = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Mag__Slot2 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Mag__Slot2_Repack = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Mag__Slot3 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Mag__Slot3_Repack = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Mag__Slot4 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Mag__Slot4_Repack = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Mag__Slot5 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Mag__Slot5_Repack = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Mag__Slot6 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Mag__Slot6_Repack = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Mag__Slot7 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Mag__Slot7_Repack = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Mag__Slot8 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MFAK_Mag__Slot8_Repack = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_MuteChemDetector = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_placeAED = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_placeAEDX = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__KAT_UnmuteChemDetector = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__openCrossPanel = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__PulseOximeter_addSound = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__PulseOximeter_removeSound = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Refill_OxygenTank_150_Facility = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__Refill_OxygenTank_300_Facility = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__SetPreferred_OxygenTank_150 = false;
+ace_interact_menu_moveToRoot__KAT_Equipment__SetPreferred_OxygenTank_300 = false;
+ace_interact_menu_moveToRoot__Medical__ACE_Head = false;
+ace_interact_menu_moveToRoot__Medical__ACE_Head__CheckBloodPressure = false;
+ace_interact_menu_moveToRoot__UPSL_aime_vehicle_seats_change_action__UPSL_aime_vehicle_seats_turnout_action = false;
+ace_interact_menu_moveToRoot__UPSL_aime_vehicle_seats_eject_action__UPSL_aime_vehicle_seats_eject_confirm_action = false;
+ace_interact_menu_moveToRoot__UPSL_aime_vehicle_seats_getout_action__UPSL_aime_vehicle_seats_eject_action = false;
+
+// ACE Kill Tracker
+force ace_killtracker_showCrewKills = false;
+force ace_killtracker_trackAI = true;
+
+// ACE Logistics
+ace_cargo_carryAfterUnload = true;
+force ace_cargo_enable = true;
+force ace_cargo_enableDeploy = true;
+ace_cargo_enableRename = true;
+force ace_cargo_loadTimeCoefficient = 5;
+ace_cargo_openAfterUnload = 0;
+force ace_cargo_paradropTimeCoefficent = 2.5;
+force ace_rearm_distance = 20;
+force ace_rearm_enabled = true;
+force ace_rearm_level = 0;
+force ace_rearm_supply = 0;
+force ace_refuel_cargoRate = 10;
+force ace_refuel_enabled = true;
+force ace_refuel_hoseLength = 12;
+force ace_refuel_progressDuration = 2;
+force ace_refuel_rate = 1;
+force ace_towing_addRopeToVehicleInventory = true;
+
+// ACE Magazine Repack
+ace_magazinerepack_repackAnimation = true;
+ace_magazinerepack_repackLoadedMagazines = true;
+force ace_magazinerepack_timePerAmmo = 1.5;
+force ace_magazinerepack_timePerBeltLink = 8;
+force ace_magazinerepack_timePerMagazine = 2;
+
+// ACE Map
+force ace_map_BFT_Enabled = false;
+force ace_map_BFT_HideAiGroups = false;
+force ace_map_BFT_Interval = 1;
+force ace_map_BFT_ShowPlayerNames = false;
+force ace_map_DefaultChannel = -1;
+force ace_map_mapGlow = true;
+force ace_map_mapIllumination = true;
+force ace_map_mapLimitZoom = false;
+force ace_map_mapShake = true;
+force ace_map_mapShowCursorCoordinates = false;
+ace_markers_moveRestriction = 0;
+ace_markers_timestampEnabled = true;
+ace_markers_timestampFormat = "HH:MM";
+ace_markers_timestampHourFormat = 24;
+force ace_markers_timestampTimezone = 0;
+ace_markers_TimestampUTCMinutesOffset = 0;
+force ace_markers_timestampUTCOffset = 0;
+
+// ACE Map Gestures
+ace_map_gestures_allowCurator = true;
+ace_map_gestures_allowSpectator = true;
+ace_map_gestures_briefingMode = 0;
+ace_map_gestures_defaultColor = [1,0.88,0,0.7];
+ace_map_gestures_defaultLeadColor = [1,0.88,0,0.95];
+force ace_map_gestures_enabled = true;
+force ace_map_gestures_interval = 0.03;
+force ace_map_gestures_maxRange = 7;
+force ace_map_gestures_maxRangeCamera = 14;
+ace_map_gestures_nameTextColor = [0.2,0.2,0.2,0.3];
+force ace_map_gestures_onlyShowFriendlys = false;
+
+// ACE Map Tools
+ace_maptools_drawStraightLines = true;
+ace_maptools_plottingBoardAllowChannelDrawing = 1;
+ace_maptools_rotateModifierKey = 1;
+
+// ACE Medical
+force ace_medical_ai_enabledFor = 2;
+force ace_medical_ai_requireItems = 1;
+force ace_medical_AIDamageThreshold = 5;
+force ace_medical_bleedingCoefficient = 0.7;
+force ace_medical_blood_bloodLifetime = 900;
+force ace_medical_blood_enabledFor = 2;
+force ace_medical_blood_maxBloodObjects = 5000;
+force ace_medical_deathChance = 0;
+force ace_medical_dropWeaponUnconsciousChance = 0;
+force ace_medical_enableVehicleCrashes = true;
+force ace_medical_engine_damagePassThroughEffect = 1;
+force ace_medical_fatalDamageSource = 2;
+force ace_medical_fractureChance = 0.303461;
+force ace_medical_fractures = 2;
+force ace_medical_ivFlowRate = 0.995397;
+force ace_medical_limping = 0;
+force ace_medical_painCoefficient = 2;
+force ace_medical_painUnconsciousChance = 0.152807;
+force ace_medical_painUnconsciousThreshold = 0.5;
+force ace_medical_playerDamageThreshold = 5;
+force ace_medical_spontaneousWakeUpChance = 0.0720986;
+force ace_medical_spontaneousWakeUpEpinephrineBoost = 1.5305;
+force ace_medical_statemachine_AIUnconsciousness = true;
+force ace_medical_statemachine_cardiacArrestBleedoutEnabled = true;
+force ace_medical_statemachine_cardiacArrestTime = 450;
+force ace_medical_statemachine_fatalInjuriesAI = 0;
+force ace_medical_statemachine_fatalInjuriesPlayer = 0;
+force ace_medical_treatment_advancedBandages = 2;
+force ace_medical_treatment_advancedDiagnose = 2;
+force ace_medical_treatment_advancedMedication = true;
+force ace_medical_treatment_allowBodyBagUnconscious = false;
+force ace_medical_treatment_allowGraveDigging = 0;
+force ace_medical_treatment_allowLitterCreation = true;
+force ace_medical_treatment_allowSelfIV = 1;
+force ace_medical_treatment_allowSelfPAK = 1;
+force ace_medical_treatment_allowSelfStitch = 1;
+force ace_medical_treatment_allowSharedEquipment = 0;
+force ace_medical_treatment_bandageEffectiveness = 1;
+force ace_medical_treatment_bandageRollover = true;
+force ace_medical_treatment_clearTrauma = 1;
+force ace_medical_treatment_consumePAK = 0;
+force ace_medical_treatment_consumeSurgicalKit = 2;
+force ace_medical_treatment_convertItems = 0;
+force ace_medical_treatment_cprSuccessChanceMax = 0.437973;
+force ace_medical_treatment_cprSuccessChanceMin = 0.168948;
+force ace_medical_treatment_graveDiggingMarker = true;
+force ace_medical_treatment_holsterRequired = 0;
+force ace_medical_treatment_litterCleanupDelay = 600;
+force ace_medical_treatment_locationEpinephrine = 0;
+force ace_medical_treatment_locationIV = 0;
+force ace_medical_treatment_locationPAK = 4;
+force ace_medical_treatment_locationsBoostTraining = true;
+force ace_medical_treatment_locationSurgicalKit = 0;
+force ace_medical_treatment_maxLitterObjects = 500;
+force ace_medical_treatment_medicEpinephrine = 0;
+force ace_medical_treatment_medicIV = 1;
+force ace_medical_treatment_medicPAK = 2;
+force ace_medical_treatment_medicSurgicalKit = 1;
+force ace_medical_treatment_timeCoefficientPAK = 2;
+force ace_medical_treatment_treatmentTimeAutoinjector = 5;
+force ace_medical_treatment_treatmentTimeBodyBag = 15;
+force ace_medical_treatment_treatmentTimeCoeffZeus = 1;
+force ace_medical_treatment_treatmentTimeCPR = 15;
+force ace_medical_treatment_treatmentTimeGrave = 30;
+force ace_medical_treatment_treatmentTimeIV = 12;
+force ace_medical_treatment_treatmentTimeSplint = 7;
+force ace_medical_treatment_treatmentTimeTourniquet = 7;
+force ace_medical_treatment_woundReopenChance = 1;
+force ace_medical_treatment_woundStitchTime = 10;
+force ace_medical_vitals_simulateSpO2 = true;
+
+// ACE Medical Interface
+ace_medical_feedback_bloodVolumeEffectType = 0;
+ace_medical_feedback_enableHUDIndicators = true;
+ace_medical_feedback_painEffectType = 1;
+ace_medical_gui_bloodLossColor_0 = [1,1,1,1];
+ace_medical_gui_bloodLossColor_1 = [1,0.94,0.48,1];
+ace_medical_gui_bloodLossColor_2 = [1,0.87,0.25,1];
+ace_medical_gui_bloodLossColor_3 = [1,0.79,0.17,1];
+ace_medical_gui_bloodLossColor_4 = [1,0.71,0.11,1];
+ace_medical_gui_bloodLossColor_5 = [1,0.62,0.05,1];
+ace_medical_gui_bloodLossColor_6 = [1,0.53,0.01,1];
+ace_medical_gui_bloodLossColor_7 = [1,0.42,0,1];
+ace_medical_gui_bloodLossColor_8 = [1,0.29,0,1];
+ace_medical_gui_bloodLossColor_9 = [1,0,0,1];
+ace_medical_gui_bodyPartOutlineColor = [1,1,1,1];
+ace_medical_gui_damageColor_0 = [1,1,1,1];
+ace_medical_gui_damageColor_1 = [0.52,0.73,1,1];
+ace_medical_gui_damageColor_2 = [0.38,0.68,1,1];
+ace_medical_gui_damageColor_3 = [0.37,0.6,1,1];
+ace_medical_gui_damageColor_4 = [0.35,0.53,1,1];
+ace_medical_gui_damageColor_5 = [0.33,0.45,1,1];
+ace_medical_gui_damageColor_6 = [0.3,0.37,1,1];
+ace_medical_gui_damageColor_7 = [0.25,0.29,1,1];
+ace_medical_gui_damageColor_8 = [0.18,0.18,1,1];
+ace_medical_gui_damageColor_9 = [0,0,1,1];
+ace_medical_gui_enableActions = 0;
+ace_medical_gui_enableMedicalMenu = 1;
+ace_medical_gui_enableSelfActions = true;
+ace_medical_gui_interactionMenuShowTriage = 1;
+force ace_medical_gui_maxDistance = 3;
+ace_medical_gui_openAfterTreatment = true;
+ace_medical_gui_peekMedicalInfoReleaseDelay = 1;
+ace_medical_gui_peekMedicalOnHit = false;
+ace_medical_gui_peekMedicalOnHitDuration = 1;
+force ace_medical_gui_showBleeding = 2;
+force ace_medical_gui_showBloodlossEntry = true;
+force ace_medical_gui_showDamageEntry = false;
+ace_medical_gui_tourniquetWarning = true;
+
+// ACE Name Tags
+force ace_nametags_ambientBrightnessAffectViewDist = 1;
+ace_nametags_defaultNametagColor = [0.77,0.51,0.08,1];
+ace_nametags_nametagColorBlue = [0.67,0.67,1,1];
+ace_nametags_nametagColorGreen = [0.67,1,0.67,1];
+ace_nametags_nametagColorMain = [1,1,1,1];
+ace_nametags_nametagColorRed = [1,0.67,0.67,1];
+ace_nametags_nametagColorYellow = [1,1,0.67,1];
+force ace_nametags_playerNamesMaxAlpha = 0.8;
+force ace_nametags_playerNamesViewDistance = 5;
+force ace_nametags_showCursorTagForVehicles = false;
+ace_nametags_showNamesForAI = false;
+ace_nametags_showPlayerNames = 1;
+ace_nametags_showPlayerRanks = true;
+ace_nametags_showSoundWaves = 1;
+ace_nametags_showVehicleCrewInfo = true;
+ace_nametags_tagSize = 2;
+
+// ACE Nightvision
+force ace_nightvision_aimDownSightsBlur = 0;
+force ace_nightvision_disableNVGsWithSights = false;
+force force ace_nightvision_effectScaling = 0.2;
+force force ace_nightvision_fogScaling = 0;
+force force ace_nightvision_noiseScaling = 0.1;
+force ace_nightvision_shutterEffects = true;
+
+// ACE Overheating
+force ace_overheating_cookoffCoef = 1;
+force ace_overheating_coolingCoef = 1;
+ace_overheating_displayTextOnJam = true;
+force ace_overheating_enabled = true;
+force ace_overheating_heatCoef = 1;
+force ace_overheating_jamChanceCoef = 1;
+force ace_overheating_overheatingDispersion = true;
+force ace_overheating_overheatingRateOfFire = true;
+ace_overheating_particleEffectsAndDispersionDistance = 3000;
+ace_overheating_showParticleEffects = true;
+ace_overheating_showParticleEffectsForEveryone = false;
+force ace_overheating_suppressorCoef = 0.25;
+force ace_overheating_unJamFailChance = 0.1;
+force ace_overheating_unJamOnreload = false;
+force ace_overheating_unJamOnSwapBarrel = false;
+
+// ACE Pointing
+force force ace_finger_enabled = true;
+ace_finger_indicatorColor = [0.83,0.68,0.21,0.75];
+force force ace_finger_indicatorForSelf = true;
+force ace_finger_maxRange = 4;
+force force ace_finger_proximityScaling = true;
+force ace_finger_sizeCoef = 1;
+
+// ACE Pylons
+force ace_pylons_enabledForZeus = true;
+force ace_pylons_enabledFromAmmoTrucks = true;
+force ace_pylons_rearmNewPylons = false;
+force ace_pylons_requireEngineer = false;
+force ace_pylons_requireToolkit = true;
+force ace_pylons_searchDistance = 15;
+force ace_pylons_timePerPylon = 5;
+
+// ACE Quick Mount
+force ace_quickmount_distance = 3;
+force ace_quickmount_enabled = true;
+ace_quickmount_enableMenu = 3;
+ace_quickmount_priority = 3;
+force ace_quickmount_speed = 18;
+
+// ACE Repair
+force ace_repair_addSpareParts = true;
+force ace_repair_autoShutOffEngineWhenStartingRepair = false;
+force ace_repair_consumeItem_toolKit = 0;
+ace_repair_displayTextOnRepair = true;
+force ace_repair_enabled = true;
+force ace_repair_engineerSetting_fullRepair = 2;
+force ace_repair_engineerSetting_repair = 1;
+force ace_repair_engineerSetting_wheel = 0;
+force ace_repair_fullRepairLocation = 2;
+force ace_repair_fullRepairRequiredItems = ["ace_repair_anyToolKit"];
+force ace_repair_locationsBoostTraining = false;
+force ace_repair_miscRepairRequiredItems = ["ace_repair_anyToolKit"];
+force ace_repair_miscRepairTime = 15;
+force ace_repair_patchWheelEnabled = 0;
+force ace_repair_patchWheelLocation = ["ground","vehicle"];
+force ace_repair_patchWheelMaximumRepair = 0.3;
+force ace_repair_patchWheelRequiredItems = ["ace_repair_anyToolKit"];
+force ace_repair_patchWheelTime = 5;
+force ace_repair_repairDamageThreshold = 0.6;
+force ace_repair_repairDamageThreshold_engineer = 0.4;
+force ace_repair_timeCoefficientFullRepair = 1.5;
+force ace_repair_wheelChangeTime = 10;
+force ace_repair_wheelRepairRequiredItems = [];
+
+// ACE Respawn
+force ace_respawn_removeDeadBodiesDisconnected = true;
+force force ace_respawn_savePreDeathGear = true;
+
+// ACE Scopes
+force ace_scopes_correctZeroing = true;
+force ace_scopes_deduceBarometricPressureFromTerrainAltitude = false;
+force ace_scopes_defaultZeroRange = 100;
+force ace_scopes_enabled = true;
+force ace_scopes_forceUseOfAdjustmentTurrets = false;
+ace_scopes_inScopeAdjustment = false;
+force ace_scopes_overwriteZeroRange = false;
+force ace_scopes_simplifiedZeroing = false;
+ace_scopes_useLegacyUI = false;
+force ace_scopes_zeroReferenceBarometricPressure = 1013.25;
+force ace_scopes_zeroReferenceHumidity = 0;
+force ace_scopes_zeroReferenceTemperature = 15;
+
+// ACE Sitting
+force acex_sitting_enable = true;
+
+// ACE Spectator
+force ace_spectator_enableAI = false;
+ace_spectator_maxFollowDistance = 5;
+force ace_spectator_restrictModes = 3;
+force ace_spectator_restrictVisions = 1;
+
+// ACE Switch Units
+force ace_switchunits_enableSafeZone = true;
+force ace_switchunits_enableSwitchUnits = false;
+force ace_switchunits_safeZoneRadius = 100;
+force ace_switchunits_switchToCivilian = false;
+force ace_switchunits_switchToEast = false;
+force ace_switchunits_switchToIndependent = false;
+force ace_switchunits_switchToWest = false;
+
+// ACE Trenches
+force ace_trenches_bigEnvelopeDigDuration = 25;
+force ace_trenches_bigEnvelopeRemoveDuration = 15;
+force ace_trenches_smallEnvelopeDigDuration = 20;
+force ace_trenches_smallEnvelopeRemoveDuration = 12;
+
+// ACE Uncategorized
+force ace_fastroping_autoAddFRIES = false;
+force ace_fastroping_requireRopeItems = false;
+force ace_gunbag_swapGunbagEnabled = true;
+force ace_hitreactions_minDamageToTrigger = 0.1;
+force ace_hitreactions_weaponDropChanceArmHitAI = 0;
+force ace_hitreactions_weaponDropChanceArmHitPlayer = 0;
+ace_inventory_inventoryDisplaySize = 0;
+force ace_laser_dispersionCount = 2;
+force ace_laser_showLaserOnMap = 1;
+force ace_marker_flags_placeAnywhere = false;
+force ace_microdagr_mapDataAvailable = 2;
+force ace_microdagr_waypointPrecision = 3;
+force ace_noradio_enabled = true;
+ace_optionsmenu_showNewsOnMainMenu = true;
+force ace_overpressure_backblastDistanceCoefficient = 1;
+force ace_overpressure_overpressureDistanceCoefficient = 1;
+force ace_parachute_failureChance = 0;
+ace_parachute_hideAltimeter = true;
+ace_tagging_quickTag = 1;
+
+// ACE User Interface
+force ace_ui_allowSelectiveUI = true;
+ace_ui_ammoCount = false;
+ace_ui_ammoType = true;
+ace_ui_commandMenu = true;
+force ace_ui_enableSpeedIndicator = true;
+ace_ui_firingMode = true;
+ace_ui_groupBar = false;
+ace_ui_gunnerAmmoCount = true;
+ace_ui_gunnerAmmoType = true;
+ace_ui_gunnerFiringMode = true;
+ace_ui_gunnerLaunchableCount = true;
+ace_ui_gunnerLaunchableName = true;
+ace_ui_gunnerMagCount = true;
+ace_ui_gunnerWeaponLowerInfoBackground = true;
+ace_ui_gunnerWeaponName = true;
+ace_ui_gunnerWeaponNameBackground = true;
+ace_ui_gunnerZeroing = true;
+ace_ui_hideDefaultActionIcon = false;
+ace_ui_magCount = true;
+ace_ui_soldierVehicleWeaponInfo = true;
+ace_ui_staminaBar = true;
+ace_ui_stance = true;
+ace_ui_throwableCount = true;
+ace_ui_throwableName = true;
+ace_ui_vehicleAltitude = true;
+ace_ui_vehicleCompass = true;
+ace_ui_vehicleDamage = true;
+ace_ui_vehicleFuelBar = true;
+ace_ui_vehicleInfoBackground = true;
+ace_ui_vehicleName = true;
+ace_ui_vehicleNameBackground = true;
+ace_ui_vehicleRadar = true;
+ace_ui_vehicleSpeed = true;
+ace_ui_weaponLowerInfoBackground = true;
+ace_ui_weaponName = true;
+ace_ui_weaponNameBackground = true;
+ace_ui_zeroing = true;
+
+// ACE Vehicle Lock
+force ace_vehiclelock_defaultLockpickStrength = 10;
+force ace_vehiclelock_lockVehicleInventory = false;
+force ace_vehiclelock_vehicleStartingLockState = -1;
+
+// ACE Vehicles
+force ace_novehicleclanlogo_enabled = false;
+ace_vehicles_hideEjectAction = true;
+force ace_vehicles_keepEngineRunning = false;
+ace_vehicles_speedLimiterStep = 5;
+force ace_viewports_enabled = true;
+
+// ACE View Distance Limiter
+force ace_viewdistance_enabled = true;
+force ace_viewdistance_limitViewDistance = 10000;
+ace_viewdistance_objectViewDistanceCoeff = 0;
+ace_viewdistance_viewDistanceAirVehicle = 0;
+ace_viewdistance_viewDistanceLandVehicle = 0;
+ace_viewdistance_viewDistanceOnFoot = 0;
+
+// ACE View Restriction
+force acex_viewrestriction_mode = 0;
+force acex_viewrestriction_modeSelectiveAir = 0;
+force acex_viewrestriction_modeSelectiveFoot = 0;
+force acex_viewrestriction_modeSelectiveLand = 0;
+force acex_viewrestriction_modeSelectiveSea = 0;
+acex_viewrestriction_preserveView = false;
+
+// ACE Volume
+acex_volume_enabled = false;
+acex_volume_fadeDelay = 1;
+acex_volume_lowerInVehicles = false;
+acex_volume_reduction = 5;
+acex_volume_remindIfLowered = false;
+acex_volume_showNotification = true;
+
+// ACE Weapons
+ace_common_persistentLaserEnabled = false;
+ace_reload_displayText = true;
+ace_reload_showCheckAmmoSelf = false;
+ace_reloadlaunchers_displayStatusText = true;
+ace_weaponselect_displayText = true;
+
+// ACE Weather
+force ace_weather_enabled = true;
+ace_weather_showCheckAirTemperature = true;
+force ace_weather_updateInterval = 60;
+force ace_weather_windSimulation = true;
+
+// ACE Wind Deflection
+force ace_winddeflection_enabled = true;
+force ace_winddeflection_simulationInterval = 0.05;
+force ace_winddeflection_vehicleEnabled = true;
+
+// ACE Zeus
+force force ace_zeus_autoAddObjects = true;
+force force ace_zeus_canCreateZeus = 0;
+force ace_zeus_radioOrdnance = false;
+force ace_zeus_remoteWind = false;
+force ace_zeus_revealMines = 0;
+force ace_zeus_zeusAscension = false;
+force ace_zeus_zeusBird = false;
+
+// AIME Ammo Type Menu
+force UPSL_aime_change_ammo_setting_ammo_class = true;
+force UPSL_aime_change_ammo_setting_vehicle_ammo_class = true;
+
+// AIME General
+force UPSL_aime_setting_hide = true;
+
+// AIME GPS and UAV Terminal
+force UPSL_aime_uav_terminal_setting_gps_action = true;
+force UPSL_aime_uav_terminal_setting_term_action = true;
+force UPSL_aime_uav_terminal_setting_uav_action = true;
+
+// AIME Group Management
+force UPSL_aime_group_setting_drop_leader_action = true;
+
+// AIME Inventory
+force UPSL_aime_inventory_setting_assemble_action = true;
+force UPSL_aime_inventory_setting_backpack_action = true;
+force UPSL_aime_inventory_setting_holder_action = true;
+force UPSL_aime_inventory_setting_open_action = true;
+
+// AIME Vehicle Controls
+force UPSL_aime_vehicle_controls_setting_arty_computer_action = false;
+force UPSL_aime_vehicle_controls_setting_collision_action = true;
+force UPSL_aime_vehicle_controls_setting_engine_action = true;
+force UPSL_aime_vehicle_controls_setting_flaps_action = true;
+force UPSL_aime_vehicle_controls_setting_gear_action = true;
+force UPSL_aime_vehicle_controls_setting_hover_action = false;
+force UPSL_aime_vehicle_controls_setting_lights_action = true;
+force UPSL_aime_vehicle_controls_setting_manual_action = true;
+force UPSL_aime_vehicle_controls_setting_user_actions = true;
+
+// AIME Vehicle Seats
+force UPSL_aime_vehicle_seats_setting_change_action = true;
+force UPSL_aime_vehicle_seats_setting_force_eject = false;
+force UPSL_aime_vehicle_seats_setting_getin_action = true;
+force UPSL_aime_vehicle_seats_setting_getout_action = true;
+force UPSL_aime_vehicle_seats_setting_turnout_action = true;
+
+// BC Two Primary Weapons
+BC_TPW_action = true;
+BC_TPW_com_mess = true;
+BC_TPW_set = false;
+
+// Community Base Addons
+cba_diagnostic_ConsoleIndentType = -1;
+force cba_diagnostic_watchInfoRefreshRate = 0.2;
+force cba_disposable_dropUsedLauncher = 2;
+force cba_disposable_replaceDisposableLauncher = true;
+cba_events_repetitionMode = 1;
+force cba_network_loadoutValidation = 0;
+cba_optics_usePipOptics = true;
+cba_ui_notifyLifetime = 4;
+cba_ui_StorePasswords = 1;
+
+// Crows Electronic Warfare
+crowsEW_main_zeus_jam_immune = true;
+crowsEW_main_zeus_jam_marker_show = true;
+force crowsEW_spectrum_defaultClassForJammingSignal = "UGV_01_base_F,UGV_02_Base_F,UAV_01_base_F,UAV_02_base_F,UAV_03_base_F,UAV_04_base_F,UAV_05_Base_F,UAV_06_base_F";
+force crowsEW_spectrum_minJamSigStrength = -40;
+force crowsEW_spectrum_selfTracking = false;
+force crowsEW_spectrum_spectrumAutoline = true;
+force crowsEW_spectrum_spectrumAutolineColor1 = 2;
+force crowsEW_spectrum_spectrumAutolineColor2 = 7;
+force crowsEW_spectrum_spectrumAutolineColor3 = 8;
+force crowsEW_spectrum_spectrumAutolineColor4 = 5;
+force crowsEW_spectrum_spectrumAutolineLength = 6000;
+force crowsEW_spectrum_spectrumAutolineNoise = 0;
+force crowsEW_spectrum_spectrumEnable = true;
+force crowsEW_spectrum_tfarSideTrack = false;
+
+// Crows Zeus Additions
+crowsza_pingbox_CBA_Setting_enabled = false;
+crowsza_pingbox_CBA_Setting_fade_duration = 300;
+crowsza_pingbox_CBA_Setting_fade_enabled = true;
+crowsza_pingbox_CBA_Setting_oldLimit = 600;
+crowsza_zeus_text_CBA_Setting_OnKilledModule_helper = true;
+crowsza_zeus_text_CBA_Setting_OnKilledModule_helper_color = [1,1,1,1];
+crowsza_zeus_text_CBA_Setting_rc_helper = true;
+crowsza_zeus_text_CBA_Setting_rc_helper_color = [1,1,1,1];
+crowsza_zeus_text_CBA_Setting_surrender_helper = true;
+crowsza_zeus_text_CBA_Setting_surrender_helper_color = [1,1,1,1];
+crowsza_zeus_text_CBA_Setting_zeusTextLine1 = true;
+crowsza_zeus_text_CBA_Setting_zeusTextLine2 = true;
+crowsza_zeus_text_CBA_Setting_zeusTextLine3 = true;
+
+// DUI - Squad Radar - Indicators
+force diwako_dui_indicators_crew_range_enabled = false;
+diwako_dui_indicators_fov_scale = true;
+diwako_dui_indicators_icon_buddy = true;
+diwako_dui_indicators_icon_leader = true;
+diwako_dui_indicators_icon_medic = true;
+diwako_dui_indicators_range = 20;
+diwako_dui_indicators_range_crew = 300;
+diwako_dui_indicators_range_scale = true;
+diwako_dui_indicators_show = true;
+diwako_dui_indicators_size = 1;
+diwako_dui_indicators_style = "standard";
+diwako_dui_indicators_useACENametagsRange = true;
+
+// DUI - Squad Radar - Main
+diwako_dui_ace_hide_interaction = true;
+diwako_dui_colors = "standard";
+diwako_dui_font = "RobotoCondensed";
+diwako_dui_icon_style = "standard";
+diwako_dui_main_hide_dialog = true;
+diwako_dui_main_hide_ui_by_default = false;
+diwako_dui_main_squadBlue = [0,0,1,1];
+diwako_dui_main_squadGreen = [0,1,0,1];
+diwako_dui_main_squadMain = [1,1,1,1];
+diwako_dui_main_squadRed = [1,0,0,1];
+diwako_dui_main_squadYellow = [1,1,0,1];
+diwako_dui_main_trackingColor = [0.93,0.26,0.93,1];
+diwako_dui_reset_ui_pos = false;
+
+// DUI - Squad Radar - Nametags
+diwako_dui_nametags_customRankStyle = "[[""PRIVATE"",""CORPORAL"",""SERGEANT"",""LIEUTENANT"",""CAPTAIN"",""MAJOR"",""COLONEL""],[""Pvt."",""Cpl."",""Sgt."",""Lt."",""Capt."",""Maj."",""Col.""]]";
+diwako_dui_nametags_deadColor = [0.2,0.2,0.2,1];
+diwako_dui_nametags_deadRenderDistance = 3.5;
+diwako_dui_nametags_drawRank = true;
+diwako_dui_nametags_enabled = true;
+diwako_dui_nametags_enableFOVBoost = true;
+diwako_dui_nametags_enableOcclusion = true;
+diwako_dui_nametags_fadeInTime = 0.05;
+diwako_dui_nametags_fadeOutTime = 0.5;
+diwako_dui_nametags_fontGroup = "RobotoCondensedLight";
+diwako_dui_nametags_fontGroupNameSize = 8;
+diwako_dui_nametags_fontName = "RobotoCondensedBold";
+diwako_dui_nametags_fontNameSize = 10;
+diwako_dui_nametags_groupColor = [1,1,1,1];
+diwako_dui_nametags_groupFontShadow = 1;
+diwako_dui_nametags_groupNameOtherGroupColor = [0.6,0.85,0.6,1];
+diwako_dui_nametags_nameFontShadow = 1;
+diwako_dui_nametags_nameOtherGroupColor = [0.2,1,0,1];
+diwako_dui_nametags_rankNameStyle = "default";
+diwako_dui_nametags_renderDistance = 40;
+diwako_dui_nametags_showUnconAsDead = true;
+diwako_dui_nametags_useLIS = true;
+diwako_dui_nametags_useSideIsFriendly = true;
+
+// DUI - Squad Radar - Radar
+diwako_dui_compass_hide_alone_group = false;
+diwako_dui_compass_hide_blip_alone_group = false;
+diwako_dui_compass_icon_scale = 1;
+diwako_dui_compass_opacity = 1;
+diwako_dui_compass_style = ["\z\diwako_dui\addons\radar\UI\compass_styles\classic\limited.paa","\z\diwako_dui\addons\radar\UI\compass_styles\classic\full.paa"];
+force diwako_dui_compassRange = 35;
+diwako_dui_compassRefreshrate = 0;
+diwako_dui_dir_showMildot = false;
+diwako_dui_dir_size = 1.25;
+force diwako_dui_distanceWarning = 10;
+force diwako_dui_enable_compass = true;
+force diwako_dui_enable_compass_dir = 2;
+diwako_dui_enable_occlusion = false;
+diwako_dui_enable_occlusion_cone = 360;
+diwako_dui_hudScaling = 1;
+force diwako_dui_namelist = true;
+force diwako_dui_namelist_bg = 0;
+force diwako_dui_namelist_only_buddy_icon = false;
+force diwako_dui_namelist_size = 1.37971;
+force diwako_dui_namelist_text_shadow = 2;
+force diwako_dui_namelist_width = 215;
+diwako_dui_radar_ace_finger = true;
+force diwako_dui_radar_ace_medic = true;
+diwako_dui_radar_always_show_unit_numbers = false;
+force diwako_dui_radar_compassRangeCrew = 500;
+diwako_dui_radar_dir_padding = 10;
+diwako_dui_radar_dir_shadow = 2;
+diwako_dui_radar_enable_seat_icons = 2;
+diwako_dui_radar_group_by_vehicle = false;
+diwako_dui_radar_icon_opacity = 1;
+diwako_dui_radar_icon_opacity_no_player = true;
+force diwako_dui_radar_icon_priority_setting = 1;
+diwako_dui_radar_icon_scale_crew = 6;
+force diwako_dui_radar_leadingZeroes = true;
+force diwako_dui_radar_namelist_hideWhenLeader = false;
+force diwako_dui_radar_namelist_vertical_spacing = 0.75;
+diwako_dui_radar_occlusion_fade_in_time = 1;
+diwako_dui_radar_occlusion_fade_time = 10;
+diwako_dui_radar_pointer_color = [1,0.5,0,1];
+diwako_dui_radar_pointer_style = "standard";
+force diwako_dui_radar_show_cardinal_points = true;
+diwako_dui_radar_showSpeaking = true;
+diwako_dui_radar_showSpeaking_radioOnly = false;
+diwako_dui_radar_showSpeaking_replaceIcon = true;
+force diwako_dui_radar_sortType = "fireteam2";
+force diwako_dui_radar_sqlFirst = true;
+force diwako_dui_radar_syncGroup = true;
+force diwako_dui_radar_vehicleCompassEnabled = false;
+diwako_dui_use_layout_editor = false;
+
+// Dynamic Camo System
+force DYNCAS_enabled = true;
+force DYNCAS_ghillieReduction = 0.2;
+force DYNCAS_lowerLimit = 0.6;
+force DYNCAS_nightCompensation = 0.8;
+force DYNCAS_targetList = 2;
+force DYNCAS_updateFrequency = 1;
+force DYNCAS_upperLimit = 1.4;
+
+// Enhanced Movement Rework
+force emr_main_allowClimbOnStandingUnits = false;
+force emr_main_allowMidairClimbing = true;
+force emr_main_animSpeedCoef = 1;
+force emr_main_animSpeedStaminaCoef = 0.4;
+force emr_main_assistDuty = 1.5;
+force emr_main_assistHeight = 1;
+force emr_main_blacklistStr = "";
+force emr_main_climbingEnabled = true;
+force emr_main_climbOnDuty = 3.4;
+force emr_main_climbOverDuty = 3;
+force emr_main_dropDuty = 0.7;
+force emr_main_dropViewElevation = -0.7;
+force emr_main_enableWalkableSurface = true;
+force emr_main_enableWeightCheck = false;
+force emr_main_hintType = 2;
+force emr_main_interactBehaviorInVehicle = "DISMOUNT";
+force emr_main_jumpDuty = 1;
+force emr_main_jumpForwardVelocity = 1.2;
+force emr_main_jumpingEnabled = true;
+force emr_main_jumpingLoadCoefficient = 1;
+force emr_main_jumpVelocity = 3.5;
+force emr_main_maxClimbHeight = 2.6;
+force emr_main_maxDropHeight = 6;
+force emr_main_maxWeightClimb1 = 100;
+force emr_main_maxWeightClimb2 = 85;
+force emr_main_maxWeightClimb3 = 60;
+force emr_main_maxWeightJump = 100;
+force emr_main_minClimbTerrain = 0.3;
+force emr_main_preventHighVaulting = false;
+force emr_main_staminaCoefficient = 1;
+force emr_main_whitelistStr = "";
+force emr_main_yeetCoefficient = 1.4;
+
+// Freestyle's Crash Landing
+force fscl_captiveSystem = true;
+force fscl_damageTreshold = 99;
+force fscl_debug = false;
+force fscl_ejectionProp = 33;
+force fscl_ejectionSystem = false;
+force fscl_gForceThreshold = 5;
+force fscl_ignoreNonPlayerVehicles = true;
+force fscl_stateThreshold = 10;
+
+// Goobin's Gameplay Enhancements Core
+gge_core_var_debugMode = false;
+
+// GRAD slingHelmet
+force GRAD_slingHelmet_additionalList = "";
+force GRAD_slingHelmet_allowAll = true;
+
+// GRAD Trenches
+force grad_trenches_functions_allowBigEnvelope = true;
+force grad_trenches_functions_allowCamouflage = true;
+force grad_trenches_functions_allowDigging = true;
+force grad_trenches_functions_allowEffects = true;
+force grad_trenches_functions_allowGiantEnvelope = true;
+force grad_trenches_functions_allowHitDecay = true;
+force grad_trenches_functions_allowLongEnvelope = true;
+force grad_trenches_functions_allowShortEnvelope = true;
+force grad_trenches_functions_allowSmallEnvelope = true;
+force grad_trenches_functions_allowTextureLock = true;
+force grad_trenches_functions_allowTrenchDecay = true;
+force grad_trenches_functions_allowVehicleEnvelope = true;
+force grad_trenches_functions_bigEnvelopeDamageMultiplier = 2;
+force grad_trenches_functions_bigEnvelopeDigTime = 40;
+force grad_trenches_functions_bigEnvelopeRemovalTime = -1;
+force grad_trenches_functions_buildFatigueFactor = 1;
+force grad_trenches_functions_camouflageRequireEntrenchmentTool = true;
+force grad_trenches_functions_createTrenchMarker = false;
+force grad_trenches_functions_decayTime = 1800;
+force grad_trenches_functions_giantEnvelopeDamageMultiplier = 1;
+force grad_trenches_functions_giantEnvelopeDigTime = 90;
+force grad_trenches_functions_giantEnvelopeRemovalTime = -1;
+force grad_trenches_functions_hitDecayMultiplier = 1;
+force grad_trenches_functions_LongEnvelopeDigTime = 100;
+force grad_trenches_functions_LongEnvelopeRemovalTime = -1;
+force grad_trenches_functions_playersInAreaRadius = 50;
+force grad_trenches_functions_shortEnvelopeDamageMultiplier = 2;
+force grad_trenches_functions_shortEnvelopeDigTime = 15;
+force grad_trenches_functions_shortEnvelopeRemovalTime = -1;
+force grad_trenches_functions_smallEnvelopeDamageMultiplier = 3;
+force grad_trenches_functions_smallEnvelopeDigTime = 30;
+force grad_trenches_functions_smallEnvelopeRemovalTime = -1;
+force grad_trenches_functions_stopBuildingAtFatigueMax = true;
+force grad_trenches_functions_textureLockDistance = 5;
+force grad_trenches_functions_timeoutToDecay = 7200;
+force grad_trenches_functions_vehicleEnvelopeDamageMultiplier = 1;
+force grad_trenches_functions_vehicleEnvelopeDigTime = 120;
+force grad_trenches_functions_vehicleEnvelopeRemovalTime = -1;
+force grad_trenches_functions_vehicleTrenchBuildSpeed = 5;
+
+// Hide Among The Grass
+force hatg_setting_building = true;
+force hatg_setting_complex_detection = true;
+force hatg_setting_cooldown = 30;
+force hatg_setting_debug = false;
+force hatg_setting_debug_conditions = false;
+force hatg_setting_debug_detection = false;
+force hatg_setting_debug_surface = false;
+force hatg_setting_distance_close = 30;
+force hatg_setting_distance_close_multiplier = 2;
+force hatg_setting_distance_height = 2;
+force hatg_setting_distance_reset = 5;
+force hatg_setting_distance_shots = 4;
+force hatg_setting_enable_crouch = true;
+force hatg_setting_movement_crouch = 5;
+force hatg_setting_mp_ai = false;
+force hatg_setting_reveal_nearby = true;
+force hatg_setting_simple = false;
+force hatg_setting_surfaces = true;
+
+// Hide Among The Grass -  Equipment
+force hatg_setting_equipment_ghillie_blacklist = "[]";
+force hatg_setting_equipment_ghillie_whitelist = "[""U_I_FullGhillie_ard"",""U_O_FullGhillie_ard"",""U_B_FullGhillie_ard"",""U_I_FullGhillie_lsh"",""U_O_FullGhillie_lsh"",""U_B_FullGhillie_lsh"",""U_I_FullGhillie_sard"",""U_O_FullGhillie_sard"",""U_B_FullGhillie_sard"",""U_I_GhillieSuit"",""U_O_GhillieSuit"",""U_B_GhillieSuit"",""U_O_T_FullGhillie_tna_F"",""U_B_T_FullGhillie_tna_F"",""U_O_T_Sniper_F"",""U_B_T_Sniper_F"",""CUP_U_B_CZ_WDL_Ghillie"",""CUP_U_O_RUS_Ghillie"",""CUP_U_B_BAF_DDPM_GHILLIE"",""CUP_U_B_BAF_DPM_GHILLIE"",""CUP_U_B_BAF_MTP_GHILLIE"",""CUP_U_B_CZ_DST_Ghillie"",""CUP_U_O_TK_Ghillie_Top"",""CUP_U_I_Ghillie_Top"",""U_SSU_Stealth_Uniform_Ghillie_HexcamBrown"",""U_SSU_Stealth_Uniform_Ghillie_HexcamGreen"",""U_SSU_Stealth_Uniform_Ghillie_MCAM_Alpine"",""U_SSU_Stealth_Uniform_Ghillie_AOR1"",""U_SSU_Stealth_Uniform_Ghillie_AOR2"",""U_SSU_Stealth_Uniform_Ghillie_MCAM_Black"",""U_SSU_Stealth_Uniform_Ghillie_Black"",""U_SSU_Stealth_Uniform_Ghillie_M81"",""U_SSU_Stealth_Uniform_Ghillie_MCAM"",""U_SSU_Stealth_Uniform_Ghillie_OCP"",""U_SSU_Stealth_Uniform_Ghillie_MCAM_Tropic"",""U_SSU_Stealth_Uniform_Ghillie_MCAM_Woodland""]";
+force hatg_setting_equipment_suppressor_blacklist = "[""ACE_muzzle_mzls_B"",""ACE_muzzle_mzls_L"",""ACE_muzzle_mzls_H"",""ACE_muzzle_mzls_93mmg"",""ACE_muzzle_mzls_338"",""ACE_muzzle_mzls_smg_01"",""ACE_muzzle_mzls_smg_02"",""muzzle_antenna_01_f"",""muzzle_antenna_02_f"",""muzzle_antenna_03_f"",""CUP_muzzle_mfsup_Flashhider_545x39_Black"",""CUP_muzzle_mfsup_Flashhider_545x39_OD"",""CUP_muzzle_mfsup_Flashhider_545x39_Tan"",""CUP_muzzle_mfsup_Flashhider_556x45_Black"",""CUP_muzzle_mfsup_Flashhider_556x45_OD"",""CUP_muzzle_mfsup_Flashhider_556x45_Tan"",""CUP_muzzle_mfsup_SCAR_L"",""CUP_muzzle_mfsup_SCAR_H"",""CUP_muzzle_mfsup_Flashhider_762x39_Black"",""CUP_muzzle_mfsup_Flashhider_762x39_OD"",""CUP_muzzle_mfsup_Flashhider_762x39_Tan"",""CUP_muzzle_mfsup_Flashhider_762x51_Black"",""CUP_muzzle_mfsup_Flashhider_762x51_OD"",""CUP_muzzle_mfsup_Flashhider_762x51_Tan"",""CUP_muzzle_mfsup_CSA"",""CUP_muzzle_mfsup_CSA_desert"",""CUP_muzzle_mfsup_CSA_woodland"",""CUP_muzzle_mfsup_flashhider_Sa58"",""CUP_muzzle_mfsup_Zendl"",""CUP_muzzle_mfsup_Zendl_desert"",""CUP_muzzle_mfsup_Zendl_woodland"",""CUP_acc_bfa"",""CUP_acc_sffh"",""CUP_muzzle_mfsup_Flashhider_PK_Black"",""CUP_muzzle_mfsup_Flashhider_PK_OD"",""CUP_muzzle_mfsup_Flashhider_PK_Tan"",""rhs_acc_ak5"",""rhs_acc_dtk"",""rhs_acc_dtk1983"",""rhs_acc_dtk1"",""rhs_acc_dtk2"",""rhs_acc_dtk3"",""rhs_acc_pgs64"",""rhs_acc_pgs64_74u"",""rhs_acc_pgs64_74un"",""rhs_acc_uuk"",""rhs_acc_dtk1l"",""rhs_acc_dtkakm"",""rhs_acc_dtkrpk"",""rhsusf_acc_ARDEC_M240"",""rhsgref_acc_falMuzzle_l1a1"",""rhsusf_acc_SF3P556"",""rhsusf_acc_SFMB556"",""rhsgref_acc_zendl"",""rhsusf_acc_m14_flashsuppresor"",""rhsusf_acc_m24_muzzlehider_black"",""rhsusf_acc_m24_muzzlehider_d"",""rhsusf_acc_m24_muzzlehider_wd"",""hlc_muzzle_Miter18T"",""hlc_muzzle_snds_ROTEX3P"",""hlc_muzzle_Gunfighter_comp"",""hlc_muzzle_Brevis"",""hlc_muzzle_MAG58_Brake"",""hlc_muzzle_17SBrake"",""hlc_muzzle_OEMDevice"",""hlc_muzzle_KX3_comp"",""hlc_muzzle_FSC30"",""hlc_muzzle_Cherrybomb"",""hlc_muzzle_SF3P_762R"",""hlc_muzzle_A1_FlashHider"",""hlc_muzzle_XM177E1_Moderator"",""hlc_muzzle_XM177E2_Moderator"",""hlc_muzzle_E1_FlashHider"",""hlc_muzzle_OEMDevice_556"",""hlc_muzzle_snds_ArsenalComp"",""hlc_muzzle_SF3P_762""]";
+force hatg_setting_equipment_suppressor_integral = "[""srifle_DMR_02_F"",""srifle_DMR_02_camo_F"",""srifle_DMR_02_sniper_F"",""srifle_DMR_04_F"",""srifle_DMR_04_Tan_F"",""CUP_arifle_AS_VAL"",""CUP_arifle_AS_VAL_flash"",""CUP_arifle_AS_VAL_VFG"",""CUP_arifle_AS_VAL_top_rail"",""CUP_arifle_AS_VAL_flash_top"",""CUP_arifle_AS_VAL_VFG_top_rail"",""CUP_srifle_VSSVintorez"",""CUP_srifle_VSSVintorez_flash"",""CUP_srifle_VSSVintorez_VFG"",""CUP_srifle_VSSVintorez_top_rail"",""CUP_srifle_VSSVintorez_flash_top"",""CUP_srifle_VSSVintorez_VFG_top_rail"",""CUP_smg_MP5SD6"",""CUP_arifle_OTS14_GROZA_762_Grip"",""CUP_arifle_OTS14_GROZA_Grip"",""rhs_weap_asval"",""rhs_weap_asval_grip"",""rhs_weap_asval_grip_npz"",""rhs_weap_asval_npz"",""rhs_weap_vss"",""rhs_weap_vss_grip"",""rhs_weap_vss_grip_npz"",""rhs_weap_vss_npz"",""rhs_weap_m3a1_specops"",""hlc_rifle_honeybase"",""hlc_rifle_awcovert_BL"",""hlc_rifle_awcovert_FDE"",""hlc_rifle_awcovert"",""hlc_smg_mp5sd5"",""hlc_smg_mp5sd6""]";
+force hatg_setting_equipment_suppressor_whitelist = "[]";
+
+// Hide Among The Grass -  UI
+force hatg_setting_ui = false;
+hatg_setting_ui_colour_hidden = [0,1,0,1];
+hatg_setting_ui_colour_revealed = [1,0,0,1];
+hatg_setting_ui_fade = 0;
+hatg_setting_ui_font = "PuristaBold";
+hatg_setting_ui_textsize = 2;
+hatg_setting_ui_use_image = false;
+hatg_setting_ui_x = 0;
+hatg_setting_ui_y = 0;
+
+// KAT - ADV Medical: Airway
+force kat_airway_Accuvac_time = 6;
+force kat_airway_autoTriage = false;
+force kat_airway_block_headTurning_ifAirwayItem = false;
+force kat_airway_CancelRecoveryPosition_Time = 3;
+force kat_airway_CheckAirway_time = 2;
+force kat_airway_checkbox_puking_sound = true;
+force kat_airway_enable = true;
+force kat_airway_Guedeltubus_time = 6;
+force kat_airway_HeadTurn_Interval = 3;
+force kat_airway_Hyperextend_Time = 3;
+force kat_airway_Larynxtubus_time = 3;
+force kat_airway_medLvl_Accuvac = 2;
+force kat_airway_medLvl_Guedeltubus = 1;
+force kat_airway_medLvl_Larynxtubus = 1;
+force kat_airway_medLvl_Suction = 1;
+force kat_airway_occlusion_cooldownPeriod = 6;
+force kat_airway_occlusion_repeatTimer = 60;
+force kat_airway_probability_headturning = 50;
+force kat_airway_probability_obstruction = 15;
+force kat_airway_probability_occluded = 10;
+force kat_airway_RecoveryPosition_Time = 6;
+force kat_airway_RecoveryPosition_TimeToDrain = 10;
+force kat_airway_ReusableAirwayItems = false;
+force kat_airway_string_exit = "";
+force kat_airway_Suction_reuse = false;
+force kat_airway_Suction_time = 12;
+
+// KAT - ADV Medical: Breathing
+force kat_breathing_advPtxChance = 50;
+force kat_breathing_advPtxEnable = true;
+force kat_breathing_arrestPneumothorax_interval = 30;
+force kat_breathing_BVMOxygen_Multiplier = 1;
+force kat_breathing_clearChestSealAfterTreatment = false;
+force kat_breathing_deepPenetratingInjuryChance = 0;
+force kat_breathing_deterioratingPneumothorax_chance = 50;
+force kat_breathing_deterioratingPneumothorax_interval = 60;
+force kat_breathing_enable = true;
+force kat_breathing_enable_selfChestseal = 1;
+force kat_breathing_Etco2_Enabled = true;
+force kat_breathing_Etco2_Units = 0;
+force kat_breathing_HPTXBleedAmount = 0.06;
+force kat_breathing_hptxChance = 50;
+force kat_breathing_inspectChest_enable = 2;
+force kat_breathing_inspectChest_medLvl = 0;
+force kat_breathing_inspectChest_time = 6;
+force kat_breathing_locationProvideOxygen = 3;
+force kat_breathing_medLvl_BVM = 1;
+force kat_breathing_medLvl_BVM_Oxygen = 1;
+force kat_breathing_medLvl_Chestseal = 0;
+force kat_breathing_medLvl_hemopneumothoraxTreatment = 1;
+force kat_breathing_medLvl_NasalCannula = 1;
+force kat_breathing_medLvl_PocketBVM = 0;
+force kat_breathing_medLvl_Pulseoximeter = 0;
+force kat_breathing_mildValue = 75;
+force kat_breathing_NasalCannula_time = 3;
+force kat_breathing_paco2Active = false;
+force kat_breathing_PneumothoraxAlwaysVisible = true;
+force kat_breathing_PneumothoraxArrest = true;
+force kat_breathing_pneumothoraxChance = 15;
+force kat_breathing_pneumothoraxDamageThreshold = 0.46;
+force kat_breathing_pneumothoraxDamageThreshold_TakenDamage = true;
+force kat_breathing_PortableOxygenTank_RefillTime = 5;
+force kat_breathing_PulseOximeter_SpO2Warning = 85;
+force kat_breathing_severeValue = 66;
+force kat_breathing_showCyanosis = true;
+force kat_breathing_showPneumothorax_dupe = false;
+force kat_breathing_slightValue = 90;
+force kat_breathing_SpO2_cardiacActive = false;
+force kat_breathing_SpO2_cardiacValue = 75;
+force kat_breathing_SpO2_dieActive = true;
+force kat_breathing_SpO2_dieValue = 65;
+force kat_breathing_SpO2_MultiplyNegative = 1;
+force kat_breathing_SpO2_MultiplyPositive = 1;
+force kat_breathing_SpO2_perfusion = true;
+force kat_breathing_SpO2_PerfusionMultiplier = 1;
+force kat_breathing_SpO2_unconscious = 75;
+force kat_breathing_Stable_spo2 = 85;
+force kat_breathing_staminaLossAtLowSPO2 = true;
+force kat_breathing_stethoscopeListeningTime = 15;
+kat_breathing_stethoscopeSoundVolume = 2;
+force kat_breathing_TensionHemothoraxAlwaysVisible = false;
+
+// KAT - ADV Medical: Chemical
+force kat_chemical_affectAI = false;
+force kat_chemical_availGasmask = "'G_AirPurifyingRespirator_01_F', 'kat_mask_M50', 'kat_mask_M04'";
+force kat_chemical_gasmask_durability = 900;
+force kat_chemical_infectionTime = 60;
+
+// KAT - ADV Medical: Circulation
+force kat_circulation_AdvRhythm = true;
+force kat_circulation_AdvRhythm_AED_ROSC_Chance = 50;
+force kat_circulation_AdvRhythm_asystoleBloodlossThreshold = 3.6;
+force kat_circulation_AdvRhythm_canDeteriorate = true;
+force kat_circulation_AdvRhythm_CPR_ROSC_Chance = 5;
+force kat_circulation_AdvRhythm_deteriorateAfterTreatment = true;
+force kat_circulation_AdvRhythm_deteriorateTimeMax = 900;
+force kat_circulation_AdvRhythm_deteriorateTimeWeight = 180;
+force kat_circulation_AdvRhythm_Hardcore_Enable = true;
+force kat_circulation_AdvRhythm_hardcoreDeteriorationChance = 10;
+force kat_circulation_AdvRhythm_PEAChance = 15;
+force kat_circulation_AdvRhythm_VTChance = 35;
+force kat_circulation_AED_duringCpr = true;
+force kat_circulation_AED_MaxChance = 80;
+force kat_circulation_AED_MinChance = 5;
+force kat_circulation_AED_X_MaxChance = 80;
+force kat_circulation_AED_X_MinChance = 5;
+force kat_circulation_AED_X_Monitor_SpO2Warning = 90;
+force kat_circulation_AED_X_VitalsMonitor_BloodPressureInterval = 0;
+force kat_circulation_AED_X_VitalsMonitor_BloodPressureInterval_Time = 30;
+force kat_circulation_AED_X_VitalsMonitor_SoundsSelect = 1;
+force kat_circulation_AEDX_VitalsMonitor_AttachTime = 6;
+force kat_circulation_AEDX_VitalsMonitor_DetachTime = 3;
+force kat_circulation_blood_draw_limit = 3.1;
+force kat_circulation_blood_drawTime_250ml = 25;
+force kat_circulation_blood_drawTime_500ml = 50;
+force kat_circulation_bloodGroups = true;
+force kat_circulation_bloodTypeCustomList = "O,O,A,A,O_N,B,A_N,AB,B_N,AB_N";
+force kat_circulation_bloodTypeRandomWeighted = true;
+force kat_circulation_bloodTypeSetting = 4;
+kat_circulation_bloodTypeSettingPlayer = "O_N";
+force kat_circulation_cardiacArrestBleedRate = 0.05;
+force kat_circulation_CPR_ChanceInterval = 15;
+force kat_circulation_CPR_MaxChance_Default = 23;
+force kat_circulation_CPR_MaxChance_Doctor = 66;
+force kat_circulation_CPR_MaxChance_RegularMedic = 50;
+force kat_circulation_CPR_MinChance_Default = 17;
+force kat_circulation_CPR_MinChance_Doctor = 45;
+force kat_circulation_CPR_MinChance_RegularMedic = 26;
+force kat_circulation_CPR_OxygenationPeriod = 15;
+force kat_circulation_Defibrillator_DistanceLimit = 6;
+force kat_circulation_DefibrillatorPads_AttachTime = 6;
+force kat_circulation_DefibrillatorPads_DetachTime = 3;
+force kat_circulation_deterioratingTamponade_chance = 35;
+force kat_circulation_deterioratingTamponade_interval = 60;
+force kat_circulation_enable = true;
+force kat_circulation_enable_CPR_Chances = true;
+force kat_circulation_enable_selfBloodDraw = 1;
+force kat_circulation_medLvl_AED = 0;
+force kat_circulation_medLvl_AED_Station_Interact = 0;
+force kat_circulation_medLvl_AED_X = 0;
+force kat_circulation_tamponadeChance = 10;
+force kat_circulation_useLocation_AED = 0;
+
+// KAT - ADV Medical: Feedback
+force kat_feedback_effectLowSpO2 = 90;
+force kat_feedback_enableOpioidEffect = true;
+
+// KAT - ADV Medical: GUI
+force kat_gui_ColoredLogs = true;
+kat_gui_showPatientSideLabels = true;
+
+// KAT - ADV Medical: Hypothermia
+force force kat_hypothermia_hypothermiaActive = false;
+
+// KAT - ADV Medical: Misc
+kat_misc_AFAK_Container = 0;
+kat_misc_AFAK_Item_Color = [0.67,0.84,0.9];
+force kat_misc_AFAK_RemoveWhenEmpty = true;
+kat_misc_AFAK_Slot_Color = [1,0.96,0.32];
+force kat_misc_AFAKFifthSlotItem = "[['kat_guedel', 4]]";
+force kat_misc_AFAKFirstSlotItem = "[['ACE_tourniquet', 4], ['ACE_splint', 2]]";
+force kat_misc_AFAKFourthSlotItem = "[['kat_chestSeal', 3], ['kat_ncdKit', 3]]";
+force kat_misc_AFAKSecondSlotItem = "[['ACE_packingBandage', 10], ['ACE_quikclot', 10]]";
+force kat_misc_AFAKSixthSlotItem = "[['ACE_epinephrine', 3], ['kat_Carbonate', 1]]";
+force kat_misc_AFAKThirdSlotItem = "[['ACE_morphine', 3], ['kat_Penthrox', 1], ['kat_Painkiller', 1]]";
+force kat_misc_allowSharedVehicleEquipment = 1;
+kat_misc_armbandSlingLeftArm = "[0.2, -0.39, -0.2]";
+kat_misc_armbandSlingLeftArmRotation = "[240, 33, 26]";
+kat_misc_armbandSlingLeftLeg = "[0.435, -0.075, -0.38]";
+kat_misc_armbandSlingLeftLegRotation = "[-160, -5, 45]";
+kat_misc_armbandSlingRightArm = "[-0.228, -0.1, -0.43]";
+kat_misc_armbandSlingRightArmRotation = "[5, -5, -5]";
+kat_misc_armbandSlingRightLeg = "[-0.32, -0.29, -0.42]";
+kat_misc_armbandSlingRightLegRotation = "[-30, -5, 38]";
+force kat_misc_enable = true;
+force kat_misc_enableStitchFullBody = false;
+kat_misc_IFAK_Container = 0;
+kat_misc_IFAK_Item_Color = [0.67,0.84,0.9];
+force kat_misc_IFAK_RemoveWhenEmpty = true;
+kat_misc_IFAK_Slot_Color = [1,0.3,0.3];
+force kat_misc_IFAKFirstSlotItem = "[['ACE_tourniquet', 2]]";
+force kat_misc_IFAKFourthSlotItem = "[['kat_chestSeal', 1]]";
+force kat_misc_IFAKSecondSlotItem = "[['ACE_packingBandage', 5], ['ACE_quikclot', 5]]";
+force kat_misc_IFAKThirdSlotItem = "[['kat_Painkiller', 1]]";
+force kat_misc_incompatibilityWarning = true;
+kat_misc_MFAK_Container = 0;
+kat_misc_MFAK_Item_Color = [0.67,0.84,0.9];
+force kat_misc_MFAK_RemoveWhenEmpty = true;
+kat_misc_MFAK_Slot_Color = [0.56,0.93,0.56];
+force kat_misc_MFAKEighthSlotItem = "[['kat_Pulseoximeter', 1], ['kat_pocketBVM', 1], ['kat_AED', 1]]";
+force kat_misc_MFAKFifthSlotItem = "[['kat_larynx', 6]]";
+force kat_misc_MFAKFirstSlotItem = "[['ACE_tourniquet', 6], ['ACE_splint', 4]]";
+force kat_misc_MFAKFourthSlotItem = "[['kat_chestSeal', 6], ['kat_aatKit', 3], ['kat_ncdKit', 3], ['kat_stethoscope', 1]]";
+force kat_misc_MFAKSecondSlotItem = "[['ACE_packingBandage', 15], ['ACE_quikclot', 15], ['ACE_fieldDressing', 15]]";
+force kat_misc_MFAKSeventhSlotItem = "[['ACE_salineIV_250', 4], ['kat_IV_16', 4]]";
+force kat_misc_MFAKSixthSlotItem = "[['ACE_epinephrine', 6], ['kat_IV_16', 4], ['kat_nitroglycerin', 2], ['kat_phenylephrine', 2], ['kat_atropine', 2], ['kat_naloxone', 2], ['kat_Carbonate', 1]]";
+force kat_misc_MFAKThirdSlotItem = "[['ACE_morphine', 6], ['kat_Painkiller', 2], ['kat_Penthrox', 2]]";
+force kat_misc_tourniquetEffects_Enable = true;
+force kat_misc_tourniquetEffects_NegativeMultiplier = 1;
+force kat_misc_tourniquetEffects_PositiveMultiplier = 1;
+force kat_misc_treatmentTimeDetachTourniquet = 7;
+
+// KAT - ADV Medical: Pharmacy
+force kat_pharma_allowStackScript_EACA = true;
+force kat_pharma_allowStackScript_TXA = true;
+force kat_pharma_bandageCycleTime_EACA = 8;
+force kat_pharma_bandageCycleTime_TXA = 5;
+force kat_pharma_blockChance = 25;
+force kat_pharma_carbonateChance = 100;
+force kat_pharma_CheckCoag_Location = 1;
+force kat_pharma_CheckCoag_MedLevel = 1;
+force kat_pharma_CheckCoag_TreatmentTime = 10;
+force kat_pharma_coagulation = false;
+force kat_pharma_coagulation_allow_clot_text = true;
+force kat_pharma_coagulation_allow_EACA_script = true;
+force kat_pharma_coagulation_allow_LargeWounds = true;
+force kat_pharma_coagulation_allow_MediumWounds = true;
+force kat_pharma_coagulation_allow_MinorWounds = true;
+force kat_pharma_coagulation_allow_TXA_script = true;
+force kat_pharma_coagulation_allowOnAI = false;
+force kat_pharma_coagulation_factor_count = 30;
+force kat_pharma_coagulation_factor_limit = 60;
+force kat_pharma_coagulation_factor_regenerate_time = 150;
+force kat_pharma_coagulation_on_all_Bodyparts = true;
+force kat_pharma_coagulation_requireBV = 3.6;
+force kat_pharma_coagulation_requireHR = true;
+force kat_pharma_coagulation_time = 10;
+force kat_pharma_coagulation_time_large = 45;
+force kat_pharma_coagulation_time_medium = 30;
+force kat_pharma_coagulation_time_minor = 15;
+force kat_pharma_coagulation_tourniquetBlock = true;
+force kat_pharma_eacaClearTrauma = true;
+force kat_pharma_ivCheckLimbDamage = false;
+force kat_pharma_IVdrop = 600;
+force kat_pharma_IVdropEnable = true;
+force kat_pharma_IVflowControl = false;
+force kat_pharma_IVreuse = false;
+force kat_pharma_keepScriptRunning_EACA = true;
+force kat_pharma_keepScriptRunning_TXA = true;
+force kat_pharma_kidneyAction = true;
+force kat_pharma_MedicationsRequireInsIV = true;
+force kat_pharma_medLvl_Amiodarone = 1;
+force kat_pharma_medLvl_ApplyIO = 1;
+force kat_pharma_medLvl_ApplyIV = 1;
+force kat_pharma_medLvl_Atropine = 1;
+force kat_pharma_medLvl_Carbonate = 0;
+force kat_pharma_medLvl_EACA = 1;
+force kat_pharma_medLvl_EpinephrineIV = 1;
+force kat_pharma_medLvl_Etomidate = 1;
+force kat_pharma_medLvl_Fentanyl = 1;
+force kat_pharma_medLvl_Flumezenil = 1;
+force kat_pharma_medLvl_Ketamine = 1;
+force kat_pharma_medLvl_Lidocaine = 1;
+force kat_pharma_medLvl_Lorazepam = 1;
+force kat_pharma_medLvl_Nalbuphine = 1;
+force kat_pharma_medLvl_Naloxone = 0;
+force kat_pharma_medLvl_Nitroglycerin = 1;
+force kat_pharma_medLvl_Norepinephrine = 1;
+force kat_pharma_medLvl_Penthrox = 0;
+force kat_pharma_medLvl_Pervitin = 1;
+force kat_pharma_medLvl_Phenylephrine = 1;
+force kat_pharma_medLvl_Reorientation = 0;
+force kat_pharma_medLvl_TXA = 1;
+force kat_pharma_pervitinSpeed = 1.15;
+force kat_pharma_Reorientation_Enable = true;
+force kat_pharma_Reorientation_Slap = true;
+force kat_pharma_reorientationChance = 50;
+force kat_pharma_RequireInsIV = true;
+force kat_pharma_RequireInsIVBloodDraw = true;
+force kat_pharma_staminaMedication = true;
+force kat_pharma_treatmentTime_Amiodarone = 7;
+force kat_pharma_treatmentTime_ApplyIO = 7;
+force kat_pharma_treatmentTime_ApplyIV = 7;
+force kat_pharma_treatmentTime_Atropine = 7;
+force kat_pharma_treatmentTime_Carbonate = 7;
+force kat_pharma_treatmentTime_EACA = 7;
+force kat_pharma_treatmentTime_EpinephrineIV = 7;
+force kat_pharma_treatmentTime_Etomidate = 2;
+force kat_pharma_treatmentTime_Fentanyl = 7;
+force kat_pharma_treatmentTime_Flumazenil = 2;
+force kat_pharma_treatmentTime_Ketamine = 7;
+force kat_pharma_treatmentTime_Lidocaine = 7;
+force kat_pharma_treatmentTime_Lorazepam = 2;
+force kat_pharma_treatmentTime_Nalbuphine = 7;
+force kat_pharma_treatmentTime_Naloxone = 7;
+force kat_pharma_treatmentTime_Nitroglycerin = 7;
+force kat_pharma_treatmentTime_Norepinephrine = 7;
+force kat_pharma_treatmentTime_Penthrox = 8;
+force kat_pharma_treatmentTime_Pervitin = 5;
+force kat_pharma_treatmentTime_Phenylephrine = 7;
+force kat_pharma_treatmentTime_Reorientation = 2;
+force kat_pharma_treatmentTime_TXA = 7;
+force kat_pharma_weapon_sway_pervitin = true;
+
+// KAT - ADV Medical: Surgery
+force kat_surgery_closedLocation = 0;
+force kat_surgery_closedReduction_MedLevel = 1;
+force kat_surgery_closedReductionFailChance = 10;
+force kat_surgery_closedTime = 10;
+force kat_surgery_compoundChance = 50;
+force kat_surgery_enable_fracture = true;
+force kat_surgery_enable_selfCheckFracture = 1;
+force kat_surgery_etomidateTime = 45;
+force kat_surgery_fractureCheck_MedLevel = 1;
+force kat_surgery_fractureCheck_Time = 10;
+force kat_surgery_incisionTime = 10;
+force kat_surgery_intermediateTime = 8;
+force kat_surgery_npwt_MedLevel = 2;
+force kat_surgery_npwtLocation = 3;
+force kat_surgery_npwtTime = 5;
+force kat_surgery_openTime = 15;
+force kat_surgery_pericardialtap_MedLevel = 2;
+force kat_surgery_pericardialtapLocation = 3;
+force kat_surgery_pericardialtapTime = 8;
+force kat_surgery_reboa_MedLevel = 2;
+force kat_surgery_reboaLocation = 1;
+force kat_surgery_reboaTime = 8;
+force kat_surgery_simpleChance = 70;
+force kat_surgery_Surgery_ConsciousnessRequirement = 1;
+force kat_surgery_surgicalAction_MedLevel = 2;
+force kat_surgery_surgicalLocation = 0;
+force kat_surgery_ultrasound_MedLevel = 2;
+force kat_surgery_ultrasoundLocation = 0;
+force kat_surgery_ultrasoundTime = 8;
+
+// KAT - ADV Medical: Vitals
+force kat_vitals_enableFluidShift = true;
+force kat_vitals_enableSimpleMedical = false;
+
+// KAT - ADV Medical: Watch
+force kat_watch_altitudeUnit = 0;
+force kat_watch_pressureUnit = 0;
+force kat_watch_temperatureUnit = 0;
+
+// LAMBS Danger
+force lambs_danger_cqbRange = 60;
+lambs_danger_disableAIAutonomousManoeuvres = false;
+lambs_danger_disableAIDeployStaticWeapons = false;
+lambs_danger_disableAIFindStaticWeapons = false;
+lambs_danger_disableAIHideFromTanksAndAircraft = false;
+lambs_danger_disableAIPlayerGroup = false;
+lambs_danger_disableAIPlayerGroupReaction = false;
+lambs_danger_disableAutonomousFlares = false;
+lambs_danger_disableAutonomousSmokeGrenades = false;
+force lambs_danger_panicChance = 0.1;
+
+// LAMBS Danger Eventhandlers
+force lambs_eventhandlers_ExplosionEventHandlerEnabled = true;
+force lambs_eventhandlers_ExplosionReactionTime = 9;
+
+// LAMBS Danger WP
+force lambs_wp_autoAddArtillery = false;
+
+// LAMBS Main
+force lambs_main_combatShareRange = 200;
+force lambs_main_debug_drawAllUnitsInVehicles = false;
+force lambs_main_debug_Drawing = false;
+force lambs_main_debug_FSM = false;
+force lambs_main_debug_FSM_civ = false;
+force lambs_main_debug_functions = false;
+force lambs_main_debug_RenderExpectedDestination = false;
+lambs_main_disableAICallouts = false;
+lambs_main_disableAIDodge = false;
+lambs_main_disableAIFleeing = false;
+lambs_main_disableAIGestures = false;
+lambs_main_disableAutonomousMunitionSwitching = false;
+lambs_main_disablePlayerGroupSuppression = false;
+force lambs_main_indoorMove = 0.1;
+force lambs_main_maxRevealValue = 1;
+force lambs_main_minFriendlySuppressionDistance = 5;
+force lambs_main_minObstacleProximity = 5;
+force lambs_main_minSuppressionRange = 50;
+force lambs_main_radioBackpack = 2000;
+lambs_main_radioDisabled = false;
+force lambs_main_radioEast = 500;
+force lambs_main_radioGuer = 500;
+force lambs_main_radioShout = 100;
+force lambs_main_radioWest = 500;
+
+// Laxemann Immerse
+L_Immerse_exShake = true;
+L_Immerse_force = true;
+L_Immerse_recoil = true;
+L_Immerse_twitch = true;
+
+// NIArms
+force niarms_gripSwitch = true;
+force niarms_magSwitch = true;
+
+// TFAR - Clientside settings
+TFAR_curatorCamEars = true;
+TFAR_default_radioVolume = 6;
+TFAR_intercomDucking = 0.2;
+TFAR_intercomVolume = 0.1;
+TFAR_moveWhileTabbedOut = false;
+TFAR_noAutomoveSpectator = false;
+TFAR_oldVolumeHint = false;
+TFAR_pluginTimeout = 4;
+TFAR_PosUpdateMode = 0.1;
+TFAR_showChannelChangedHint = true;
+TFAR_ShowDiaryRecord = true;
+TFAR_showTransmittingHint = true;
+TFAR_ShowVolumeHUD = false;
+TFAR_splendidCamEars = false;
+TFAR_tangentReleaseDelay = 0;
+TFAR_VolumeHudTransparency = 0;
+TFAR_volumeModifier_forceSpeech = false;
+
+// TFAR - Global settings
+force TFAR_AICanHearPlayer = true;
+force TFAR_AICanHearSpeaker = true;
+force TFAR_allowDebugging = true;
+tfar_core_noTSNotConnectedHint = false;
+force TFAR_defaultIntercomSlot = 0;
+force TFAR_disableAutoMute = false;
+force TFAR_enableIntercom = true;
+force TFAR_experimentalVehicleIsolation = true;
+force TFAR_externalIntercomEnable = 0;
+force TFAR_externalIntercomMaxRange_Phone = 5;
+force TFAR_externalIntercomMaxRange_Wireless = 15;
+force TFAR_fullDuplex = true;
+force TFAR_giveLongRangeRadioToGroupLeaders = false;
+force TFAR_giveMicroDagrToSoldier = false;
+force TFAR_givePersonalRadioToRegularSoldier = false;
+force TFAR_globalRadioRangeCoef = 1;
+force TFAR_instantiate_instantiateAtBriefing = false;
+force TFAR_objectInterceptionEnabled = true;
+force TFAR_objectInterceptionStrength = 400;
+force tfar_radiocode_east = "_opfor";
+force tfar_radiocode_independent = "_independent";
+force tfar_radiocode_west = "_bluefor";
+force tfar_radioCodesDisabled = false;
+force TFAR_SameLRFrequenciesForSide = true;
+force TFAR_SameSRFrequenciesForSide = true;
+force TFAR_setting_defaultFrequencies_lr_east = "40,45,50,55,60,65,70,75,80";
+force TFAR_setting_defaultFrequencies_lr_independent = "40,45,50,55,60,65,70,75,80";
+force TFAR_setting_defaultFrequencies_lr_west = "40,45,50,55,60,65,70,75,80";
+force TFAR_setting_defaultFrequencies_sr_east = "300,305,310,315,320,325,330,80";
+force TFAR_setting_defaultFrequencies_sr_independent = "300,305,310,315,320,325,330,80";
+force TFAR_setting_defaultFrequencies_sr_west = "300,305,310,315,320,325,330,80";
+force TFAR_setting_DefaultRadio_Airborne_east = "TFAR_mr6000l";
+force TFAR_setting_DefaultRadio_Airborne_Independent = "TFAR_anprc152";
+force TFAR_setting_DefaultRadio_Airborne_West = "TFAR_anarc210";
+force TFAR_setting_DefaultRadio_Backpack_east = "TFAR_mr3000";
+force TFAR_setting_DefaultRadio_Backpack_Independent = "TFAR_anprc155";
+force TFAR_setting_DefaultRadio_Backpack_west = "TFAR_rt1523g";
+force TFAR_setting_DefaultRadio_Personal_east = "TFAR_fadak";
+force TFAR_setting_DefaultRadio_Personal_Independent = "TFAR_anprc152";
+force TFAR_setting_DefaultRadio_Personal_West = "TFAR_rf7800str";
+force TFAR_setting_DefaultRadio_Rifleman_East = "TFAR_pnr1000a";
+force TFAR_setting_DefaultRadio_Rifleman_Independent = "TFAR_anprc152";
+force TFAR_setting_DefaultRadio_Rifleman_West = "TFAR_rf7800str";
+force TFAR_setting_externalIntercomWirelessHeadgear = "";
+force TFAR_spectatorCanHearEnemyUnits = true;
+force TFAR_spectatorCanHearFriendlies = true;
+force TFAR_takingRadio = 2;
+force TFAR_Teamspeak_Channel_Name = "Task Force Radio";
+force TFAR_Teamspeak_Channel_Password = "TFARBAPMC";
+force tfar_terrain_interception_coefficient = 7;
+force TFAR_voiceCone = true;
+
+// Tinter Furniture
+force tint_delay = 10;
+force tint_houseLimit = 42;
+force tint_houses = true;
+force tint_range = 300;
+force tint_seed = 42;
+
+// TSP Breach
+force tsp_cba_breach = true;
+force tsp_cba_breach_ace = true;
+force tsp_cba_breach_ammo = "[
+""B_12Gauge_Slug_NoCartridge"",""B_12Gauge_Pellets_Submunition"",
+""rhs_ammo_12g_slug"",""rhs_ammo_12g_00buckshot"",""rhs_ammo_m576_buckshot"",
+""UK3CB_BAF_B_12Gauge_Slug"",""UK3CB_BAF_B_12Gauge_Pellets"",
+""CUP_12Gauge_Slug"",""CUP_B_12Gauge_Pellets"",""CUP_B_12Gauge_74Slug"",
+""CUP_12Gauge_Pellets_Submunition_No0_Buck"",""CUP_12Gauge_Pellets_Submunition_No00_Buck"",
+""ACE_12Gauge_Pellets_Submunition_No0_Buck"",""HLC_12G_Buck""
+]";
+force tsp_cba_breach_ammo_multiplier = 1;
+force tsp_cba_breach_auto = 5;
+force tsp_cba_breach_break = true;
+force tsp_cba_breach_lock_blacklist = "[]";
+force tsp_cba_breach_lock_door = 0.75;
+force tsp_cba_breach_lock_house = 0.25;
+force tsp_cba_breach_lockpick = "[0,0.75,0.5,0.05]";
+force tsp_cba_breach_military = "[
+""Land_Budova4_in"",
+""Land_Budova4"",
+""Barrack2"",
+""Land_Barrack2"",
+""Land_MilOffices_V1_F"",
+""Land_Mil_Barracks_L_EP1"",
+""Land_Barrack2_EP1"",
+""Land_Mil_Barracks_EP1"",
+""Land_Mil_Barracks_no_interior_EP1_CUP"",
+""Land_Mil_Barracks_i_EP1"",
+""Land_Mil_Barracks_L"",
+""Land_Mil_Barracks_no_interior_CUP"",
+""Land_Mil_Barracks_i"",
+""Land_Mil_Barracks"",
+""Land_GuardHouse_02_F"",
+""Land_Mil_Guardhouse_EP1"",
+""Land_Mil_Guardhouse"",
+""Land_Mil_Guardhouse_no_interior_CUP"",
+""Land_GuardHouse_02_grey_F"",
+""Land_Barracks_03_F"",
+""Land_Barracks_05_F"",
+""Land_Barracks_02_F"",
+""Land_Barracks_04_F"",
+""Land_ControlTower_02_F"",
+""Land_Mil_Guardhouse_no_interior_EP1_CUP"",
+""Land_Radar_01_HQ_F"",
+""Land_i_Barracks_V2_F"",
+""Land_i_Barracks_V1_F"",
+""Land_u_Barracks_V2_F"",
+""Land_Barracks_06_F"",
+""Land_Mil_House_dam_EP1"",
+""Land_Barracks_01_grey_F"",
+""Land_Barracks_01_dilapidated_F"",
+""Land_Mil_House_EP1"",
+""Land_Army_hut2_int"",
+""Land_Barracks_01_camo_F"",
+""Land_Army_hut_int"",
+""Land_Army_hut3_long"",
+""Land_Army_hut2"",
+""Land_Army_hut3_long_int""
+]";
+force tsp_cba_breach_paperclip = "[0,0.5,0.25,0.15]";
+force tsp_cba_breach_picking_time = 20;
+force tsp_cba_breach_reinforced = "[
+""Land_Ammostore2"",
+""Land_Garaz_s_tankem"",
+""Land_Garaz_bez_tanku"",
+""Land_Cargo_House_V4_F"",
+""Land_Cargo_Tower_V1_F"",
+""Land_Cargo_HQ_V4_F"",
+""Land_Cargo_Tower_V1_No4_F"",
+""Land_Cargo_Tower_V1_No5_F"",
+""Land_Cargo_Tower_V1_No7_F"",
+""Land_Cargo_Tower_V4_F"",
+""Land_Cargo_Tower_V1_No2_F"",
+""Land_Cargo_Tower_V2_F"",
+""Land_Cargo_Tower_V3_F"",
+""Land_Cargo_Tower_V1_No1_F"",
+""Land_Cargo_Tower_V1_No3_F"",
+""Land_Cargo_HQ_V2_F"",
+""Land_Medevac_HQ_V1_F"",
+""Land_Cargo_HQ_V1_F"",
+""Land_Cargo_House_V2_F"",
+""Land_Medevac_house_V1_F"",
+""Land_Cargo_Tower_V1_No6_F"",
+""Land_Cargo_House_V1_F"",
+""Land_Cargo_HQ_V3_F"",
+""Land_Cargo_House_V3_F""
+]";
+force tsp_cba_breach_shock = 240;
+force tsp_cba_breach_vanilla = false;
+force tsp_cba_breach_walls = "[
+[""AHHH"", ""Land_BrickWall_04_l_5m_F"",""Land_BrickWall_04_l_5m_d_F""],
+[""AHHH"", ""Land_BrickWall_03_l_5m_v2_F"",""Land_BrickWall_03_l_5m_v2_d_F""],
+[""AHHH"", ""Land_BrickWall_03_l_5m_v1_F"",""Land_BrickWall_03_l_5m_v2_d_F""],
+[""AHHH"", ""Land_BrickWall_02_l_5m_F"",""Land_BrickWall_02_l_5m_d_F""],
+[""AHHH"", ""Land_BrickWall_01_l_5m_F"",""Land_BrickWall_01_l_5m_d_F""],
+[""AHHH"", ""Land_Stone_8m_F"",""Land_Stone_8mD_F""],
+[""AHHH"", ""Land_WallCity_01_8m_yellow_F"",""Land_WallCity_01_8m_dmg_yellow_F""],
+[""AHHH"", ""Land_City_8m_F"",""Land_City_8mD_F""],
+[""AHHH"", ""Land_WallCity_01_8m_whiteblue_F"",""Land_WallCity_01_8m_dmg_whiteblue_F""],
+[""AHHH"", ""Land_WallCity_01_8m_blue_F"",""Land_WallCity_01_8m_dmg_blue_F""],
+[""AHHH"", ""Land_WallCity_01_8m_grey_F"",""Land_WallCity_01_8m_dmg_grey_F""],
+[""AHHH"", ""Land_WallCity_01_8m_pink_F"",""Land_WallCity_01_8m_dmg_pink_F""],
+[""AHHH"", ""Land_SilageWall_01_l_5m_F"",""Land_SilageWall_01_l_d_F""],
+[""AHHH"", ""Land_ConcreteWall_02_m_8m_F"",""Land_ConcreteWall_02_m_d_F""],
+[""AHHH"", ""Land_ConcreteWall_01_m_4m_F"",""Land_ConcreteWall_01_m_d_F""],
+[""AHHH"", ""Land_ConcreteWall_01_m_8m_F"",""Land_ConcreteWall_01_m_d_F""],
+[""AHHH"", ""Land_PipeFence_01_m_8m_F"",""Land_PipeFence_01_m_d_F""],
+[""AHHH"", ""Land_City2_8m_F"",""Land_City2_8mD_F""],
+[""AHHH"", ""Land_Wall_IndCnc_4_F"",""Land_Wall_IndCnc_End_2_F""],
+[""AHHH"", ""Land_CamoConcreteWall_01_l_4m_v1_F"",""Land_CamoConcreteWall_01_l_end_v1_F""],
+[""AHHH"", ""Land_Mil_WallBig_4m_F"",""Land_Mil_WallBig_4m_damaged_center_F""],
+[""mil_wallbig_4m_battered_f"", ""Land_Mil_WallBig_4m_battered_F"",""Land_Mil_WallBig_4m_damaged_right_F""],
+[""AHHH"", ""Land_Mil_WallBig_Corner_F"",""Land_Mil_WallBig_debris_F""],
+[""AHHH"", ""Land_Mil_WallBig_corner_battered_F"",""Land_Mil_WallBig_debris_F""]
+]";
+
+// TSP Breach - Flashbang
+force tsp_cba_flashbang_brightness = 1;
+force tsp_cba_flashbang_distance = 10;
+force tsp_cba_flashbang_fire = true;
+force tsp_cba_flashbang_friends = 0.1;
+force tsp_cba_flashbang_intensity = 1;
+force tsp_cba_flashbang_smoke = true;
+force tsp_cba_flashbang_sparks = true;
+force tsp_cba_flashbang_spray = 0.4;
+force tsp_cba_flashbang_surrender = 0.1;
+force tsp_cba_flashbang_volume = 5;
+
+// TSP Core
+force tsp_cba_angle = -0.1;
+force tsp_cba_compat = true;
+force tsp_cba_core_chvd = false;
+force tsp_cba_core_pause = false;
+force tsp_cba_hint = "None";
+force tsp_cba_hint_distance = 20;
+force tsp_param_faction = false;
+
+// TSP Melee
+force tsp_cba_melee = true;
+force tsp_cba_melee_damage = 10;
+force tsp_cba_melee_disarm = 0;
+force tsp_cba_melee_speed = 15;
+force tsp_cba_melee_stamina = 1;
+
+// UK3CB Factions
+uk3cb_pipstretchfactor = 0;
+uk3cb_preferedOptic = 2;
+uk3cb_preferedOpticHighMag = 2;
+
+// USAF
+force usaf_afterburner_setting_allow_ai = true;
+force USAF_allowNuke = true;
+force usaf_debug_setting_enabled_clients = false;
+force usaf_debug_setting_enabled_server = false;
+force usaf_serviceMenu_setting_allowHangarRearm = true;
+force usaf_serviceMenu_setting_allowHangarRefuel = true;
+force usaf_serviceMenu_setting_allowHangarRepair = true;
+force usaf_serviceMenu_setting_allowLoadoutModification = true;
+force usaf_serviceMenu_setting_enabled = true;
+force usaf_serviceMenu_setting_refuelTime = "100";
+force usaf_serviceMenu_setting_reloadTime = "2";
+force usaf_serviceMenu_setting_repairTime = "100";
+force usaf_serviceMenu_setting_replaceSources = true;
+force usaf_serviceMenu_setting_selectorSearchRadius = "15";
+force usaf_setting_allow_aiFormlights = true;
+force usaf_utility_core_allow_move_in_cargo = false;
+
+// Viking Studios Arsenal
+force VS_core_arsenal_whitelist_mission = "[]";
+force VS_core_arsenal_whitelist_Standard = "['UK3CB_MEE_O_U_05','UK3CB_NAP_B_U_Tshirt_BLK','UK3CB_MEE_O_U_07_B','UK3CB_MEE_O_U_07','UK3CB_CW_US_B_LATE_U_SF_CombatUniform_01_BLK','UK3CB_CW_US_B_LATE_U_SF_CombatUniform_02_BLK','UK3CB_MEE_O_U_07_C','UK3CB_MEE_O_U_08','UK3CB_CHD_B_U_CombatSmock_05','UK3CB_ION_B_U_CombatSmock_03_URB','UK3CB_ION_B_U_CombatSmock_01_URB','UK3CB_LSM_B_U_Crew_CombatSmock_02','UK3CB_LSM_B_U_Crew_CombatSmock_03','UK3CB_LSM_B_U_Crew_CombatSmock_04','UK3CB_LSM_B_U_Crew_CombatSmock_06','UK3CB_LSM_B_U_Crew_CombatSmock_05','UK3CB_LSM_B_U_Crew_CombatSmock_07','UK3CB_LSM_B_U_Crew_CombatSmock_01','USP_G3C_CS_MX','USP_G3C_CS_CU_MX','USP_G3C_CS','USP_G3C_CS_CU','USP_G3C_CS_OR','USP_G3C_CS_CU_OR','USP_G3C_CS_MX_MCB','USP_G3C_CS_CU_MX_MCB','USP_G3C_CS_MCB','USP_G3C_CS_CU_MCB','USP_G3C_CS_OR_MCB','USP_G3C_CS_CU_OR_MCB','USP_G3F_G3C_MX_BLK','USP_G3F_G3C_BLK','USP_G3F_G3C_OR_BLK','USP_G3F_G3C_KP_MX_BLK','USP_G3F_G3C_KP_BLK','USP_G3F_G3C_KP_OR_BLK','USP_G3F_MX_BLK','USP_G3F_BLK','USP_G3F_OR_BLK','USP_G3F_G3C_MX_MCB','USP_G3F_G3C_MCB','USP_G3F_G3C_OR_MCB','USP_G3F_G3C_KP_MX_MCB','USP_G3F_G3C_KP_MCB','USP_G3F_G3C_KP_OR_MCB','USP_G3F_MX_MCB','USP_G3F_MCB','USP_G3F_OR_MCB','USP_OVERWHITE_G3C_KP2_BLK','USP_OVERWHITE_G3C_KP2_BLK_GRY','USP_OVERWHITE_G3C_KP2_BLK_AOR2','USP_OVERWHITE_G3C_KP2_BLK_MCB','USP_OVERWHITE_G3C_KP2_BLK_AOR1','USP_OVERWHITE_G3C_KP2_BLK_KHK','USP_OVERWHITE_G3C_KP2_BLK_M81','USP_OVERWHITE_G3C_KP2_BLK_MC','USP_OVERWHITE_G3C_KP2_BLK_MCD','USP_OVERWHITE_G3C_KP2_BLK_MCT','USP_OVERWHITE_G3C_KP2_BLK_MCW','USP_OVERWHITE_G3C_KP2_BLK_NAV','USP_OVERWHITE_G3C_KP2_BLK_RGR','USP_OVERWHITE_G3C_KP2_BLK_TSD','USP_OVERWHITE_G3C_KP2_BLK_TSW','USP_OVERWHITE_G3C_BLK_AOR1','USP_OVERWHITE_G3C_BLK_AOR2','USP_OVERWHITE_G3C_BLK','USP_OVERWHITE_G3C_BLK_GRY','USP_OVERWHITE_G3C_BLK_KHK','USP_OVERWHITE_G3C_BLK_M81','USP_OVERWHITE_G3C_BLK_MC','USP_OVERWHITE_G3C_BLK_MCB','USP_OVERWHITE_G3C_BLK_MCD','USP_OVERWHITE_G3C_BLK_MCT','USP_OVERWHITE_G3C_BLK_MCW','USP_OVERWHITE_G3C_BLK_NAV','USP_OVERWHITE_G3C_BLK_RGR','USP_OVERWHITE_G3C_BLK_TSD','USP_OVERWHITE_G3C_BLK_TSW',' USP_OVERWHITE_G3C_BLK_UCP','USP_OVERWHITE_G3C_BLK_RBS','USP_OVERWHITE_G3C_BLK_MTN','USP_OVERWHITE_G3C_BLK_MPW','USP_OVERWHITE_G3C_BLK_MPD','USP_OVERWHITE_G3C_BLK_MM14','USP_OVERWHITE_G3C_BLK_DCU','USP_OVERWHITE_G3C_BLK_AMCU','USP_PCU_G3C','USP_PCU_G3C_BLK_AMCU','USP_PCU_G3C_BLK_AOR1','USP_PCU_G3C_BLK_AOR2','USP_PCU_G3C_BLK_DCU','USP_PCU_G3C_BLK_GRY','USP_PCU_G3C_BLK_KHK','USP_PCU_G3C_BLK_M81','USP_PCU_G3C_BLK_MC','USP_PCU_G3C_BLK_MCB','USP_PCU_G3C_BLK_MCD','USP_PCU_G3C_BLK_MCT','USP_PCU_G3C_BLK_MCW','USP_PCU_G3C_BLK_MM14','USP_PCU_G3C_BLK_MPD','USP_PCU_G3C_BLK_MPW','USP_PCU_G3C_BLK_MTN','USP_PCU_G3C_BLK_MTP','USP_PCU_G3C_BLK_NAV','USP_PCU_G3C_BLK_RBS','USP_PCU_G3C_BLK_RGR','USP_PCU_G3C_BLK_TSD','USP_PCU_G3C_BLK_TSW','USP_PCU_G3C_GRY_BLK','USP_PCU_G3C_MCB','USP_PCU_G3C_MCB_AMCU','USP_PCU_G3C_MCB_AOR1','USP_PCU_G3C_MCB_AOR2','USP_PCU_G3C_MCB_BLK','USP_PCU_G3C_MCB_DCU','USP_PCU_G3C_MCB_GRY','USP_PCU_G3C_MCB_KHK','USP_PCU_G3C_MCB_M81','USP_PCU_G3C_MCB_MC','USP_PCU_G3C_MCB_MCD','USP_PCU_G3C_MCB_MCT','USP_PCU_G3C_MCB_MCW','USP_PCU_G3C_MCB_MM14','USP_PCU_G3C_MCB_MPD','USP_PCU_G3C_MCB_MPW','USP_PCU_G3C_MCB_MTN','USP_PCU_G3C_MCB_MTP','USP_PCU_G3C_MCB_NAV','USP_PCU_G3C_MCB_RBS','USP_PCU_G3C_MCB_RGR','USP_PCU_G3C_MCB_TSD','USP_PCU_G3C_MCB_TSW','USP_PCU_G3C_KP','USP_PCU_G3C_KP_BLK_AOR1','USP_PCU_G3C_KP_BLK_AOR2','USP_PCU_G3C_KP_BLK_GRY','USP_PCU_G3C_KP_BLK_KHK','USP_PCU_G3C_KP_BLK_M81','USP_PCU_G3C_KP_BLK_MC','USP_PCU_G3C_KP_BLK_MCB','USP_PCU_G3C_KP_BLK_MCD','USP_PCU_G3C_KP_BLK_MCT','USP_PCU_G3C_KP_BLK_MCW','USP_PCU_G3C_KP_BLK_NAV','USP_PCU_G3C_KP_BLK_RGR','USP_PCU_G3C_KP_BLK_TSD','USP_PCU_G3C_KP_BLK_TSW','USP_PCU_G3C_KP_GRY_BLK','USP_PCU_G3C_KP_MCB','USP_PCU_G3C_KP_MCB_AOR1','USP_PCU_G3C_KP_MCB_AOR2','USP_PCU_G3C_KP_MCB_BLK','USP_PCU_G3C_KP_MCB_GRY','USP_PCU_G3C_KP_MCB_KHK','USP_PCU_G3C_KP_MCB_M81','USP_PCU_G3C_KP_MCB_MC','USP_PCU_G3C_KP_MCB_MCD','USP_PCU_G3C_KP_MCB_MCT','USP_PCU_G3C_KP_MCB_MCW','USP_PCU_G3C_KP_MCB_NAV','USP_PCU_G3C_KP_MCB_RGR','USP_PCU_G3C_KP_MCB_TSD','USP_PCU_G3C_KP_MCB_TSW','USP_PCU_G3C_KP_MX','USP_PCU_G3C_KP_MX_BLK_AOR1','USP_PCU_G3C_KP_MX_BLK_AOR2','USP_PCU_G3C_KP_MX_BLK_GRY','USP_PCU_G3C_KP_MX_BLK_KHK','USP_PCU_G3C_KP_MX_BLK_M81','USP_PCU_G3C_KP_MX_BLK_MC','USP_PCU_G3C_KP_MX_BLK_MCB','USP_PCU_G3C_KP_MX_BLK_MCD','USP_PCU_G3C_KP_MX_BLK_MCT','USP_PCU_G3C_KP_MX_BLK_MCW','USP_PCU_G3C_KP_MX_BLK_NAV','USP_PCU_G3C_KP_MX_BLK_RGR','USP_PCU_G3C_KP_MX_BLK_TSD','USP_PCU_G3C_KP_MX_BLK_TSW','USP_PCU_G3C_KP_MX_GRY_BLK','USP_PCU_G3C_KP_MX_MCB','USP_PCU_G3C_KP_MX_MCB_AOR1','USP_PCU_G3C_KP_MX_MCB_AOR2','USP_PCU_G3C_KP_MX_MCB_BLK','USP_PCU_G3C_KP_MX_MCB_GRY','USP_PCU_G3C_KP_MX_MCB_KHK','USP_PCU_G3C_KP_MX_MCB_M81','USP_PCU_G3C_KP_MX_MCB_MC','USP_PCU_G3C_KP_MX_MCB_MCD','USP_PCU_G3C_KP_MX_MCB_MCT','USP_PCU_G3C_KP_MX_MCB_MCW','USP_PCU_G3C_KP_MX_MCB_NAV','USP_PCU_G3C_KP_MX_MCB_RGR','USP_PCU_G3C_KP_MX_MCB_TSD','USP_PCU_G3C_KP_MX_MCB_TSW','USP_PCU_G3C_KP_OR','USP_PCU_G3C_KP_OR_BLK_AOR1','USP_PCU_G3C_KP_OR_BLK_AOR2','USP_PCU_G3C_KP_OR_BLK_GRY','USP_PCU_G3C_KP_OR_BLK_KHK','USP_PCU_G3C_KP_OR_BLK_M81','USP_PCU_G3C_KP_OR_BLK_MC','USP_PCU_G3C_KP_OR_BLK_MCB','USP_PCU_G3C_KP_OR_BLK_MCD','USP_PCU_G3C_KP_OR_BLK_MCT','USP_PCU_G3C_KP_OR_BLK_MCW','USP_PCU_G3C_KP_OR_BLK_NAV','USP_PCU_G3C_KP_OR_BLK_RGR','USP_PCU_G3C_KP_OR_BLK_TSD','USP_PCU_G3C_KP_OR_BLK_TSW','USP_PCU_G3C_KP_OR_GRY_BLK','USP_PCU_G3C_KP_OR_MCB','USP_PCU_G3C_KP_OR_MCB_AOR1','USP_PCU_G3C_KP_OR_MCB_AOR2','USP_PCU_G3C_KP_OR_MCB_BLK','USP_PCU_G3C_KP_OR_MCB_GRY','USP_PCU_G3C_KP_OR_MCB_KHK','USP_PCU_G3C_KP_OR_MCB_M81','USP_PCU_G3C_KP_OR_MCB_MC','USP_PCU_G3C_KP_OR_MCB_MCD','USP_PCU_G3C_KP_OR_MCB_MCT','USP_PCU_G3C_KP_OR_MCB_MCW','USP_PCU_G3C_KP_OR_MCB_NAV','USP_PCU_G3C_KP_OR_MCB_RGR','USP_PCU_G3C_KP_OR_MCB_TSD','USP_PCU_G3C_KP_OR_MCB_TSW','USP_PCU_G3C_MX','USP_PCU_G3C_MX_BLK_AOR1','USP_PCU_G3C_MX_BLK_AOR2','USP_PCU_G3C_MX_BLK_GRY','USP_PCU_G3C_MX_BLK_KHK','USP_PCU_G3C_MX_BLK_M81','USP_PCU_G3C_MX_BLK_MC','USP_PCU_G3C_MX_BLK_MCB','USP_PCU_G3C_MX_BLK_MCD','USP_PCU_G3C_MX_BLK_MCT','USP_PCU_G3C_MX_BLK_MCW','USP_PCU_G3C_MX_BLK_NAV','USP_PCU_G3C_MX_BLK_RGR','USP_PCU_G3C_MX_BLK_TSD','USP_PCU_G3C_MX_BLK_TSW','USP_PCU_G3C_MX_GRY_BLK','USP_PCU_G3C_MX_MCB','USP_PCU_G3C_MX_MCB_AOR1','USP_PCU_G3C_MX_MCB_AOR2','USP_PCU_G3C_MX_MCB_BLK','USP_PCU_G3C_MX_MCB_GRY','USP_PCU_G3C_MX_MCB_KHK','USP_PCU_G3C_MX_MCB_M81','USP_PCU_G3C_MX_MCB_MC','USP_PCU_G3C_MX_MCB_MCD','USP_PCU_G3C_MX_MCB_MCT','USP_PCU_G3C_MX_MCB_MCW','USP_PCU_G3C_MX_MCB_NAV','USP_PCU_G3C_MX_MCB_RGR','USP_PCU_G3C_MX_MCB_TSD','USP_PCU_G3C_MX_MCB_TSW','USP_PCU_G3C_OR','USP_PCU_G3C_OR_BLK_AOR1','USP_PCU_G3C_OR_BLK_AOR2','USP_PCU_G3C_OR_BLK_GRY','USP_PCU_G3C_OR_BLK_KHK','USP_PCU_G3C_OR_BLK_M81','USP_PCU_G3C_OR_BLK_MC','USP_PCU_G3C_OR_BLK_MCB','USP_PCU_G3C_OR_BLK_MCD','USP_PCU_G3C_OR_BLK_MCT','USP_PCU_G3C_OR_BLK_MCW','USP_PCU_G3C_OR_BLK_NAV','USP_PCU_G3C_OR_BLK_RGR','USP_PCU_G3C_OR_BLK_TSD','USP_PCU_G3C_OR_BLK_TSW','USP_PCU_G3C_OR_GRY_BLK','USP_PCU_G3C_OR_MCB','USP_PCU_G3C_OR_MCB_AOR1','USP_PCU_G3C_OR_MCB_AOR2','USP_PCU_G3C_OR_MCB_BLK','USP_PCU_G3C_OR_MCB_GRY','USP_PCU_G3C_OR_MCB_KHK','USP_PCU_G3C_OR_MCB_M81','USP_PCU_G3C_OR_MCB_MC','USP_PCU_G3C_OR_MCB_MCD','USP_PCU_G3C_OR_MCB_MCT','USP_PCU_G3C_OR_MCB_MCW','USP_PCU_G3C_OR_MCB_NAV','USP_PCU_G3C_OR_MCB_RGR','USP_PCU_G3C_OR_MCB_TSD','USP_PCU_G3C_OR_MCB_TSW','USP_RUGBY_G3C','USP_RUGBY_G3C_BLK_AMCU','USP_RUGBY_G3C_BLK_AOR1','USP_RUGBY_G3C_BLK_AOR2','USP_RUGBY_G3C_BLK_DCU','USP_RUGBY_G3C_BLK_GRY','USP_RUGBY_G3C_BLK_KHK','USP_RUGBY_G3C_BLK_M81','USP_RUGBY_G3C_BLK_MC','USP_RUGBY_G3C_BLK_MCB','USP_RUGBY_G3C_BLK_MCD','USP_RUGBY_G3C_BLK_MCT','USP_RUGBY_G3C_BLK_MCW','USP_RUGBY_G3C_BLK_MM14','USP_RUGBY_G3C_BLK_MPD','USP_RUGBY_G3C_BLK_MPW','USP_RUGBY_G3C_BLK_MTN','USP_RUGBY_G3C_BLK_MTP','USP_RUGBY_G3C_BLK_NAV','USP_RUGBY_G3C_BLK_RBS','USP_RUGBY_G3C_BLK_RGR','USP_RUGBY_G3C_BLK_TSD','USP_RUGBY_G3C_BLK_TSW','USP_RUGBY_G3C_KP','USP_RUGBY_G3C_KP_BLK_AMCU','USP_RUGBY_G3C_KP_BLK_AOR1','USP_RUGBY_G3C_KP_BLK_AOR2','USP_RUGBY_G3C_KP_BLK_DCU','USP_RUGBY_G3C_KP_BLK_GRY','USP_RUGBY_G3C_KP_BLK_KHK','USP_RUGBY_G3C_KP_BLK_M81','USP_RUGBY_G3C_KP_BLK_MC','USP_RUGBY_G3C_KP_BLK_MCB','USP_RUGBY_G3C_KP_BLK_MCD','USP_RUGBY_G3C_KP_BLK_MCT','USP_RUGBY_G3C_KP_BLK_MCW','USP_RUGBY_G3C_KP_BLK_MM14','USP_RUGBY_G3C_KP_BLK_MPD','USP_RUGBY_G3C_KP_BLK_MPW','USP_RUGBY_G3C_KP_BLK_MTN','USP_RUGBY_G3C_KP_BLK_MTP','USP_RUGBY_G3C_KP_BLK_NAV','USP_RUGBY_G3C_KP_BLK_RBS','USP_RUGBY_G3C_KP_BLK_RGR','USP_RUGBY_G3C_KP_BLK_TSD','USP_RUGBY_G3C_KP_BLK_TSW','USP_RUGBY_G3C_KP_MX','USP_RUGBY_G3C_KP_MX_BLK_AMCU','USP_RUGBY_G3C_KP_MX_BLK_AOR1','USP_RUGBY_G3C_KP_MX_BLK_AOR2','USP_RUGBY_G3C_KP_MX_BLK_DCU','USP_RUGBY_G3C_KP_MX_BLK_GRY','USP_RUGBY_G3C_KP_MX_BLK_KHK','USP_RUGBY_G3C_KP_MX_BLK_M81','USP_RUGBY_G3C_KP_MX_BLK_MC','USP_RUGBY_G3C_KP_MX_BLK_MCB','USP_RUGBY_G3C_KP_MX_BLK_MCD','USP_RUGBY_G3C_KP_MX_BLK_MCT','USP_RUGBY_G3C_KP_MX_BLK_MCW','USP_RUGBY_G3C_KP_MX_BLK_MM14','USP_RUGBY_G3C_KP_MX_BLK_MPD','USP_RUGBY_G3C_KP_MX_BLK_MPW','USP_RUGBY_G3C_KP_MX_BLK_MTN','USP_RUGBY_G3C_KP_MX_BLK_MTP','USP_RUGBY_G3C_KP_MX_BLK_NAV','USP_RUGBY_G3C_KP_MX_BLK_RBS','USP_RUGBY_G3C_KP_MX_BLK_RGR','USP_RUGBY_G3C_KP_MX_BLK_TSD','USP_RUGBY_G3C_KP_MX_BLK_TSW','USP_RUGBY_G3C_KP_OR','USP_RUGBY_G3C_KP_OR_BLK_AMCU','USP_RUGBY_G3C_KP_OR_BLK_AOR1','USP_RUGBY_G3C_KP_OR_BLK_AOR2','USP_RUGBY_G3C_KP_OR_BLK_DCU','USP_RUGBY_G3C_KP_OR_BLK_GRY','USP_RUGBY_G3C_KP_OR_BLK_KHK','USP_RUGBY_G3C_KP_OR_BLK_M81','USP_RUGBY_G3C_KP_OR_BLK_MC','USP_RUGBY_G3C_KP_OR_BLK_MCB','USP_RUGBY_G3C_KP_OR_BLK_MCD','USP_RUGBY_G3C_KP_OR_BLK_MCT','USP_RUGBY_G3C_KP_OR_BLK_MCW','USP_RUGBY_G3C_KP_OR_BLK_MM14','USP_RUGBY_G3C_KP_OR_BLK_MPD','USP_RUGBY_G3C_KP_OR_BLK_MPW','USP_RUGBY_G3C_KP_OR_BLK_MTN','USP_RUGBY_G3C_KP_OR_BLK_MTP','USP_RUGBY_G3C_KP_OR_BLK_NAV','USP_RUGBY_G3C_KP_OR_BLK_RBS','USP_RUGBY_G3C_KP_OR_BLK_RGR','USP_RUGBY_G3C_KP_OR_BLK_TSD','USP_RUGBY_G3C_KP_OR_BLK_TSW','USP_RUGBY_G3C_KP2','USP_RUGBY_G3C_KP2_BLK_AMCU','USP_RUGBY_G3C_KP2_BLK_AOR1','USP_RUGBY_G3C_KP2_BLK_AOR2','USP_RUGBY_G3C_KP2_BLK_DCU','USP_RUGBY_G3C_KP2_BLK_GRY','USP_RUGBY_G3C_KP2_BLK_KHK','USP_RUGBY_G3C_KP2_BLK_M81','USP_RUGBY_G3C_KP2_BLK_MC','USP_RUGBY_G3C_KP2_BLK_MCB','USP_RUGBY_G3C_KP2_BLK_MCD','USP_RUGBY_G3C_KP2_BLK_MCT','USP_RUGBY_G3C_KP2_BLK_MCW','USP_RUGBY_G3C_KP2_BLK_MM14','USP_RUGBY_G3C_KP2_BLK_MPD','USP_RUGBY_G3C_KP2_BLK_MPW','USP_RUGBY_G3C_KP2_BLK_MTN','USP_RUGBY_G3C_KP2_BLK_MTP','USP_RUGBY_G3C_KP2_BLK_NAV','USP_RUGBY_G3C_KP2_BLK_RBS','USP_RUGBY_G3C_KP2_BLK_RGR','USP_RUGBY_G3C_KP2_BLK_TSD','USP_RUGBY_G3C_KP2_BLK_TSW','USP_RUGBY_G3C_KP2_MX','USP_RUGBY_G3C_KP2_MX_BLK_AMCU','USP_RUGBY_G3C_KP2_MX_BLK_AOR1','USP_RUGBY_G3C_KP2_MX_BLK_AOR2','USP_RUGBY_G3C_KP2_MX_BLK_DCU','USP_RUGBY_G3C_KP2_MX_BLK_GRY','USP_RUGBY_G3C_KP2_MX_BLK_KHK','USP_RUGBY_G3C_KP2_MX_BLK_M81','USP_RUGBY_G3C_KP2_MX_BLK_MC','USP_RUGBY_G3C_KP2_MX_BLK_MCB','USP_RUGBY_G3C_KP2_MX_BLK_MCD','USP_RUGBY_G3C_KP2_MX_BLK_MCT','USP_RUGBY_G3C_KP2_MX_BLK_MCW','USP_RUGBY_G3C_KP2_MX_BLK_MM14','USP_RUGBY_G3C_KP2_MX_BLK_MPD','USP_RUGBY_G3C_KP2_MX_BLK_MPW','USP_RUGBY_G3C_KP2_MX_BLK_MTN','USP_RUGBY_G3C_KP2_MX_BLK_MTP','USP_RUGBY_G3C_KP2_MX_BLK_NAV','USP_RUGBY_G3C_KP2_MX_BLK_RBS','USP_RUGBY_G3C_KP2_MX_BLK_RGR','USP_RUGBY_G3C_KP2_MX_BLK_TSD','USP_RUGBY_G3C_KP2_MX_BLK_TSW','USP_RUGBY_G3C_KP2_OR','USP_RUGBY_G3C_KP2_OR_BLK_AMCU','USP_RUGBY_G3C_KP2_OR_BLK_AOR1','USP_RUGBY_G3C_KP2_OR_BLK_AOR2','USP_RUGBY_G3C_KP2_OR_BLK_DCU','USP_RUGBY_G3C_KP2_OR_BLK_GRY','USP_RUGBY_G3C_KP2_OR_BLK_KHK','USP_RUGBY_G3C_KP2_OR_BLK_M81','USP_RUGBY_G3C_KP2_OR_BLK_MC','USP_RUGBY_G3C_KP2_OR_BLK_MCB','USP_RUGBY_G3C_KP2_OR_BLK_MCD','USP_RUGBY_G3C_KP2_OR_BLK_MCT','USP_RUGBY_G3C_KP2_OR_BLK_MCW','USP_RUGBY_G3C_KP2_OR_BLK_MM14','USP_RUGBY_G3C_KP2_OR_BLK_MPD','USP_RUGBY_G3C_KP2_OR_BLK_MPW','USP_RUGBY_G3C_KP2_OR_BLK_MTN','USP_RUGBY_G3C_KP2_OR_BLK_MTP','USP_RUGBY_G3C_KP2_OR_BLK_NAV','USP_RUGBY_G3C_KP2_OR_BLK_RBS','USP_RUGBY_G3C_KP2_OR_BLK_RGR','USP_RUGBY_G3C_KP2_OR_BLK_TSD','USP_RUGBY_G3C_KP2_OR_BLK_TSW','USP_RUGBY_G3C_MX','USP_RUGBY_G3C_MX_BLK_AMCU','USP_RUGBY_G3C_MX_BLK_AOR1','USP_RUGBY_G3C_MX_BLK_AOR2','USP_RUGBY_G3C_MX_BLK_DCU','USP_RUGBY_G3C_MX_BLK_GRY','USP_RUGBY_G3C_MX_BLK_KHK','USP_RUGBY_G3C_MX_BLK_M81','USP_RUGBY_G3C_MX_BLK_MC','USP_RUGBY_G3C_MX_BLK_MCB','USP_RUGBY_G3C_MX_BLK_MCT','USP_RUGBY_G3C_MX_BLK_MCW','USP_RUGBY_G3C_MX_BLK_MM14','USP_RUGBY_G3C_MX_BLK_MPD','USP_RUGBY_G3C_MX_BLK_MPW','USP_RUGBY_G3C_MX_BLK_MTN','USP_RUGBY_G3C_MX_BLK_MTP','USP_RUGBY_G3C_MX_BLK_NAV','USP_RUGBY_G3C_MX_BLK_RBS','USP_RUGBY_G3C_MX_BLK_RGR','USP_RUGBY_G3C_MX_BLK_TSD','USP_RUGBY_G3C_MX_BLK_TSW','USP_RUGBY_G3C_OR','USP_RUGBY_G3C_OR_BLK_AMCU','USP_RUGBY_G3C_OR_BLK_AOR1','USP_RUGBY_G3C_OR_BLK_AOR2','USP_RUGBY_G3C_OR_BLK_DCU','USP_RUGBY_G3C_OR_BLK_GRY','USP_RUGBY_G3C_OR_BLK_KHK','USP_RUGBY_G3C_OR_BLK_M81','USP_RUGBY_G3C_OR_BLK_MC','USP_RUGBY_G3C_OR_BLK_MCB','USP_RUGBY_G3C_OR_BLK_MCD','USP_RUGBY_G3C_OR_BLK_MCT','USP_RUGBY_G3C_OR_BLK_MCW','USP_RUGBY_G3C_OR_BLK_MM14','USP_RUGBY_G3C_OR_BLK_MPD','USP_RUGBY_G3C_OR_BLK_MPW','USP_RUGBY_G3C_OR_BLK_MTN','USP_RUGBY_G3C_OR_BLK_MTP','USP_RUGBY_G3C_OR_BLK_NAV','USP_RUGBY_G3C_OR_BLK_RBS','USP_RUGBY_G3C_OR_BLK_RGR','USP_RUGBY_G3C_OR_BLK_TSD','USP_RUGBY_G3C_OR_BLK_TSW','USP_SOFTSHELL_G3C','USP_SOFTSHELL_G3C_BLK_AOR1','USP_SOFTSHELL_G3C_BLK_AOR2','USP_SOFTSHELL_G3C_BLK_GRY','USP_SOFTSHELL_G3C_BLK_KHK','USP_SOFTSHELL_G3C_BLK_M81','USP_SOFTSHELL_G3C_BLK_MC','USP_SOFTSHELL_G3C_BLK_MCB','USP_SOFTSHELL_G3C_BLK_MCD','USP_SOFTSHELL_G3C_BLK_MCT','USP_SOFTSHELL_G3C_BLK_MCW','USP_SOFTSHELL_G3C_BLK_NAV','USP_SOFTSHELL_G3C_BLK_RGR','USP_SOFTSHELL_G3C_BLK_TSD','USP_SOFTSHELL_G3C_BLK_TSW','USP_SOFTSHELL_G3C_KP','USP_SOFTSHELL_G3C_KP_BLK_AOR1','USP_SOFTSHELL_G3C_KP_BLK_AOR2','USP_SOFTSHELL_G3C_KP_BLK_GRY','USP_SOFTSHELL_G3C_KP_BLK_KHK','USP_SOFTSHELL_G3C_KP_BLK_M81','USP_SOFTSHELL_G3C_KP_BLK_MC','USP_SOFTSHELL_G3C_KP_BLK_MCB','USP_SOFTSHELL_G3C_KP_BLK_MCD','USP_SOFTSHELL_G3C_KP_BLK_MCT','USP_SOFTSHELL_G3C_KP_BLK_MCW','USP_SOFTSHELL_G3C_KP_BLK_NAV','USP_SOFTSHELL_G3C_KP_BLK_RGR','USP_SOFTSHELL_G3C_KP_BLK_TSD','USP_SOFTSHELL_G3C_KP_BLK_TSW','USP_SOFTSHELL_G3C_KP_MX','USP_SOFTSHELL_G3C_KP_MX_BLK_AOR1','USP_SOFTSHELL_G3C_KP_MX_BLK_AOR2','USP_SOFTSHELL_G3C_KP_MX_BLK_GRY','USP_SOFTSHELL_G3C_KP_MX_BLK_KHK','USP_SOFTSHELL_G3C_KP_MX_BLK_M81','USP_SOFTSHELL_G3C_KP_MX_BLK_MC','USP_SOFTSHELL_G3C_KP_MX_BLK_MCB','USP_SOFTSHELL_G3C_KP_MX_BLK_MCD','USP_SOFTSHELL_G3C_KP_MX_BLK_MCT','USP_SOFTSHELL_G3C_KP_MX_BLK_MCW','USP_SOFTSHELL_G3C_KP_MX_BLK_NAV','USP_SOFTSHELL_G3C_KP_MX_BLK_RGR','USP_SOFTSHELL_G3C_KP_MX_BLK_TSD','USP_SOFTSHELL_G3C_KP_MX_BLK_TSW','USP_SOFTSHELL_G3C_KP_OR','USP_SOFTSHELL_G3C_KP_OR_BLK_AOR1','USP_SOFTSHELL_G3C_KP_OR_BLK_AOR2','USP_SOFTSHELL_G3C_KP_OR_BLK_GRY','USP_SOFTSHELL_G3C_KP_OR_BLK_KHK','USP_SOFTSHELL_G3C_KP_OR_BLK_M81','USP_SOFTSHELL_G3C_KP_OR_BLK_MC','USP_SOFTSHELL_G3C_KP_OR_BLK_MCB','USP_SOFTSHELL_G3C_KP_OR_BLK_MCD','USP_SOFTSHELL_G3C_KP_OR_BLK_MCT','USP_SOFTSHELL_G3C_KP_OR_BLK_MCW','USP_SOFTSHELL_G3C_KP_OR_BLK_NAV','USP_SOFTSHELL_G3C_KP_OR_BLK_RGR','USP_SOFTSHELL_G3C_KP_OR_BLK_TSD','USP_SOFTSHELL_G3C_KP_OR_BLK_TSW','USP_SOFTSHELL_G3C_MX','USP_SOFTSHELL_G3C_MX_BLK_AOR1','USP_SOFTSHELL_G3C_MX_BLK_AOR2','USP_SOFTSHELL_G3C_MX_BLK_GRY','USP_SOFTSHELL_G3C_MX_BLK_KHK','USP_SOFTSHELL_G3C_MX_BLK_M81','USP_SOFTSHELL_G3C_MX_BLK_MC','USP_SOFTSHELL_G3C_MX_BLK_MCB','USP_SOFTSHELL_G3C_MX_BLK_MCD','USP_SOFTSHELL_G3C_MX_BLK_MCT','USP_SOFTSHELL_G3C_MX_BLK_MCW','USP_SOFTSHELL_G3C_MX_BLK_NAV','USP_SOFTSHELL_G3C_MX_BLK_RGR','USP_SOFTSHELL_G3C_MX_BLK_TSD','USP_SOFTSHELL_G3C_MX_BLK_TSW','USP_SOFTSHELL_G3C_OR','USP_SOFTSHELL_G3C_OR_BLK_AOR1','USP_SOFTSHELL_G3C_OR_BLK_AOR2','USP_SOFTSHELL_G3C_OR_BLK_GRY','USP_SOFTSHELL_G3C_OR_BLK_KHK','USP_SOFTSHELL_G3C_OR_BLK_M81','USP_SOFTSHELL_G3C_OR_BLK_MC','USP_SOFTSHELL_G3C_OR_BLK_MCB','USP_SOFTSHELL_G3C_OR_BLK_MCD','USP_SOFTSHELL_G3C_OR_BLK_MCT','USP_SOFTSHELL_G3C_OR_BLK_MCW','USP_SOFTSHELL_G3C_OR_BLK_NAV','USP_SOFTSHELL_G3C_OR_BLK_RGR','USP_SOFTSHELL_G3C_OR_BLK_TSD','USP_SOFTSHELL_G3C_OR_BLK_TSW','UK3CB_ANP_B_H_6b27m_BLK','UK3CB_ANP_B_H_6b27m_bala_BLK','UK3CB_ANP_B_H_6b27m_ess_BLK','UK3CB_ANP_B_H_6b27m_ess_bala_BLK','rhssaf_helmet_m97_black_nocamo','rhssaf_helmet_m97_black_nocamo_black_ess','rhssaf_helmet_m97_black_nocamo_black_ess_bare','rhsusf_opscore_bk','rhsusf_opscore_bk_pelt','USP_MICH_TC2000','USP_MICH_TC2000_CM','USP_MICH_TC2000_CT','USP_MICH_TC2000_CT_CM','USP_MICH_TC2000_CT_CM_GB','USP_MICH_TC2000_CT_CM_GB_IR','USP_MICH_TC2000_CT_CM_GB_IR_PH','USP_MICH_TC2000_CT_CM_GB_IR_PH_RM','USP_MICH_TC2000_CT_CM_GB_IR_PS','USP_MICH_TC2000_CT_CM_GB_IR_RM','USP_MICH_TC2000_CT_CM_GB_IR_RM_PS','USP_MICH_TC2000_CT_CM_GB_IR_RM_SF','USP_MICH_TC2000_CT_CM_GB_IR_SF','USP_MICH_TC2000_CT_CM_GB_PH','USP_MICH_TC2000_CT_CM_GB_PH_RM','USP_MICH_TC2000_CT_CM_GB_PH_RM_VL','USP_MICH_TC2000_CT_CM_GB_PH_VL','USP_MICH_TC2000_CT_CM_GB_PS','USP_MICH_TC2000_CT_CM_GB_PS_VL','USP_MICH_TC2000_CT_CM_GB_RM','USP_MICH_TC2000_CT_CM_GB_RM_PS','USP_MICH_TC2000_CT_CM_GB_RM_PS_VL','USP_MICH_TC2000_CT_CM_GB_RM_SF','USP_MICH_TC2000_CT_CM_GB_RM_SF_VL','USP_MICH_TC2000_CT_CM_GB_RM_VL','USP_MICH_TC2000_CT_CM_GB_SF','USP_MICH_TC2000_CT_CM_GB_SF_VL','USP_MICH_TC2000_CT_CM_GB_VL','USP_MICH_TC2000_CT_CM_GC','USP_MICH_TC2000_CT_CM_GC_IB','USP_MICH_TC2000_CT_CM_GC_IB_PH','USP_MICH_TC2000_CT_CM_GC_IB_PH_VL','USP_MICH_TC2000_CT_CM_GC_IB_PS','USP_MICH_TC2000_CT_CM_GC_IB_PS_VL','USP_MICH_TC2000_CT_CM_GC_IB_SF','USP_MICH_TC2000_CT_CM_GC_IB_SF_VL','USP_MICH_TC2000_CT_CM_GC_IB_VL','USP_MICH_TC2000_CT_CM_GC_IR','USP_MICH_TC2000_CT_CM_GC_IR_NS','USP_MICH_TC2000_CT_CM_GC_IR_NS_PH','USP_MICH_TC2000_CT_CM_GC_IR_PH','USP_MICH_TC2000_CT_CM_GC_IR_PS','USP_MICH_TC2000_CT_CM_GC_IR_SF','USP_MICH_TC2000_CT_CM_GC_NS','USP_MICH_TC2000_CT_CM_GC_NS_PH','USP_MICH_TC2000_CT_CM_GC_NS_PS','USP_MICH_TC2000_CT_CM_GC_NS_SF','USP_MICH_TC2000_CT_CM_GC_PH','USP_MICH_TC2000_CT_CM_GC_PH_VL','USP_MICH_TC2000_CT_CM_GC_PS','USP_MICH_TC2000_CT_CM_GC_PS_VL','USP_MICH_TC2000_CT_CM_GC_SF','USP_MICH_TC2000_CT_CM_GC_SF_VL','USP_MICH_TC2000_CT_CM_GC_VL','USP_MICH_TC2000_CT_CM_GG','USP_MICH_TC2000_CT_CM_GU','USP_MICH_TC2000_CT_CM_IB','USP_MICH_TC2000_CT_CM_IR','USP_MICH_TC2000_CT_CM_LP','USP_MICH_TC2000_CT_CM_NS','USP_MICH_TC2000_CT_CM_PC','USP_MICH_TC2000_CT_CM_PC_GB','USP_MICH_TC2000_CT_CM_PC_GB_IR','USP_MICH_TC2000_CT_CM_PC_GB_IR_RM','USP_MICH_TC2000_CT_CM_PC_GB_NS','USP_MICH_TC2000_CT_CM_PC_GB_NS_RM','USP_MICH_TC2000_CT_CM_PC_GB_RM','USP_MICH_TC2000_CT_CM_PC_GB_RM_VL','USP_MICH_TC2000_CT_CM_PC_GB_VL','USP_MICH_TC2000_CT_CM_PC_GC','USP_MICH_TC2000_CT_CM_PC_GC_IB','USP_MICH_TC2000_CT_CM_PC_GC_IB_VL','USP_MICH_TC2000_CT_CM_PC_GC_IR','USP_MICH_TC2000_CT_CM_PC_GC_NS','USP_MICH_TC2000_CT_CM_PC_GC_VL','USP_MICH_TC2000_CT_CM_PC_GG','USP_MICH_TC2000_CT_CM_PC_GG_GB','USP_MICH_TC2000_CT_CM_PC_GG_GB_IB','USP_MICH_TC2000_CT_CM_PC_GG_GB_IB_RM','USP_MICH_TC2000_CT_CM_PC_GG_GB_IB_RM_VL','USP_MICH_TC2000_CT_CM_PC_GG_GB_IB_VL','USP_MICH_TC2000_CT_CM_PC_GG_GB_IR','USP_MICH_TC2000_CT_CM_PC_GG_GB_IR_RM','USP_MICH_TC2000_CT_CM_PC_GG_GB_RM','USP_MICH_TC2000_CT_CM_PC_GG_GB_VL','USP_MICH_TC2000_CT_CM_PC_GG_IB','USP_MICH_TC2000_CT_CM_PC_GG_IB_RM','USP_MICH_TC2000_CT_CM_PC_GG_IB_RM_VL','USP_MICH_TC2000_CT_CM_PC_GG_IB_VL','USP_MICH_TC2000_CT_CM_PC_GG_IR','USP_MICH_TC2000_CT_CM_PC_GG_IR_RM','USP_MICH_TC2000_CT_CM_PC_GG_NS','USP_MICH_TC2000_CT_CM_PC_GG_NS_RM','USP_MICH_TC2000_CT_CM_PC_GG_RM','USP_MICH_TC2000_CT_CM_PC_GG_RM_VL','USP_MICH_TC2000_CT_CM_PC_GG_VL','USP_MICH_TC2000_CT_CM_PC_GU','USP_MICH_TC2000_CT_CM_PC_GU_IB','USP_MICH_TC2000_CT_CM_PC_GU_IB_RM','USP_MICH_TC2000_CT_CM_PC_GU_IB_RM_VL','USP_MICH_TC2000_CT_CM_PC_GU_IB_VL','USP_MICH_TC2000_CT_CM_PC_GU_IR','USP_MICH_TC2000_CT_CM_PC_GU_IR_NS','USP_MICH_TC2000_CT_CM_PC_GU_IR_NS_RM','USP_MICH_TC2000_CT_CM_PC_GU_IR_RM','USP_MICH_TC2000_CT_CM_PC_GU_NS','USP_MICH_TC2000_CT_CM_PC_GU_NS_RM','USP_MICH_TC2000_CT_CM_PC_GU_RM','USP_MICH_TC2000_CT_CM_PC_GU_RM_VL','USP_MICH_TC2000_CT_CM_PC_GU_VL','USP_MICH_TC2000_CT_CM_PC_IB','USP_MICH_TC2000_CT_CM_PC_IB_RM','USP_MICH_TC2000_CT_CM_PC_IB_RM_VL','USP_MICH_TC2000_CT_CM_PC_IB_VL','USP_MICH_TC2000_CT_CM_PC_IR','USP_MICH_TC2000_CT_CM_PC_IR_NS','USP_MICH_TC2000_CT_CM_PC_IR_NS_RM','USP_MICH_TC2000_CT_CM_PC_IR_RM','USP_MICH_TC2000_CT_CM_PC_LP','USP_MICH_TC2000_CT_CM_PC_LP_IB','USP_MICH_TC2000_CT_CM_PC_LP_IB_RM','USP_MICH_TC2000_CT_CM_PC_LP_IB_RM_VL','USP_MICH_TC2000_CT_CM_PC_LP_IB_VL','USP_MICH_TC2000_CT_CM_PC_LP_IR','USP_MICH_TC2000_CT_CM_PC_LP_IR_NS','USP_MICH_TC2000_CT_CM_PC_LP_IR_NS_RM','USP_MICH_TC2000_CT_CM_PC_LP_IR_RM','USP_MICH_TC2000_CT_CM_PC_LP_NS','USP_MICH_TC2000_CT_CM_PC_LP_NS_RM','USP_MICH_TC2000_CT_CM_PC_LP_RM','USP_MICH_TC2000_CT_CM_PC_LP_RM_VL','USP_MICH_TC2000_CT_CM_PC_LP_VL','USP_MICH_TC2000_CT_CM_PC_NS','USP_MICH_TC2000_CT_CM_PC_NS_RM','USP_MICH_TC2000_CT_CM_PC_RM','USP_MICH_TC2000_CT_CM_PC_RM_VL','USP_MICH_TC2000_CT_CM_PC_VL','USP_MICH_TC2000_CT_CM_PH','USP_MICH_TC2000_CT_CM_PS','USP_MICH_TC2000_CT_CM_RM','USP_MICH_TC2000_CT_CM_SF','USP_MICH_TC2000_CT_CM_VL','USP_MICH_TC2000_CT_GB','USP_MICH_TC2000_CT_GC','USP_MICH_TC2000_CT_GG','USP_MICH_TC2000_CT_GU','USP_MICH_TC2000_CT_IB','USP_MICH_TC2000_CT_IR','USP_MICH_TC2000_CT_LP','USP_MICH_TC2000_CT_MC','USP_MICH_TC2000_CT_NS','USP_MICH_TC2000_CT_PC','USP_MICH_TC2000_CT_PH','USP_MICH_TC2000_CT_PS','USP_MICH_TC2000_CT_RM','USP_MICH_TC2000_CT_SF','USP_MICH_TC2000_CT_VL','USP_MICH_TC2000_GB','USP_MICH_TC2000_GC','USP_MICH_TC2000_GG','USP_MICH_TC2000_GU','USP_MICH_TC2000_IB','USP_MICH_TC2000_IR','USP_MICH_TC2000_LP','USP_MICH_TC2000_MC','USP_MICH_TC2000_NS','USP_MICH_TC2000_PC','USP_MICH_TC2000_PH','USP_MICH_TC2000_PS','USP_MICH_TC2000_RM','USP_MICH_TC2000_S2','USP_MICH_TC2000_S3','USP_MICH_TC2000_SF','USP_MICH_TC2000_VL','USP_OPS_FASTXP','USP_OPS_FASTXP_CO','USP_OPS_FASTXP_CT','USP_OPS_FASTXP_CU','JCA_MCRP_V_CarrierRigKBT_01_combat_black_F','JCA_MCRP_V_CarrierRigKBT_01_command_black_F','JCA_MCRP_V_CarrierRigKBT_01_compact_black_F','JCA_MCRP_V_CarrierRigKBT_01_CQB_black_F','JCA_MCRP_V_CarrierRigKBT_01_crew_black_F','JCA_MCRP_V_CarrierRigKBT_01_heavy_black_F','JCA_MCRP_V_CarrierRigKBT_01_light_black_F','JCA_MCRP_V_CarrierRigKBT_01_recon_black_F','JCA_MCRP_V_CarrierRigKBT_01_tactical_black_F','JCA_MCRP_V_CarrierRigKBT_01_black_F','UK3CB_V_MBAV_GRENADIER_BLK','UK3CB_V_MBAV_LIGHT_BLK','UK3CB_V_MBAV_MG_BLK','UK3CB_V_MBAV_MEDIC_BLK','UK3CB_V_MBAV_RIFLEMAN_BLK','UK3CB_V_MBAV_BLK','UK3CB_V_Carrier_Rig_BLK','UK3CB_V_Carrier_Rig_Heavy_BLK','UK3CB_V_Carrier_Rig_Light_BLK','UK3CB_V_Carrier_Rig_Compact_BLK','UK3CB_V_Carrier_Rig_CQB_BLK','UK3CB_V_Carrier_Rig_CREW_BLK','UK3CB_V_Carrier_Rig_RECON_BLK','UK3CB_V_Carrier_Rig_TACTICAL_BLK','UK3CB_ADA_B_V_TacVest_BLK','UK3CB_ION_B_B_RIF_BLK_01','UK3CB_ION_B_B_RIF_MED_BLK','tfw_ilbe_blade_black','tfw_ilbe_DD_black','tfw_ilbe_whip_black','USP_REEBOW_3DAP_BLK','USP_REEBOW_3DAP_MCB','USP_REEBOW_3DAP_ACC1_BLK','USP_REEBOW_3DAP_ACC1_MCB','USP_REEBOW_3DAP_ACC2_BLK','USP_REEBOW_3DAP_ACC2_MCB','USP_REEBOW_3DAP_ACC3_BLK','USP_REEBOW_3DAP_ACC3_MCB','USP_REEBOW_3DAP_ACC4_BLK','USP_REEBOW_3DAP_ACC4_MCB','USP_REEBOW_3DAP_ACC5_BLK','USP_REEBOW_3DAP_ACC5_MCB','USP_REEBOW_3DAP_ACC6_BLK','USP_REEBOW_3DAP_ACC6_MCB','USP_REEBOW_3DAP_ACC7_BLK','USP_REEBOW_3DAP_ACC7_MCB','USP_REEBOW_3DAP_ACC8_BLK','USP_REEBOW_3DAP_ACC8_MCB','USP_REEBOW_3DAP_ACC9_BLK','USP_REEBOW_3DAP_ACC9_MCB','USP_REEBOW_3DAP_ACC10_BLK','USP_REEBOW_3DAP_ACC10_MCB','USP_RAID_BLK','USP_RAID_BLK2','USP_RAID_BC_BLK','USP_RAID_BC_BLK2','USP_RAID_BC10_BLK','USP_RAID_BC10_BLK2','USP_RAID_BC11_BLK','USP_RAID_BC11_BLK2','USP_RAID_BC12_BLK','USP_RAID_BC12_BLK2','USP_RAID_BC13_BLK','USP_RAID_BC13_BLK2','USP_RAID_BC14_BLK','USP_RAID_BC14_BLK2','USP_RAID_BC15_BLK','USP_RAID_BC15_BLK2','USP_RAID_BC2_BLK','USP_RAID_BC2_BLK2','USP_RAID_BC3_BLK','USP_RAID_BC3_BLK2','USP_RAID_BC4_BLK','USP_RAID_BC4_BLK2','USP_RAID_BC5_BLK','USP_RAID_BC5_BLK2','USP_RAID_BC6_BLK','USP_RAID_BC6_BLK2','USP_RAID_BC7_BLK','USP_RAID_BC7_BLK2','USP_RAID_BC8_BLK','USP_RAID_BC8_BLK2','USP_RAID_BC9_BLK','USP_RAID_BC9_BLK2','USP_RAID_BCJ_BLK','USP_RAID_BCJ_BLK2','USP_RAID_BCJ10_BLK','USP_RAID_BCJ10_BLK2','USP_RAID_BCJ11_BLK','USP_RAID_BCJ11_BLK2','USP_RAID_BCJ12_BLK','USP_RAID_BCJ12_BLK2','USP_RAID_BCJ13_BLK','USP_RAID_BCJ13_BLK2','USP_RAID_BCJ14_BLK','USP_RAID_BCJ14_BLK2','USP_RAID_BCJ15_BLK','USP_RAID_BCJ15_BLK2','USP_RAID_BCJ2_BLK','USP_RAID_BCJ2_BLK2','USP_RAID_BCJ3_BLK','USP_RAID_BCJ3_BLK2','USP_RAID_BCJ4_BLK','USP_RAID_BCJ4_BLK2','USP_RAID_BCJ5_BLK','USP_RAID_BCJ5_BLK2','USP_RAID_BCJ6_BLK','USP_RAID_BCJ6_BLK2','USP_RAID_BCJ7_BLK','USP_RAID_BCJ7_BLK2','USP_RAID_BCJ8_BLK','USP_RAID_BCJ8_BLK2','USP_RAID_BCJ9_BLK','USP_RAID_BCJ9_BLK2','USP_RAID_BCM_BLK','USP_RAID_BCM_BLK2','USP_RAID_BCM10_BLK','USP_RAID_BCM10_BLK2','USP_RAID_BCM11_BLK','USP_RAID_BCM11_BLK2','USP_RAID_BCM12_BLK','USP_RAID_BCM12_BLK2','USP_RAID_BCM13_BLK','USP_RAID_BCM13_BLK2','USP_RAID_BCM14_BLK','USP_RAID_BCM14_BLK2','USP_RAID_BCM15_BLK','USP_RAID_BCM15_BLK2','USP_RAID_BCM2_BLK','USP_RAID_BCM2_BLK2','USP_RAID_BCM3_BLK','USP_RAID_BCM3_BLK2','USP_RAID_BCM4_BLK','USP_RAID_BCM4_BLK2','USP_RAID_BCM5_BLK','USP_RAID_BCM5_BLK2','USP_RAID_BCM6_BLK','USP_RAID_BCM6_BLK2','USP_RAID_BCM7_BLK','USP_RAID_BCM7_BLK2','USP_RAID_BCM8_BLK','USP_RAID_BCM8_BLK2','USP_RAID_BCM9_BLK','USP_RAID_BCM9_BLK2','USP_RAID_BD_BLK','USP_RAID_BD_BLK2','USP_RAID_BD10_BLK','USP_RAID_BD10_BLK2','USP_RAID_BD11_BLK','USP_RAID_BD11_BLK2','USP_RAID_BD12_BLK','USP_RAID_BD12_BLK2','USP_RAID_BD13_BLK','USP_RAID_BD13_BLK2','USP_RAID_BD14_BLK','USP_RAID_BD14_BLK2','USP_RAID_BD15_BLK','USP_RAID_BD15_BLK2','USP_RAID_BD2_BLK','USP_RAID_BD2_BLK2','USP_RAID_BD3_BLK','USP_RAID_BD3_BLK2','USP_RAID_BD4_BLK','USP_RAID_BD4_BLK2','USP_RAID_BD5_BLK','USP_RAID_BD5_BLK2','USP_RAID_BD6_BLK','USP_RAID_BD6_BLK2','USP_RAID_BD7_BLK','USP_RAID_BD7_BLK2','USP_RAID_BD8_BLK','USP_RAID_BD8_BLK2','USP_RAID_BD9_BLK','USP_RAID_BD9_BLK2','USP_RAID_BJ_BLK','USP_RAID_BJ_BLK2','USP_RAID_BJ10_BLK','USP_RAID_BJ10_BLK2','USP_RAID_BJ13_BLK','USP_RAID_BJ13_BLK2','USP_RAID_BJ4_BLK','USP_RAID_BJ4_BLK2','USP_RAID_BJ7_BLK','USP_RAID_BJ7_BLK2','USP_RAID_BJM_BLK','USP_RAID_BJM_BLK2','USP_RAID_BJM10_BLK','USP_RAID_BJM10_BLK2','USP_RAID_BJM13_BLK','USP_RAID_BJM13_BLK2','USP_RAID_BJM4_BLK','USP_RAID_BJM4_BLK2','USP_RAID_BJM7_BLK','USP_RAID_BJM7_BLK2','USP_RAID_BM_BLK','USP_RAID_BM_BLK2','USP_RAID_BM10_BLK','USP_RAID_BM10_BLK2','USP_RAID_BM13_BLK','USP_RAID_BM13_BLK2','USP_RAID_BM4_BLK','USP_RAID_BM4_BLK2','USP_RAID_BM7_BLK','USP_RAID_BM7_BLK2','USP_RAID_SMB1_BLK','USP_RAID_SMB1_BLK2','USP_RAID_SMB2_BLK','USP_RAID_SMB2_BLK2','USP_RAID_SMB3_BLK','USP_RAID_SMB3_BLK2','USP_BALACLAVA_BLK','USP_BALACLAVA_MCB','USP_BALACLAVA2','USP_BALACLAVA2_MCB','USP_BALACLAVA_ESS_BLK','USP_BALACLAVA_ESS_BLK3','USP_BALACLAVA_ESS_MCB','USP_BALACLAVA_ESS_MCB3','USP_BALACLAVA_ESS_SMB1_BLK','USP_BALACLAVA_ESS_SMB1_BLK3','USP_BALACLAVA_ESS_SMB1_MCB','USP_BALACLAVA_ESS_SMB1_MCB3','USP_BALACLAVA_OAK_BLK','USP_BALACLAVA_OAK_BLK2','USP_BALACLAVA_OAK_MCB','USP_BALACLAVA_OAK_MCB2','USP_BALACLAVA_OAK_SMB1_BLK','USP_BALACLAVA_OAK_SMB1_BLK2','USP_BALACLAVA_OAK_SMB1_MCB','USP_BALACLAVA_OAK_SMB1_MCB2','USP_ADVANCER','USP_ADVANCER_CLR','USP_ADVANCER_YEL','USP_ADVANCER_BC','USP_ADVANCER_BC_CLR','USP_ADVANCER_BC_YEL','USP_ADVANCER_BC10','USP_ADVANCER_BC10_CLR','USP_ADVANCER_BC10_YEL','USP_ADVANCER_BC13','USP_ADVANCER_BC13_CLR','USP_ADVANCER_BC13_YEL','USP_ADVANCER_BC4','USP_ADVANCER_BC4_CLR','USP_ADVANCER_BC4_YEL','USP_ADVANCER_BC7','USP_ADVANCER_BC7_CLR','USP_ADVANCER_BC7_YEL','USP_ADVANCER_BCJ','USP_ADVANCER_BCJ_CLR','USP_ADVANCER_BCJ_YEL','USP_ADVANCER_BCJ10','USP_ADVANCER_BCJ10_CLR','USP_ADVANCER_BCJ10_YEL','USP_ADVANCER_BCJ13','USP_ADVANCER_BCJ13_CLR','USP_ADVANCER_BCJ13_YEL','USP_ADVANCER_BCJ4','USP_ADVANCER_BCJ4_CLR','USP_ADVANCER_BCJ4_YEL','USP_ADVANCER_BCJ7','USP_ADVANCER_BCJ7_CLR','USP_ADVANCER_BCJ7_YEL','USP_ADVANCER_BCM','USP_ADVANCER_BCM_CLR','USP_ADVANCER_BCM_YEL','USP_ADVANCER_BCM10','USP_ADVANCER_BCM10_CLR','USP_ADVANCER_BCM10_YEL','USP_ADVANCER_BCM13','USP_ADVANCER_BCM13_CLR','USP_ADVANCER_BCM13_YEL','USP_ADVANCER_BCM4','USP_ADVANCER_BCM4_CLR','USP_ADVANCER_BCM4_YEL','USP_ADVANCER_BCM7','USP_ADVANCER_BCM7_CLR','USP_ADVANCER_BCM7_YEL','USP_ADVANCER_BD','USP_ADVANCER_BD_CLR','USP_ADVANCER_BD_YEL','USP_ADVANCER_BD10','USP_ADVANCER_BD10_CLR','USP_ADVANCER_BD10_YEL','USP_ADVANCER_BD13','USP_ADVANCER_BD13_CLR','USP_ADVANCER_BD13_YEL','USP_ADVANCER_BD4','USP_ADVANCER_BD4_CLR','USP_ADVANCER_BD4_YEL','USP_ADVANCER_BD7','USP_ADVANCER_BD7_CLR','USP_ADVANCER_BD7_YEL','USP_ADVANCER_BJ','USP_ADVANCER_BJ_CLR','USP_ADVANCER_BJ_YEL','USP_ADVANCER_BJ10','USP_ADVANCER_BJ10_CLR','USP_ADVANCER_BJ10_YEL','USP_ADVANCER_BJ13','USP_ADVANCER_BJ13_CLR','USP_ADVANCER_BJ13_YEL','USP_ADVANCER_BJ4','USP_ADVANCER_BJ4_CLR','USP_ADVANCER_BJ4_YEL','USP_ADVANCER_BJ7','USP_ADVANCER_BJ7_CLR','USP_ADVANCER_BJ7_YEL','USP_ADVANCER_BJM','USP_ADVANCER_BJM_CLR','USP_ADVANCER_BJM_YEL','USP_ADVANCER_BJM10','USP_ADVANCER_BJM10_CLR','USP_ADVANCER_BJM10_YEL','USP_ADVANCER_BJM13','USP_ADVANCER_BJM13_CLR','USP_ADVANCER_BJM13_YEL','USP_ADVANCER_BJM4','USP_ADVANCER_BJM4_CLR','USP_ADVANCER_BJM4_YEL','USP_ADVANCER_BJM7','USP_ADVANCER_BJM7_CLR','USP_ADVANCER_BJM7_YEL','USP_ADVANCER_BM','USP_ADVANCER_BM_CLR','USP_ADVANCER_BM_YEL','USP_ADVANCER_BM10','USP_ADVANCER_BM10_CLR','USP_ADVANCER_BM10_YEL','USP_ADVANCER_BM13','USP_ADVANCER_BM13_CLR','USP_ADVANCER_BM13_YEL','USP_ADVANCER_BM4','USP_ADVANCER_BM4_CLR','USP_ADVANCER_BM4_YEL','USP_ADVANCER_BM7','USP_ADVANCER_BM7_CLR','USP_ADVANCER_BM7_YEL','USP_ADVANCER_SF','USP_ADVANCER_SF_CLR','USP_ADVANCER_SF_YEL','USP_ADVANCER_SFL','USP_ADVANCER_SFL_CLR','USP_ADVANCER_SFL_YEL','USP_ADVANCER_SL','USP_ADVANCER_SL_CLR','USP_ADVANCER_SL_YEL','USP_ADVANCER_SN','USP_ADVANCER_SN_CLR','USP_ADVANCER_SN_YEL','USP_ADVANCER_SNL','USP_ADVANCER_SNL_CLR','USP_ADVANCER_SNL_YEL','USP_ADVANCER_ST','USP_ADVANCER_ST_CLR','USP_ADVANCER_ST_YEL','USP_ADVANCER_STL','USP_ADVANCER_STL_CLR','USP_ADVANCER_STL_YEL','USP_GATORZ_BLK','USP_GATORZ_BLK2','USP_GATORZ_BLK3','USP_GATORZ_BC_BLK','USP_GATORZ_BC_BLK2','USP_GATORZ_BC_BLK3','USP_GATORZ_BC10_BLK','USP_GATORZ_BC10_BLK2','USP_GATORZ_BC10_BLK3','USP_GATORZ_BC11_BLK','USP_GATORZ_BC11_BLK2','USP_GATORZ_BC11_BLK3','USP_GATORZ_BC12_BLK','USP_GATORZ_BC12_BLK2','USP_GATORZ_BC12_BLK3','USP_GATORZ_BC13_BLK','USP_GATORZ_BC13_BLK2','USP_GATORZ_BC13_BLK3','USP_GATORZ_BC14_BLK','USP_GATORZ_BC14_BLK2','USP_GATORZ_BC14_BLK3','USP_GATORZ_BC15_BLK','USP_GATORZ_BC15_BLK2','USP_GATORZ_BC15_BLK3','USP_GATORZ_BC2_BLK','USP_GATORZ_BC2_BLK2','USP_GATORZ_BC2_BLK3','USP_GATORZ_BC3_BLK','USP_GATORZ_BC3_BLK2','USP_GATORZ_BC3_BLK3','USP_GATORZ_BC4_BLK','USP_GATORZ_BC4_BLK2','USP_GATORZ_BC4_BLK3','USP_GATORZ_BC5_BLK','USP_GATORZ_BC5_BLK2','USP_GATORZ_BC5_BLK3','USP_GATORZ_BC6_BLK','USP_GATORZ_BC6_BLK2','USP_GATORZ_BC6_BLK3','USP_GATORZ_BC7_BLK','USP_GATORZ_BC7_BLK2','USP_GATORZ_BC7_BLK3','USP_GATORZ_BC8_BLK','USP_GATORZ_BC8_BLK2','USP_GATORZ_BC8_BLK3','USP_GATORZ_BC9_BLK','USP_GATORZ_BC9_BLK2','USP_GATORZ_BC9_BLK3','USP_GATORZ_BCJ_BLK','USP_GATORZ_BCJ_BLK2','USP_GATORZ_BCJ_BLK3','USP_GATORZ_BCJ10_BLK','USP_GATORZ_BCJ10_BLK2','USP_GATORZ_BCJ10_BLK3','USP_GATORZ_BCJ11_BLK','USP_GATORZ_BCJ11_BLK2','USP_GATORZ_BCJ11_BLK3','USP_GATORZ_BCJ12_BLK','USP_GATORZ_BCJ12_BLK2','USP_GATORZ_BCJ12_BLK3','USP_GATORZ_BCJ13_BLK','USP_GATORZ_BCJ13_BLK2','USP_GATORZ_BCJ13_BLK3','USP_GATORZ_BCJ14_BLK','USP_GATORZ_BCJ14_BLK2','USP_GATORZ_BCJ14_BLK3','USP_GATORZ_BCJ15_BLK','USP_GATORZ_BCJ15_BLK2','USP_GATORZ_BCJ15_BLK3','USP_GATORZ_BCJ2_BLK','USP_GATORZ_BCJ2_BLK2','USP_GATORZ_BCJ2_BLK3','USP_GATORZ_BCJ3_BLK','USP_GATORZ_BCJ3_BLK2','USP_GATORZ_BCJ3_BLK3','USP_GATORZ_BCJ4_BLK','USP_GATORZ_BCJ4_BLK2','USP_GATORZ_BCJ4_BLK3','USP_GATORZ_BCJ5_BLK','USP_GATORZ_BCJ5_BLK2','USP_GATORZ_BCJ5_BLK3','USP_GATORZ_BCJ6_BLK','USP_GATORZ_BCJ6_BLK2','USP_GATORZ_BCJ6_BLK3','USP_GATORZ_BCJ7_BLK','USP_GATORZ_BCJ7_BLK2','USP_GATORZ_BCJ7_BLK3','USP_GATORZ_BCJ8_BLK','USP_GATORZ_BCJ8_BLK2','USP_GATORZ_BCJ8_BLK3','USP_GATORZ_BCJ9_BLK','USP_GATORZ_BCJ9_BLK2','USP_GATORZ_BCJ9_BLK3','USP_GATORZ_BCM_BLK','USP_GATORZ_BCM_BLK2','USP_GATORZ_BCM_BLK3','USP_GATORZ_BCM10_BLK','USP_GATORZ_BCM10_BLK2','USP_GATORZ_BCM10_BLK3','USP_GATORZ_BCM11_BLK','USP_GATORZ_BCM11_BLK2','USP_GATORZ_BCM11_BLK3','USP_GATORZ_BCM12_BLK','USP_GATORZ_BCM12_BLK2','USP_GATORZ_BCM12_BLK3','USP_GATORZ_BCM13_BLK','USP_GATORZ_BCM13_BLK2','USP_GATORZ_BCM13_BLK3','USP_GATORZ_BCM14_BLK','USP_GATORZ_BCM14_BLK2','USP_GATORZ_BCM14_BLK3','USP_GATORZ_BCM15_BLK','USP_GATORZ_BCM15_BLK2','USP_GATORZ_BCM15_BLK3','USP_GATORZ_BCM2_BLK','USP_GATORZ_BCM2_BLK2','USP_GATORZ_BCM2_BLK3','USP_GATORZ_BCM3_BLK','USP_GATORZ_BCM3_BLK2','USP_GATORZ_BCM3_BLK3','USP_GATORZ_BCM4_BLK','USP_GATORZ_BCM4_BLK2','USP_GATORZ_BCM4_BLK3','USP_GATORZ_BCM5_BLK','USP_GATORZ_BCM5_BLK2','USP_GATORZ_BCM5_BLK3','USP_GATORZ_BCM6_BLK','USP_GATORZ_BCM6_BLK2','USP_GATORZ_BCM6_BLK3','USP_GATORZ_BCM7_BLK','USP_GATORZ_BCM7_BLK2','USP_GATORZ_BCM7_BLK3','USP_GATORZ_BCM8_BLK','USP_GATORZ_BCM8_BLK2','USP_GATORZ_BCM8_BLK3','USP_GATORZ_BCM9_BLK','USP_GATORZ_BCM9_BLK2','USP_GATORZ_BCM9_BLK3','USP_GATORZ_BD_BLK','USP_GATORZ_BD_BLK2','USP_GATORZ_BD_BLK3','USP_GATORZ_BD_STL_BLK','USP_GATORZ_BD_STL_BLK2','USP_GATORZ_BD_STL_BLK3','USP_GATORZ_BD10_BLK','USP_GATORZ_BD10_BLK2','USP_GATORZ_BD10_BLK3','USP_GATORZ_BD10_STL_BLK','USP_GATORZ_BD10_STL_BLK2','USP_GATORZ_BD10_STL_BLK3','USP_GATORZ_BD11_BLK','USP_GATORZ_BD11_BLK2','USP_GATORZ_BD11_BLK3','USP_GATORZ_BD11_STL_BLK','USP_GATORZ_BD11_STL_BLK2','USP_GATORZ_BD11_STL_BLK3','USP_GATORZ_BD12_BLK','USP_GATORZ_BD12_BLK2','USP_GATORZ_BD12_BLK3','USP_GATORZ_BD12_STL_BLK','USP_GATORZ_BD12_STL_BLK2','USP_GATORZ_BD12_STL_BLK3','USP_GATORZ_BD13_BLK','USP_GATORZ_BD13_BLK2','USP_GATORZ_BD13_BLK3','USP_GATORZ_BD13_STL_BLK','USP_GATORZ_BD13_STL_BLK2','USP_GATORZ_BD13_STL_BLK3','USP_GATORZ_BD14_BLK','USP_GATORZ_BD14_BLK2','USP_GATORZ_BD14_BLK3','USP_GATORZ_BD14_STL_BLK','USP_GATORZ_BD14_STL_BLK2','USP_GATORZ_BD14_STL_BLK3','USP_GATORZ_BD15_BLK','USP_GATORZ_BD15_BLK2','USP_GATORZ_BD15_BLK3','USP_GATORZ_BD15_STL_BLK','USP_GATORZ_BD15_STL_BLK2','USP_GATORZ_BD15_STL_BLK3','USP_GATORZ_BD2_BLK','USP_GATORZ_BD2_BLK2','USP_GATORZ_BD2_BLK3','USP_GATORZ_BD2_STL_BLK','USP_GATORZ_BD2_STL_BLK2','USP_GATORZ_BD2_STL_BLK3','USP_GATORZ_BD3_BLK','USP_GATORZ_BD3_BLK2','USP_GATORZ_BD3_BLK3','USP_GATORZ_BD3_STL_BLK','USP_GATORZ_BD3_STL_BLK2','USP_GATORZ_BD3_STL_BLK3','USP_GATORZ_BD4_BLK','USP_GATORZ_BD4_BLK2','USP_GATORZ_BD4_BLK3','USP_GATORZ_BD4_STL_BLK','USP_GATORZ_BD4_STL_BLK2','USP_GATORZ_BD4_STL_BLK3','USP_GATORZ_BD5_BLK','USP_GATORZ_BD5_BLK2','USP_GATORZ_BD5_BLK3','USP_GATORZ_BD5_STL_BLK','USP_GATORZ_BD5_STL_BLK2','USP_GATORZ_BD5_STL_BLK3','USP_GATORZ_BD6_BLK','USP_GATORZ_BD6_BLK2','USP_GATORZ_BD6_BLK3','USP_GATORZ_BD6_STL_BLK','USP_GATORZ_BD6_STL_BLK2','USP_GATORZ_BD6_STL_BLK3','USP_GATORZ_BD7_BLK','USP_GATORZ_BD7_BLK2','USP_GATORZ_BD7_BLK3','USP_GATORZ_BD7_STL_BLK','USP_GATORZ_BD7_STL_BLK2','USP_GATORZ_BD7_STL_BLK3','USP_GATORZ_BD8_BLK','USP_GATORZ_BD8_BLK2','USP_GATORZ_BD8_BLK3','USP_GATORZ_BD8_STL_BLK','USP_GATORZ_BD8_STL_BLK2','USP_GATORZ_BD8_STL_BLK3','USP_GATORZ_BD9_BLK','USP_GATORZ_BD9_BLK2','USP_GATORZ_BD9_BLK3','USP_GATORZ_BD9_STL_BLK','USP_GATORZ_BD9_STL_BLK2','USP_GATORZ_BD9_STL_BLK3','USP_GATORZ_BJ_BLK','USP_GATORZ_BJ_BLK2','USP_GATORZ_BJ_BLK3','USP_GATORZ_BJ10_BLK','USP_GATORZ_BJ10_BLK2','USP_GATORZ_BJ10_BLK3','USP_GATORZ_BJ13_BLK','USP_GATORZ_BJ13_BLK2','USP_GATORZ_BJ13_BLK3','USP_GATORZ_BJ4_BLK','USP_GATORZ_BJ4_BLK2','USP_GATORZ_BJ4_BLK3','USP_GATORZ_BJ7_BLK','USP_GATORZ_BJ7_BLK2','USP_GATORZ_BJ7_BLK3','USP_GATORZ_BJM_BLK','USP_GATORZ_BJM_BLK2','USP_GATORZ_BJM_BLK3','USP_GATORZ_BJM10_BLK','USP_GATORZ_BJM10_BLK2','USP_GATORZ_BJM10_BLK3','USP_GATORZ_BJM13_BLK','USP_GATORZ_BJM13_BLK2','USP_GATORZ_BJM13_BLK3','USP_GATORZ_BJM4_BLK','USP_GATORZ_BJM4_BLK2','USP_GATORZ_BJM4_BLK3','USP_GATORZ_BJM7_BLK','USP_GATORZ_BJM7_BLK2','USP_GATORZ_BJM7_BLK3','USP_GATORZ_BM_BLK','USP_GATORZ_BM_BLK2','USP_GATORZ_BM_BLK3','USP_GATORZ_BM10_BLK','USP_GATORZ_BM10_BLK2','USP_GATORZ_BM10_BLK3','USP_GATORZ_BM13_BLK','USP_GATORZ_BM13_BLK2','USP_GATORZ_BM13_BLK3','USP_GATORZ_BM4_BLK','USP_GATORZ_BM4_BLK2','USP_GATORZ_BM4_BLK3','USP_GATORZ_BM7_BLK','USP_GATORZ_BM7_BLK2','USP_GATORZ_BM7_BLK3','USP_GATORZ_SF_BLK','USP_GATORZ_SF_BLK2','USP_GATORZ_SF_BLK3','USP_GATORZ_SFL_BLK','USP_GATORZ_SFL_BLK2','USP_GATORZ_SFL_BLK3','USP_GATORZ_SL_BLK','USP_GATORZ_SL_BLK2','USP_GATORZ_SL_BLK3','USP_GATORZ_SN_BLK','USP_GATORZ_SN_BLK2','USP_GATORZ_SN_BLK3','USP_GATORZ_SNL_BLK','USP_GATORZ_SNL_BLK2','USP_GATORZ_SNL_BLK3','USP_GATORZ_ST_BLK','USP_GATORZ_ST_BLK2','USP_GATORZ_ST_BLK3','USP_GATORZ_STL_BLK','USP_GATORZ_STL_BLK2','USP_GATORZ_STL_BLK3','USP_OAKLEY_SI2','USP_OAKLEY_SI2_BLK','USP_OAKLEY_SI2_EMB','USP_OAKLEY_SI2_YEL','USP_ROMCO_BCG','USP_SHEMAGH_SF_BLK','USP_SHEMAGH_SFL_BLK','USP_SHEMAGH_HEAD_BLK','USP_SHEMAGH_HEAD2_BLK','USP_SHEMAGH_HEAD3_BLK','USP_SHEMAGH_HEAD4_BLK','USP_SHEMAGH_SL_BLK','USP_SHEMAGH_BLK','USP_SHEMAGH_SNL_BLK','USP_SHEMAGH_NECK_BLK','USP_SHEMAGH_NECK3_BLK','USP_SHEMAGH_NECK4_BLK','USP_SHEMAGH_NECK5_BLK','USP_SHEMAGH_NECK6_BLK','USP_SHEMAGH_NECK7_BLK','USP_SHEMAGH_NECK8_BLK','USP_SHEMAGH_NECK9_BLK','USP_SHEMAGH_ST_BLK','USP_SHEMAGH_STL_BLK','USP_BEARD_BLD','USP_BEARD_BLD2','USP_BEARD_BLD3','USP_BEARD_BLK','USP_BEARD_BLK2','USP_BEARD_BLK3','USP_BEARD_BLK4','USP_BEARD_BLK5','USP_BEARD_BRN','USP_BEARD_BRN2','USP_BEARD_BRN3','USP_BEARD_BRN4','USP_BEARD_BRN5','USP_BEARD_BRN6','USP_BEARD_BRN7','USP_BEARD_BRN8','USP_BEARD_GRY','USP_BEARD_GRY2','USP_BEARD_GRY3','USP_BEARD_RED','USP_BEARD_RED2','USP_BEARD_RED3','USP_BEARD_CH_BLD','USP_BEARD_CH_BLD2','USP_BEARD_CH_BLD3','USP_BEARD_CH_BLK','USP_BEARD_CH_BLK2','USP_BEARD_CH_BLK3','USP_BEARD_CH_BLK4','USP_BEARD_CH_BLK5','USP_BEARD_CH_BRN','USP_BEARD_CH_BRN2','USP_BEARD_CH_BRN3','USP_BEARD_CH_BRN4','USP_BEARD_CH_BRN5','USP_BEARD_CH_BRN6','USP_BEARD_CH_BRN7','USP_BEARD_CH_BRN8','USP_BEARD_CH_GRY','USP_BEARD_CH_GRY2','USP_BEARD_CH_GRY3','USP_BEARD_CH_RED','USP_BEARD_CH_RED2','USP_BEARD_CH_RED3','USP_BEARD_CH_CP_BLD','USP_BEARD_CH_CP_BLD2','USP_BEARD_CH_CP_BLD3','USP_BEARD_CH_CP_BLK','USP_BEARD_CH_CP_BLK2','USP_BEARD_CH_CP_BLK3','USP_BEARD_CH_CP_BLK4','USP_BEARD_CH_CP_BLK5','USP_BEARD_CH_CP_BRN','USP_BEARD_CH_CP_BRN2','USP_BEARD_CH_CP_BRN3','USP_BEARD_CH_CP_BRN4','USP_BEARD_CH_CP_BRN5','USP_BEARD_CH_CP_BRN6','USP_BEARD_CH_CP_BRN7','USP_BEARD_CH_CP_BRN8','USP_BEARD_CH_CP_GRY','USP_BEARD_CH_CP_GRY2','USP_BEARD_CH_CP_GRY3','USP_BEARD_CH_CP_RED','USP_BEARD_CH_CP_RED2','USP_BEARD_CH_CP_RED3','USP_BEARD_CH_MS_BLD','USP_BEARD_CH_MS_BLD2','USP_BEARD_CH_MS_BLD3','USP_BEARD_CH_MS_BLK','USP_BEARD_CH_MS_BLK2','USP_BEARD_CH_MS_BLK3','USP_BEARD_CH_MS_BLK4','USP_BEARD_CH_MS_BLK5','USP_BEARD_CH_MS_BRN','USP_BEARD_CH_MS_BRN2','USP_BEARD_CH_MS_BRN3','USP_BEARD_CH_MS_BRN4','USP_BEARD_CH_MS_BRN5','USP_BEARD_CH_MS_BRN6','USP_BEARD_CH_MS_BRN7','USP_BEARD_CH_MS_BRN8','USP_BEARD_CH_MS_GRY','USP_BEARD_CH_MS_GRY2','USP_BEARD_CH_MS_GRY3','USP_BEARD_CH_MS_RED','USP_BEARD_CH_MS_RED2','USP_BEARD_CH_MS_RED3','USP_BEARD_CP_BLD','USP_BEARD_CP_BLD2','USP_BEARD_CP_BLD3','USP_BEARD_CP_BLK','USP_BEARD_CP_BLK2','USP_BEARD_CP_BLK3','USP_BEARD_CP_BLK4','USP_BEARD_CP_BLK5','USP_BEARD_CP_BRN','USP_BEARD_CP_BRN2','USP_BEARD_CP_BRN3','USP_BEARD_CP_BRN4','USP_BEARD_CP_BRN5','USP_BEARD_CP_BRN6','USP_BEARD_CP_BRN7','USP_BEARD_CP_BRN8','USP_BEARD_CP_GRY','USP_BEARD_CP_GRY2','USP_BEARD_CP_GRY3','USP_BEARD_CP_RED','USP_BEARD_CP_RED2','USP_BEARD_CP_RED3','USP_BEARD_CP_MS_BLD','USP_BEARD_CP_MS_BLD2','USP_BEARD_CP_MS_BLD3','USP_BEARD_CP_MS_BLK','USP_BEARD_CP_MS_BLK2','USP_BEARD_CP_MS_BLK3','USP_BEARD_CP_MS_BLK4','USP_BEARD_CP_MS_BLK5','USP_BEARD_CP_MS_BRN','USP_BEARD_CP_MS_BRN2','USP_BEARD_CP_MS_BRN3','USP_BEARD_CP_MS_BRN4','USP_BEARD_CP_MS_BRN5','USP_BEARD_CP_MS_BRN6','USP_BEARD_CP_MS_BRN7','USP_BEARD_CP_MS_BRN8','USP_BEARD_CP_MS_GRY','USP_BEARD_CP_MS_GRY2','USP_BEARD_CP_MS_GRY3','USP_BEARD_CP_MS_RED','USP_BEARD_CP_MS_RED2','USP_BEARD_CP_MS_RED3','USP_BEARD_MS_BLD','USP_BEARD_MS_BLD2','USP_BEARD_MS_BLD3','USP_BEARD_MS_BLK','USP_BEARD_MS_BLK2','USP_BEARD_MS_BLK3','USP_BEARD_MS_BLK4','USP_BEARD_MS_BLK5','USP_BEARD_MS_BRN','USP_BEARD_MS_BRN2','USP_BEARD_MS_BRN3','USP_BEARD_MS_BRN4','USP_BEARD_MS_BRN5','USP_BEARD_MS_BRN6','USP_BEARD_MS_BRN7','USP_BEARD_MS_BRN8','USP_BEARD_MS_GRY','USP_BEARD_MS_GRY2','USP_BEARD_MS_GRY3','USP_BEARD_MS_RED','USP_BEARD_MS_RED2','USP_BEARD_MS_RED3','USP_BEARD2_BLD','USP_BEARD2_BLD2','USP_BEARD2_BLD3','USP_BEARD2_BLK','USP_BEARD2_BLK2','USP_BEARD2_BLK3','USP_BEARD2_BLK4','USP_BEARD2_BLK5','USP_BEARD2_BRN','USP_BEARD2_BRN2','USP_BEARD2_BRN3','USP_BEARD2_BRN4','USP_BEARD2_BRN5','USP_BEARD2_BRN6','USP_BEARD2_BRN7','USP_BEARD2_BRN8','USP_BEARD2_GRY','USP_BEARD2_GRY2','USP_BEARD2_GRY3','USP_BEARD2_RED','USP_BEARD2_RED2','USP_BEARD2_RED3','USP_BEARD2_CH_BLD','USP_BEARD2_CH_BLD2','USP_BEARD2_CH_BLD3','USP_BEARD2_CH_BLK','USP_BEARD2_CH_BLK2','USP_BEARD2_CH_BLK3','USP_BEARD2_CH_BLK4','USP_BEARD2_CH_BLK5','USP_BEARD2_CH_BRN','USP_BEARD2_CH_BRN2','USP_BEARD2_CH_BRN3','USP_BEARD2_CH_BRN4','USP_BEARD2_CH_BRN5','USP_BEARD2_CH_BRN6','USP_BEARD2_CH_BRN7','USP_BEARD2_CH_BRN8','USP_BEARD2_CH_GRY','USP_BEARD2_CH_GRY2','USP_BEARD2_CH_GRY3','USP_BEARD2_CH_RED','USP_BEARD2_CH_RED2','USP_BEARD2_CH_RED3','USP_BEARD2_CH_CP_BLD','USP_BEARD2_CH_CP_BLD2','USP_BEARD2_CH_CP_BLD3','USP_BEARD2_CH_CP_BLK','USP_BEARD2_CH_CP_BLK2','USP_BEARD2_CH_CP_BLK3','USP_BEARD2_CH_CP_BLK4','USP_BEARD2_CH_CP_BLK5','USP_BEARD2_CH_CP_BRN','USP_BEARD2_CH_CP_BRN2','USP_BEARD2_CH_CP_BRN3','USP_BEARD2_CH_CP_BRN4','USP_BEARD2_CH_CP_BRN5','USP_BEARD2_CH_CP_BRN6','USP_BEARD2_CH_CP_BRN7','USP_BEARD2_CH_CP_BRN8','USP_BEARD2_CH_CP_GRY','USP_BEARD2_CH_CP_GRY2','USP_BEARD2_CH_CP_GRY3','USP_BEARD2_CH_CP_RED','USP_BEARD2_CH_CP_RED2','USP_BEARD2_CH_CP_RED3','USP_BEARD2_CH_MS_BLD','USP_BEARD2_CH_MS_BLD2','USP_BEARD2_CH_MS_BLD3','USP_BEARD2_CH_MS_BLK','USP_BEARD2_CH_MS_BLK2','USP_BEARD2_CH_MS_BLK3','USP_BEARD2_CH_MS_BLK4','USP_BEARD2_CH_MS_BLK5','USP_BEARD2_CH_MS_BRN','USP_BEARD2_CH_MS_BRN2','USP_BEARD2_CH_MS_BRN3','USP_BEARD2_CH_MS_BRN4','USP_BEARD2_CH_MS_BRN5','USP_BEARD2_CH_MS_BRN6','USP_BEARD2_CH_MS_BRN7','USP_BEARD2_CH_MS_BRN8','USP_BEARD2_CH_MS_GRY','USP_BEARD2_CH_MS_GRY2','USP_BEARD2_CH_MS_GRY3','USP_BEARD2_CH_MS_RED','USP_BEARD2_CH_MS_RED2','USP_BEARD2_CH_MS_RED3','USP_BEARD2_CP_BLD','USP_BEARD2_CP_BLD2','USP_BEARD2_CP_BLD3','USP_BEARD2_CP_BLK','USP_BEARD2_CP_BLK2','USP_BEARD2_CP_BLK3','USP_BEARD2_CP_BLK4','USP_BEARD2_CP_BLK5','USP_BEARD2_CP_BRN','USP_BEARD2_CP_BRN2','USP_BEARD2_CP_BRN3','USP_BEARD2_CP_BRN4','USP_BEARD2_CP_BRN5','USP_BEARD2_CP_BRN6','USP_BEARD2_CP_BRN7','USP_BEARD2_CP_BRN8','USP_BEARD2_CP_GRY','USP_BEARD2_CP_GRY2','USP_BEARD2_CP_GRY3','USP_BEARD2_CP_RED','USP_BEARD2_CP_RED2','USP_BEARD2_CP_RED3','USP_BEARD2_CP_MS_BLD','USP_BEARD2_CP_MS_BLD2','USP_BEARD2_CP_MS_BLD3','USP_BEARD2_CP_MS_BLK','USP_BEARD2_CP_MS_BLK2','USP_BEARD2_CP_MS_BLK3','USP_BEARD2_CP_MS_BLK4','USP_BEARD2_CP_MS_BLK5','USP_BEARD2_CP_MS_BRN','USP_BEARD2_CP_MS_BRN2','USP_BEARD2_CP_MS_BRN3','USP_BEARD2_CP_MS_BRN4','USP_BEARD2_CP_MS_BRN5','USP_BEARD2_CP_MS_BRN6','USP_BEARD2_CP_MS_BRN7','USP_BEARD2_CP_MS_BRN8','USP_BEARD2_CP_MS_GRY','USP_BEARD2_CP_MS_GRY2','USP_BEARD2_CP_MS_GRY3','USP_BEARD2_CP_MS_RED','USP_BEARD2_CP_MS_RED2','USP_BEARD2_CP_MS_RED3','USP_BEARD2_MS_BLD','USP_BEARD2_MS_BLD2','USP_BEARD2_MS_BLD3','USP_BEARD2_MS_BLK','USP_BEARD2_MS_BLK2','USP_BEARD2_MS_BLK3','USP_BEARD2_MS_BLK4','USP_BEARD2_MS_BLK5','USP_BEARD2_MS_BRN','USP_BEARD2_MS_BRN2','USP_BEARD2_MS_BRN3','USP_BEARD2_MS_BRN4','USP_BEARD2_MS_BRN5','USP_BEARD2_MS_BRN6','USP_BEARD2_MS_BRN7','USP_BEARD2_MS_BRN8','USP_BEARD2_MS_GRY','USP_BEARD2_MS_GRY2','USP_BEARD2_MS_GRY3','USP_BEARD2_MS_RED','USP_BEARD2_MS_RED2','USP_BEARD2_MS_RED3','UK3CB_G_Balaclava','UK3CB_G_Balaclava2_BLK','UK3CB_G_Ballistic_Black','UK3CB_G_Gloves_Black','UK3CB_G_Gloves_Green','UK3CB_G_Gloves_Tan','UK3CB_G_KLR_BLK','UK3CB_G_KLR_GRN','UK3CB_G_KLR_Oli','UK3CB_G_KLR_TAN','UK3CB_G_KL_BLK','UK3CB_G_KL_GRN','UK3CB_G_KL_Oli','UK3CB_G_KL_TAN','UK3CB_G_KR_BLK','UK3CB_G_KR_GRN','UK3CB_G_KR_Oli','UK3CB_G_KR_TAN','UK3CB_G_Tactical_Black','UK3CB_G_Tactical_Gloves_Black','UK3CB_G_Tactical_Gloves_Green','UK3CB_G_Tactical_Gloves_Tan','fsob_Beard01_Brown','fsob_Beard01_Dark','fsob_Beard01_Light','fsob_Beard02_Brown','fsob_Beard02_Dark','fsob_Beard02_Light','fsob_Beard03_Brown','fsob_Beard03_Dark','fsob_Beard03_Light','G_Aviator','G_Balaclava_blk','G_Balaclava_BlueStrips','G_Balaclava_Halloween_01','G_Balaclava_Flames1','G_Balaclava_Scarecrow_01','G_Balaclava_Skull1','G_Bandanna_aviator','G_Bandanna_beast','G_Bandanna_blk','G_Bandanna_BlueFlame1','G_Bandanna_BlueFlame2','G_Bandanna_CandySkull','G_Bandanna_OrangeFlame1','G_Bandanna_RedFlame1','G_Bandanna_Skull1','G_Bandanna_Syndikat1','G_Bandanna_Skull2','G_Bandanna_Vampire_01','G_Bandanna_Syndikat2','G_Squares','kat_Armband_Kat_Goggles','kat_Armband_Medic_Goggles','G_Balaclava_TI_blk_F','JCA_arifle_M16A4_black_F','JCA_arifle_M16A4_FG_black_F','JCA_arifle_M4A1_black_F','JCA_arifle_M4A4_AFG_black_F','JCA_arifle_M4A4_VFG_black_F','hlc_wp_SCARL_STD_Blk','hlc_wp_SCARL_CQC_Blk','uk3cb_auga2_blk','uk3cb_auga3_blk','UK3CB_BAF_L119A1_RIS','UK3CB_FNFAL_PARA_RAILS','uk3cb_baf_l85a2','uk3cb_baf_l85a3','uk3cb_baf_l86a2','UK3CB_G36A1','UK3CB_G36A1_C','UK3CB_HK33KA2_RIS','arifle_Katiba_F','JCA_arifle_M16A4_GL_black_F','JCA_arifle_M4A1_GL_black_F','JCA_arifle_M4A4_AFG_black_F','hlc_wp_SCARL_STD_EGLM_Blk','hlc_wp_SCARL_CQC_EGLM_Blk','uk3cb_auga3_gl_blk','uk3cb_baf_l119a1_ukugl','uk3cb_baf_l85a2_ugl','uk3cb_baf_l85a3_ugl','UK3CB_AG36E1','UK3CB_AG36A1','UK3CB_HK33KA2_RIS_GL','arifle_Katiba_GL_F','UK3CB_M79','rhs_weap_m32','JCA_smg_MP5_AFG_black_F','JCA_smg_MP5_VFG_black_F','uk3cb_baf_l22a2','uk3cb_carlg_m45','UK3CB_P90_TR_black','UK3CB_P90_black','UK3CB_Sten','SMG_02_F','SMG_01_F','rhsusf_weap_MP7A2','uk3cb_baf_l129a1','JCA_arifle_SR25_black_F','JCA_arifle_SR10_VFG_black_F','JCA_arifle_SR10_AFG_black_F','hlc_wp_SCARH_DMR_Blk','UK3CB_G3A3V_RIS','UK3CB_M14DMR','rhs_weap_m14ebrri','srifle_DMR_03_F','srifle_GM6_F','srifle_LRR_F','srifle_DMR_02_F','JCA_srifle_AWM_black_F','rhs_weap_XM2010','rhs_weap_m24sws','rhs_weap_m40a5','uk3cb_baf_l110_762','uk3cb_baf_l7a2','UK3CB_M60','UK3CB_MG3_KWS_B','LMG_03_F','MMG_02_black_F','rhs_weap_fnmag','rhs_weap_m240B','rhs_weap_m249_pip_S','rhs_weap_m249_pip','uk3cb_baf_l128a1','rhs_weap_M590_8RD','rhs_weap_M590_5RD','JCA_arifle_M4A4_AFG_black_F','rhs_weap_M320','JCA_hgun_P226_black_F','JCA_hgun_P320_black_F','hgun_Pistol_heavy_02_F','rhsusf_weap_glock17g4','rhsusf_weap_m1911a1','UK3CB_BAF_L105A2','rhsusf_weap_m9','UK3CB_BHP','Ace_VMM3','UK3CB_BAF_AT4_CS_AP_Launcher','UK3CB_BAF_AT4_CS_AT_Launcher','UK3CB_BAF_NLAW_Launcher','UK3CB_BAF_Javelin_Slung_Tube','rhs_weap_fim92','launch_MRAWS_green_F','rhs_weap_rpg7','JCA_arifle_M4A4_AFG_black_F','optic_Yorris','optic_Arco_blk_F','optic_SOS','rhsusf_acc_RM05','JCA_optic_HPPO_RAD_black','rhsusf_acc_LEUPOLDMK4_2_mrds','hlc_optic_ATACR_Offset','JCA_optic_MRO_black','JCA_optic_MRPS_black','rhs_acc_pgo7v3','rhsusf_acc_eotech_xps3','UK3CB_Optic_G36Export35x2d','rhsusf_acc_ELCAN_ard','optic_MRCO','rhs_acc_ekp8_18','hlc_optic_HensoldtZO_Hi_Docter','rhsusf_acc_ACOG2_USMC','rhs_acc_dh520x56','optic_Arco_AK_blk_F','RKSL_optic_RMR_MS19','rhs_acc_pgo7v2','rhsusf_acc_mrds','optic_DMS_weathered_Kir_F','rhsusf_acc_T1_low_fwd','rhsusf_acc_nxs_3515x50f1_h58','optic_AMS','RKSL_optic_LDS','rhsusf_acc_ACOG_anpvs27','uk3cb_optic_artel_m14','UK3CB_BAF_MaxiKite','RKSL_optic_PMII_525','rhsusf_acc_anpas13gv1','hlc_optic_HensoldtZO_Lo','hlc_optic_HensoldtZO_Hi_Docter_2D','hlc_optic_HensoldtZO_lo_Docter_2D','RKSL_optic_RMR_RM33_FDE','RKSL_optic_PMII_312','JCA_optic_ICO_black','rhsusf_acc_premier','JCA_optic_AHO_black','UK3CB_BAF_Kite','UK3CB_Optic_G36Dualoptic15x','JCA_optic_MPO_black','rhsusf_acc_nxs_3515x50f1_md_sun','HLC_optic_DocterR','hlc_optic_ZF95Base','hlc_optic_HensoldtZO_lo_Docter','ACE_optic_MRCO_2D','RKSL_optic_EOT552X','hlc_optic_VOMZ','rhsgref_acc_RX01_camo','rhsusf_acc_nxs_5522x56_md_sun','rhsusf_acc_ACOG2','JCA_optic_ARO_black','JCA_optic_AICO_black','rhsusf_acc_RM05_fwd','uk3cb_optic_accupoint_g3','rhsusf_acc_premier_mrds','UK3CB_Optic_G36dualoptic35x','UK3CB_BAF_TA31F_Hornbill','rhsusf_acc_ACOG3','optic_Aco','RKSL_optic_RMR_MS19_FDE','rhs_acc_okp7_picatinny','ACE_optic_Hamr_2D','uk3cb_optic_PVS4_G3','rhsusf_acc_ACOG3_USMC','rhsusf_acc_su230a_mrds','hlc_optic_HensoldtZO_Hi_2D','UK3CB_BAF_SpecterLDS','hlc_optic_VOMZ3d','rhsusf_acc_premier_low','rhsusf_acc_ACOG_USMC','UK3CB_Optic_G36Export35x','optic_Hamr','uk3cb_optic_ZFSG1','rhsusf_acc_RX01','rhsusf_acc_ACOG_MDO','hlc_optic_HensoldtZO_Hi','rhsusf_acc_ELCAN','rhsusf_acc_EOTECH','uk3cb_optic_PVS4_M14','rhsusf_acc_ACOG','UK3CB_Optic_G36dualoptic35x2d','rhsusf_acc_g33_xps3','UK3CB_BAF_TA648','rhsusf_acc_compm4','RKSL_optic_EOT552','rhsusf_acc_nxs_3515x50f1_md','rhs_acc_rakursPM','UK3CB_BAF_SUIT','rhsusf_acc_nxs_3515x50f1_h58_sun','rhsusf_acc_su230a','rhsusf_acc_M8541_low','UK3CB_BAF_SUSAT','RKSL_optic_PMII_312_sunshade','hlc_optic_ATACR','rhsusf_acc_T1_low','rhsusf_acc_anpvs27','rhsusf_acc_mrds_fwd','rhsusf_acc_LEUPOLDMK4','rhsusf_acc_LEUPOLDMK4_2','rhsusf_acc_premier_anpvs27','rhsusf_acc_su230','optic_ERCO_blk_F','rhsusf_acc_nxs_5522x56_md','rhsusf_acc_ACOG_RMR','rhsusf_acc_su230_mrds','optic_Holosight_blk_F','rhs_acc_1p87','hlc_optic_LeupoldM3A','JCA_optic_PRO_black','UK3CB_BAF_TA648_308','rhsusf_acc_g33_T1','rhsusf_acc_eotech_552','JCA_optic_HPPO_black','rhsgref_acc_RX01_NoFilter_camo','rhs_acc_1pn93_1','optic_dms','UK3CB_Optic_G36Export15x','rhsusf_acc_T1_high','optic_NVS','UK3CB_Optic_G36Export15x2d','RKSL_optic_RMR_RM33','rhsusf_acc_M8541_mrds','rhsusf_acc_M2A1','rhsusf_acc_RX01_NoFilter','rhs_acc_1pn93_2','optic_lrps','JCA_optic_ACOG_black','rhs_acc_pgo7v','optic_Holosight_smg_blk_F','UK3CB_Optic_G36Dualoptic15x2d','ACE_optic_SOS_2D','rhsusf_acc_M8541','rhsusf_acc_nxs_3515x50_md','hlc_optic_HensoldtZO_Lo_2D','UK3CB_BAF_TA31F','ACE_optic_LRPS_2D','optic_Aco_smg','optic_KHS_blk','JCA_arifle_M4A4_AFG_black_F','HLC_Panel_Side_SCAR_Long_FN5cm_Black','UK3CB_BAF_LLM_Flashlight_Black','acc_flashlight_smg_01','HLC_Panel_Side_SCAR_XTME_Black','HLC_Panel_Side_MagpulXT_Black','UK3CB_BAF_L105A1_LLM_IR_R','HLC_Panel_Side_SCAR_Long_2xFN5cm_Black','acc_pointer_IR','HLC_Panel_Side_SCAR_Long_FN10cm_Black','rhs_acc_perst1ik_ris','JCA_acc_DualMount_black_Pointer','hlc_acc_TLR1','HLC_Panel_Side_FN15cm_Black','HLC_Panel_Side_Ladder_S_Black','HLC_Panel_Side_XTME_Black','rhsusf_acc_anpeq15_wmx','JCA_acc_LightModule_Pistol_black','rhs_acc_perst3','rhsusf_acc_anpeq15A','HLC_Panel_Side_SCAR_Long_2xXTME_Black','HLC_Panel_Side_SCAR_FN5cm_Black','rhsusf_acc_M952V','HLC_Panel_Side_SCAR_Long_Ladder_L_Black','HLC_Panel_Side_4xXTME_Black','acc_flashlight','HLC_Panel_Side_SCAR_Long_FN15cm_Black','JCA_acc_LightMount_Pistol_black','HLC_Panel_Side_SCAR_MagpulXT_Black','acc_flashlight_pistol','hlc_acc_DBALPL_side_FL','UK3CB_BAF_L105A1_LLM_IR_G','HLC_Panel_Side_SCAR_2xXTME_Black','HLC_Panel_Side_SCAR_Long_Ladder_M_Black','rhsusf_acc_anpeq15side_bk','HLC_Panel_Side_SCAR_Long_Ladder_S_Black','rhs_acc_2dpZenit_ris','HLC_Panel_Side_Ladder_L_Black','HLC_Panel_Side_SCAR_Long_MagpulXT_Black','rhsusf_acc_anpeq15','HLC_Panel_Side_2xFN5cm_Black','rhsusf_acc_anpeq15_bk_top','JCA_acc_flashlight_tactical_black','HLC_Panel_Side_SCAR_Long_4xXTME_Black','HLC_Panel_Side_2xXTME_Black','hlc_acc_DBALPL_FL','HLC_Panel_Side_SCAR_2xFN5cm_Black','HLC_Panel_Side_SCAR_Ladder_S_Black','hlc_acc_LS321G','rhsusf_acc_wmx_bk','hlc_acc_DBALPL','HLC_Panel_Side_SCAR_Long_XTME_Black','HLC_Panel_Side_FN5cm_Black','HLC_Panel_Side_SCAR_FN10cm_Black','HLC_Panel_Side_6xXTME_Black','UK3CB_BAF_Flashlight_L105A1','ACE_DBAL_A3_Red','HLC_Panel_Side_SCAR_Ladder_M_Black','HLC_Panel_Side_Ladder_M_Black','hlc_acc_TLR1_Side','UK3CB_BAF_LLM_IR_Black','hlc_acc_DBALPL_Side','ACE_SPIR','HLC_Panel_Side_FN10cm_Black','rhsusf_acc_anpeq15_bk','JCA_acc_LaserModule_black_Pointer','ACE_DBAL_A3_Green','ACE_acc_pointer_green','hlc_muzzle_556NATO_M42000','hlc_muzzle_OEMDevice_556','rhsusf_acc_aac_762sdn6_silencer','ACE_muzzle_mzls_H','JCA_muzzle_snds_SR25_black','rhsusf_acc_aac_scarh_silencer','hlc_muzzle_FSC30','JCA_muzzle_snds_AWM_black','rhsusf_acc_nt4_black','muzzle_snds_B','hlc_muzzle_Evo9','rhsusf_acc_SF3P556','hlc_muzzle_ThunderChicken','muzzle_snds_570','UK3CB_BAF_Silencer_L115A3','ACE_muzzle_mzls_L','rhsusf_acc_SFMB556','JCA_muzzle_snds_762_tactical_black','hlc_muzzle_300blk_KAC','rhsusf_acc_rotex_mp7_aor1','muzzle_snds_M','hlc_muzzle_Cherrybomb','ACE_muzzle_mzls_smg_01','uk3cb_muzzle_snds_HK33','muzzle_snds_L','rhsusf_acc_ARDEC_M240','hlc_muzzle_556NATO_KAC','hlc_muzzle_KX3_comp','rhsusf_acc_m24_silencer_black','UK3CB_BAF_Silencer_L110','hlc_muzzle_TiRant9S','ACE_muzzle_mzls_B','rhsgref_sdn6_suppressor','ACE_muzzle_mzls_smg_02','rhsusf_acc_aac_m14dcqd_silencer','ACE_muzzle_mzls_338','JCA_muzzle_snds_9MM_tactical_black','UK3CB_BAF_Bayonet_L3A1','hlc_muzzle_AAC_SCARH','JCA_muzzle_snds_9MM_enhanced_black','hlc_muzzle_TiRant9','UK3CB_BAF_SFFH','rhsusf_acc_aac_762sd_silencer','hlc_muzzle_OEMDevice','muzzle_snds_H','muzzle_snds_65_TI_blk_F','muzzle_snds_338_black','JCA_muzzle_snds_556_advanced_black','hlc_muzzle_17SBrake','rhsusf_acc_rotex_mp7','rhsusf_acc_m24_muzzlehider_black','uk3cb_muzzle_snds_M14','rhsusf_acc_m14_flashsuppresor','muzzle_snds_H_MG_blk_F','UK3CB_BAF_Silencer_L85','hlc_muzzle_MAG58_Brake','hlc_muzzle_Miter18T','hlc_muzzle_AAC_762SDN6','hlc_muzzle_Brevis','JCA_muzzle_snds_MP5_black','muzzle_snds_acp','uk3cb_muzzle_snds_g3','rhsusf_acc_omega9k','UK3CB_BAF_Silencer_L105A1','hlc_muzzle_Octane9','rhsusf_acc_M2010S','HLC_Panel_Under_Ladder_M_Black','HLC_Panel_Under_4xXTME_Black','rhsusf_acc_grip1','UK3CB_underbarrel_acc_fgrip','bipod_01_F_khk','HLC_bipod_UTGShooters','HLC_Panel_Under_XTME_Black','rhs_acc_grip_ffg2','rhsusf_acc_rvg_blk','UK3CB_underbarrel_acc_bipod','HLC_Panel_Under_MagpulXT_Black','UK3CB_underbarrel_acc_grippod','bipod_01_F_blk','HLC_Panel_Under_Ladder_L_Black','rhsusf_acc_harris_swivel','rhsusf_acc_saw_lw_bipod','hlc_grip_AFG2','UK3CB_Bipod_G36','HLC_Panel_Under_2xFN5cm_Black','HLC_Panel_Under_Ladder_S_Black','hlc_grip_PMVFG_Black','bipod_01_F_mtp','HLC_Panel_Under_FN10cm_Black','HLC_Panel_Under_6xXTME_Black','rhs_acc_harris_swivel','rhsusf_acc_tdstubby_blk','rhsusf_acc_grip4_bipod','rhsusf_acc_harris_bipod','bipod_01_F_snd','rhs_acc_grip_rk6','rhsusf_acc_grip4','HLC_Panel_Under_FN15cm_Black','hlc_grip_PMVFG','rhsusf_acc_kac_grip','rhsusf_acc_grip2','UK3CB_underbarrel_acc_fgrip_bipod','rhsusf_acc_saw_bipod','HLC_Panel_Under_2xXTME_Black','rhsusf_acc_grip3','HLC_Panel_Under_FN5cm_Black','rhs_acc_grip_rk2','JCA_bipod_AWM_black','rhsusf_acc_kac_grip_saw_bipod','JCA_bipod_04_black','UK3CB_underbarrel_acc_afg','rhs_mag_30Rnd_556x45_M855_PMAG','rhs_mag_30Rnd_556x45_M855_PMAG_Tracer_Red','UK3CB_AUG_30Rnd_556x45_Magazine','UK3CB_AUG_30Rnd_556x45_Magazine_RT','UK3CB_BAF_762_20Rnd_T','UK3CB_BAF_762_20Rnd','UK3CB_G36_30rnd_556x45','UK3CB_G36_30rnd_556x45_RT','UK3CB_HK33_30rnd_556x45_RT','UK3CB_HK33_30rnd_556x45','30Rnd_65x39_caseless_green','ACE_30Rnd_65x39_caseless_green_mag_Tracer_Dim','JCA_30Rnd_9x21_MP5_Red_Mag','JCA_30Rnd_9x21_MP5_Mag','uk3cb_carlg_m45_36rnd_magazine','uk3cb_carlg_m45_36rnd_magazine_RT','UK3CB_P90_50rnd_570x28_Magazine_RM','UK3CB_P90_50rnd_570x28_Magazine','UK3CB_Sten_34Rnd_Magazine','UK3CB_Sten_34Rnd_Magazine_RT','30Rnd_9x21_Mag_SMG_02_Tracer_Red','30Rnd_9x21_Mag_SMG_02','30Rnd_45ACP_Mag_SMG_01','30Rnd_45ACP_Mag_SMG_01_Tracer_Red','rhsusf_mag_40Rnd_46x30_FMJ','UK3CB_BAF_762_L42A1_20Rnd','UK3CB_BAF_762_L42A1_20Rnd_T','JCA_20Rnd_762x51_Red_SMAG','JCA_20Rnd_762x51_SMAG','hlc_20Rnd_762x51_T_SCARH','ACE_20Rnd_762x51_Mag_Tracer','20Rnd_762x51_Mag','5Rnd_127x108_Mag','5Rnd_127x108_APDS_Mag','7Rnd_408_Mag','ACE_7Rnd_408_305gr_Mag','10Rnd_338_Mag','ACE_10Rnd_762x67_Mk248_Mod_1_Mag','JCA_5Rnd_338LM_AWM_Mag','JCA_5Rnd_338LM_AWM_Tracer_Red_Mag','rhsusf_5Rnd_300winmag_xm2010','rhsusf_5Rnd_762x51_m118_special_Mag','rhsusf_5Rnd_762x51_m62_Mag','rhsusf_5Rnd_762x51_m993_Mag','UK3CB_BAF_762_200Rnd','UK3CB_BAF_762_200Rnd_T','rhsusf_100Rnd_762x51','rhsusf_100Rnd_762x51_m62_tracer','UK3CB_MG3_100rnd_762x51_RT','UK3CB_MG3_100rnd_762x51','UK3CB_MG3_250rnd_762x51','UK3CB_MG3_250rnd_762x51_RT','150Rnd_762x51_Box_Tracer','150Rnd_762x51_Box','rhsusf_200rnd_556x45_M855_box','rhsusf_200rnd_556x45_M855_mixed_box','rhsusf_200Rnd_556x45_M855_soft_pouch','rhsusf_200Rnd_556x45_M855_mixed_soft_pouch','130Rnd_338_Mag','UK3CB_BAF_12G_Slugs','UK3CB_BAF_12G_Pellets','rhsusf_8Rnd_Slug','rhsusf_8Rnd_00Buck','rhsusf_5Rnd_00Buck','rhsusf_5Rnd_Slug','UK3CB_BAF_556_30Rnd_T','UK3CB_BAF_556_30Rnd','rhsusf_mag_6Rnd_M397_HET','rhsusf_mag_6Rnd_M433_HEDP','rhsusf_mag_6Rnd_M441_HE','rhsusf_mag_6Rnd_M583A1_white','rhsusf_mag_6Rnd_m661_green','rhsusf_mag_6Rnd_M714_white','rhsusf_mag_6Rnd_M715_green','rhs_mag_M441_HE','rhs_mag_M433_HEDP','rhs_mag_M397_HET','1Rnd_SmokeBlue_Grenade_shell','1Rnd_SmokeGreen_Grenade_shell','1Rnd_SmokePurple_Grenade_shell','1Rnd_SmokeRed_Grenade_shell','1Rnd_Smoke_Grenade_shell','ACE_40mm_Flare_ir','UGL_FlareWhite_F','JCA_15Rnd_9x21_P226_Mag','JCA_15Rnd_9x21_P226_Red_Mag','JCA_17Rnd_9x21_P320_Mag','JCA_17Rnd_9x21_P320_Red_Mag','6Rnd_45ACP_Cylinder','rhsusf_mag_17Rnd_9x19_FMJ','rhsusf_mag_7x45acp_MHP','UK3CB_BAF_9_15Rnd','UK3CB_BAF_9_13Rnd','rhsusf_mag_15Rnd_9x19_FMJ','rhs_fim92_mag','MRAWS_HE_F','MRAWS_HEAT55_F','MRAWS_HEAT_F','rhs_rpg7_OG7V_mag','rhs_rpg7_PG7V_mag','rhs_rpg7_PG7VL_mag','rhs_rpg7_PG7VM_mag','rhs_rpg7_PG7VR_mag','rhs_rpg7_PG7VS_mag','rhs_rpg7_TBG7V_mag','rhs_rpg7_type69_airburst_mag','USP_PVS15','USP_PVS15_WP','USP_PVS15_TAR','USP_PVS15_WP_TAR','USP_GPNVG18_TAR_BLK','USP_GPNVG18_BLK','USP_GPNVG18_WP_BLK','USP_GPNVG18_WP_TAR_BLK','ItemMap','ItemGPS','I_UavTerminal','TFAR_anprc152','ItemCompass','ACE_Altimeter','ItemWatch','UK3CB_BAF_Soflam_Laserdesignator','ACE_Vector','UK3CB_BAF_Javelin_CLU','tsp_breach_popper_mag','tsp_breach_popper_auto_mag','tsp_breach_block_mag','tsp_breach_block_auto_mag','tsp_breach_linear_mag','tsp_breach_linear_auto_mag','tsp_breach_package_mag','APERSMineDispenser_Mag','DemoCharge_Remote_Mag','ClaymoreDirectionalMine_Remote_Mag','ATMine_Range_Mag','ACE_ATragMX','VS_C_AR2_Item','ACE_EntrenchingTool','ACE_Clacker','ACE_Flashlight_XL50','ACE_MapTools','ToolKit','ACE_wirecutter','ACE_Kestrel4500','kat_crossPanel','ACE_CableTie','ACE_EarPlugs','ItemAndroid','ACE_IR_Strobe_Item','tsp_lockpick','ace_marker_flags_red','ACE_SpareBarrel','ACE_UAVBattery','tsp_flashbang_cts','UK3CB_BAF_SmokeShell','UK3CB_BAF_SmokeShellGreen','UK3CB_BAF_SmokeShellOrange','UK3CB_BAF_SmokeShellRed','UK3CB_BAF_SmokeShellBlue','UK3CB_BAF_SmokeShellPurple','HandGrenade','kat_IV_16','kat_aatKit','kat_accuvac','ACE_adenosine','kat_X_AED','kat_amiodarone','kat_Carbonate','kat_atropine','ACE_elasticBandage','ACE_packingBandage','ACE_bodyBag','kat_plate','kat_BVM','kat_Caffeine','kat_chestSeal','kat_clamp','kat_Painkiller','kat_EACA','ACE_epinephrine','kat_etomidate','kat_IO_FAST','kat_fentanyl','KAT_Empty_bloodIV_500','kat_fluidWarmer','kat_flumazenil','kat_guedel','kat_handWarmer','kat_ultrasound','kat_ketamine','kat_larynx','kat_lidocaine','kat_lorazepam','kat_suction','ACE_morphine','kat_nalbuphine','kat_naloxone','kat_ncdKit','kat_nitroglycerin','kat_norepinephrine','kat_Penthrox','kat_Pervitin','kat_phenylephrineAuto','ACE_plasmaIV','ACE_plasmaIV_250','ACE_plasmaIV_500','kat_pocketBVM','kat_oxygenTank_150','kat_Pulseoximeter','kat_retractor','ACE_salineIV_250','kat_scalpel','ACE_splint','kat_stethoscope','ACE_surgicalKit','ACE_suture','ACE_tourniquet','kat_TXA','UK3CB_V_Pilot_Vest_Black','rhs_weap_m27iar','UK3CB_BAF_U_CrewmanCoveralls_RTR','rhsusf_hgu56p_visor_black,'rhsusf_hgu56p_visor_mask_Empire_black','USP_BASEBALL_CAPB_BLK_CD','rhsusf_hgu56p_black','UK3CB_B_I_Backpack_Radio_Chem','UK3CB_ION_B_B_RIF_MED_BLK','USP_BASEBALL_CAPB_MCB_CD','USP_BASEBALL_CAPB_BLK','USP_BASEBALL_CAPB_MCB','USP_BASEBALL_CAP_BLK_CD','USP_BASEBALL_CAP_MCB_CD','rhs_weap_mk18_KAC_bk,'rhs_weap_mk18','rhs_weap_mk18_KAC']  ";
+
+// Viking Studios Arsenal Restrictions
+force VS_core_arsenal_allowlist_ic = "['ItemAndroid', 'ItemMicroDAGR', 'UK3CB_BAF_Soflam_Laserdesignator', 'ACE_Vector', 'ACE_UAVBattery', 'VS_C_AR2_Item', 'I_UavTerminal']";
+force VS_core_arsenal_allowlist_medic = "['kat_IV_16', 'kat_aatKit', 'kat_X_AED', 'ACE_bodyBag', 'kat_BVM', 'kat_EACA', 'kat_IO_FAST', 'KAT_Empty_bloodIV_500', 'kat_fluidWarmer', 'kat_guedel', 'kat_handWarmer', 'kat_larynx', 'kat_suction', 'kat_ncdKit', 'kat_nasal', 'kat_nitroglycerin', 'kat_Penthrox', 'ACE_plasmaIV', 'ACE_plasmaIV_250', 'ACE_plasmaIV_500', 'kat_pocketBVM', 'kat_Pulseoximeter', 'ACE_salineIV_250', 'kat_stethoscope', 'ACE_surgicalKit', 'ACE_suture', 'kat_TXA', 'UK3CB_ION_B_B_RIF_MED_BLK', 'USP_REEBOW_3DAP_ACC3_BLK', 'USP_REEBOW_3DAP_ACC4_BLK']";
+force VS_core_arsenal_allowlist_surgeon = "['kat_accuvac', 'kat_amiodarone', 'kat_plate', 'kat_clamp', 'kat_etomidate', 'kat_fentanyl', 'kat_flumazenil', 'kat_ultrasound', 'kat_ketamine', 'kat_lidocaine', 'kat_lorazepam', 'kat_nalbuphine', 'kat_norepinephrine', 'kat_Pervitin', 'kat_oxygenTank_150', 'kat_retractor', 'kat_scalpel']";
+force VS_core_arsenal_blacklist_cdt = "[]";
+force VS_core_arsenal_blacklist_pvt = "[]";
+force VS_core_arsenal_blacklist_rct = "[]";
+
+// Viking Studios Common
+VS_core_debug = false;
+VS_core_map_volume = 0.2;
+
+// Viking Studios Zeus
+VS_core_arsenal_objects = "C_supplyCrate_F,B_Slingload_01_Ammo_F";
+force VS_core_respawn_timer = 5;
+
+// Zeus Enhanced
+force zen_area_markers_editableMarkers = 0;
+force zen_building_markers_enabled = true;
+zen_camera_adaptiveSpeed = true;
+zen_camera_defaultSpeedCoef = 1;
+zen_camera_fastSpeedCoef = 1;
+zen_camera_followTerrain = true;
+force zen_common_ascensionMessages = false;
+force zen_common_autoAddObjects = true;
+force zen_common_cameraBird = false;
+zen_common_darkMode = false;
+zen_common_disableGearAnim = false;
+force zen_common_preferredArsenal = 1;
+zen_compat_ace_hideModules = true;
+zen_context_menu_enabled = 2;
+zen_context_menu_overrideWaypoints = false;
+zen_editor_addGroupIcons = false;
+zen_editor_addModIcons = false;
+zen_editor_declutterEmptyTree = true;
+zen_editor_disableLiveSearch = false;
+zen_editor_moveDisplayToEdge = true;
+force zen_editor_parachuteSounds = true;
+zen_editor_previews_enabled = true;
+zen_editor_randomizeCopyPaste = false;
+zen_editor_removeWatermark = true;
+zen_editor_unitRadioMessages = 0;
+zen_placement_enabled = false;
+zen_remote_control_cameraExitPosition = 2;
+force zen_visibility_enabled = 1;
+zen_visibility_maxDistance = 5000;
+zen_vision_enableBlackHot = false;
+zen_vision_enableBlackHotGreenCold = false;
+zen_vision_enableBlackHotRedCold = false;
+zen_vision_enableGreenHotCold = false;
+zen_vision_enableNVG = true;
+zen_vision_enableRedGreenThermal = false;
+zen_vision_enableRedHotCold = false;
+zen_vision_enableWhiteHot = true;
+zen_vision_enableWhiteHotRedCold = false;
+
+// Zeus Enhanced - Attributes
+zen_attributes_enableAbilities = true;
+zen_attributes_enableAmmo = true;
+zen_attributes_enableAmmoCargo = true;
+zen_attributes_enableArsenal = true;
+zen_attributes_enableBuildingMarker = true;
+zen_attributes_enableDamage = true;
+zen_attributes_enableEngine = true;
+zen_attributes_enableExecute = true;
+zen_attributes_enableFuel = true;
+zen_attributes_enableFuelCargo = true;
+zen_attributes_enableGarage = true;
+zen_attributes_enableGroupBehaviour = true;
+zen_attributes_enableGroupCombatMode = true;
+zen_attributes_enableGroupExecute = true;
+zen_attributes_enableGroupFormation = true;
+zen_attributes_enableGroupID = true;
+zen_attributes_enableGroupSide = true;
+zen_attributes_enableGroupSkill = true;
+zen_attributes_enableGroupSpeed = true;
+zen_attributes_enableGroupStance = true;
+zen_attributes_enableHealth = true;
+zen_attributes_enableInventory = true;
+zen_attributes_enableLights = true;
+zen_attributes_enableMarkerAlpha = true;
+zen_attributes_enableMarkerColor = true;
+zen_attributes_enableMarkerText = true;
+zen_attributes_enableName = true;
+zen_attributes_enablePlateNumber = true;
+zen_attributes_enableRank = true;
+zen_attributes_enableRepairCargo = true;
+zen_attributes_enableRespawnPosition = true;
+zen_attributes_enableRespawnVehicle = true;
+zen_attributes_enableSensors = true;
+zen_attributes_enableSkill = true;
+zen_attributes_enableSkills = true;
+zen_attributes_enableStance = true;
+zen_attributes_enableStates = true;
+zen_attributes_enableTraits = true;
+zen_attributes_enableVehicleLock = true;
+zen_attributes_enableWaypointBehaviour = true;
+zen_attributes_enableWaypointCombatMode = true;
+zen_attributes_enableWaypointFormation = true;
+zen_attributes_enableWaypointLoiterAltitude = true;
+zen_attributes_enableWaypointLoiterDirection = true;
+zen_attributes_enableWaypointLoiterRadius = true;
+zen_attributes_enableWaypointSpeed = true;
+zen_attributes_enableWaypointTimeout = true;
+zen_attributes_enableWaypointType = true;
+
+// Zeus Enhanced - Faction Filter
+zen_faction_filter_0_OPF_F = true;
+zen_faction_filter_0_OPF_G_F = true;
+zen_faction_filter_0_OPF_GEN_F = true;
+zen_faction_filter_0_OPF_R_F = true;
+zen_faction_filter_0_OPF_T_F = true;
+zen_faction_filter_0_rhs_faction_msv = true;
+zen_faction_filter_0_rhs_faction_rva = true;
+zen_faction_filter_0_rhs_faction_tv = true;
+zen_faction_filter_0_rhs_faction_vdv = true;
+zen_faction_filter_0_rhs_faction_vmf = true;
+zen_faction_filter_0_rhs_faction_vpvo = true;
+zen_faction_filter_0_rhs_faction_vv = true;
+zen_faction_filter_0_rhs_faction_vvs = true;
+zen_faction_filter_0_rhs_faction_vvs_c = true;
+zen_faction_filter_0_rhsgref_faction_chdkz = true;
+zen_faction_filter_0_rhsgref_faction_chdkz_groups = true;
+zen_faction_filter_0_rhsgref_faction_tla = true;
+zen_faction_filter_0_rhssaf_faction_airforce_opfor = true;
+zen_faction_filter_0_rhssaf_faction_army_opfor = true;
+zen_faction_filter_0_UK3CB_AAF_O = true;
+zen_faction_filter_0_UK3CB_ADA_O = true;
+zen_faction_filter_0_UK3CB_ADC_O = true;
+zen_faction_filter_0_UK3CB_ADE_O = true;
+zen_faction_filter_0_UK3CB_ADG_O = true;
+zen_faction_filter_0_UK3CB_ADM_O = true;
+zen_faction_filter_0_UK3CB_ADP_O = true;
+zen_faction_filter_0_UK3CB_ADR_O = true;
+zen_faction_filter_0_UK3CB_APD_O = true;
+zen_faction_filter_0_UK3CB_ARD_O = true;
+zen_faction_filter_0_UK3CB_CCM_O = true;
+zen_faction_filter_0_UK3CB_CHC_O = true;
+zen_faction_filter_0_UK3CB_CHD_O = true;
+zen_faction_filter_0_UK3CB_CHD_O_groups = true;
+zen_faction_filter_0_UK3CB_CHD_W_O = true;
+zen_faction_filter_0_UK3CB_CHD_W_O_groups = true;
+zen_faction_filter_0_UK3CB_CPD_O = true;
+zen_faction_filter_0_UK3CB_CSAT_A_O = true;
+zen_faction_filter_0_UK3CB_CSAT_A_O_groups = true;
+zen_faction_filter_0_UK3CB_CSAT_B_O = true;
+zen_faction_filter_0_UK3CB_CSAT_B_O_groups = true;
+zen_faction_filter_0_UK3CB_CSAT_F_O = true;
+zen_faction_filter_0_UK3CB_CSAT_F_O_groups = true;
+zen_faction_filter_0_UK3CB_CSAT_G_O = true;
+zen_faction_filter_0_UK3CB_CSAT_G_O_groups = true;
+zen_faction_filter_0_UK3CB_CSAT_M_O = true;
+zen_faction_filter_0_UK3CB_CSAT_M_O_groups = true;
+zen_faction_filter_0_UK3CB_CSAT_N_O = true;
+zen_faction_filter_0_UK3CB_CSAT_N_O_groups = true;
+zen_faction_filter_0_UK3CB_CSAT_S_O = true;
+zen_faction_filter_0_UK3CB_CSAT_S_O_groups = true;
+zen_faction_filter_0_UK3CB_CSAT_U_O = true;
+zen_faction_filter_0_UK3CB_CSAT_U_O_groups = true;
+zen_faction_filter_0_UK3CB_CSAT_W_O = true;
+zen_faction_filter_0_UK3CB_CSAT_W_O_groups = true;
+zen_faction_filter_0_UK3CB_CW_SOV_O_EARLY = true;
+zen_faction_filter_0_UK3CB_CW_SOV_O_LATE = true;
+zen_faction_filter_0_UK3CB_FIA_O = true;
+zen_faction_filter_0_UK3CB_GAF_O = true;
+zen_faction_filter_0_UK3CB_ION_O_Desert = true;
+zen_faction_filter_0_UK3CB_ION_O_Urban = true;
+zen_faction_filter_0_UK3CB_ION_O_Winter = true;
+zen_faction_filter_0_UK3CB_ION_O_Woodland = true;
+zen_faction_filter_0_UK3CB_KDF_O = true;
+zen_faction_filter_0_UK3CB_KRG_O = true;
+zen_faction_filter_0_UK3CB_LDF_O = true;
+zen_faction_filter_0_UK3CB_LDF_O_groups = true;
+zen_faction_filter_0_UK3CB_LFR_O = true;
+zen_faction_filter_0_UK3CB_LNM_O = true;
+zen_faction_filter_0_UK3CB_LNM_O_groups = true;
+zen_faction_filter_0_UK3CB_LSM_O = true;
+zen_faction_filter_0_UK3CB_MDF_O = true;
+zen_faction_filter_0_UK3CB_MEC_O = true;
+zen_faction_filter_0_UK3CB_MEE_O = true;
+zen_faction_filter_0_UK3CB_MEI_O = true;
+zen_faction_filter_0_UK3CB_NAP_O = true;
+zen_faction_filter_0_UK3CB_NAP_O_groups = true;
+zen_faction_filter_0_UK3CB_NFA_O = true;
+zen_faction_filter_0_UK3CB_NFA_O_groups = true;
+zen_faction_filter_0_UK3CB_NPD_O = true;
+zen_faction_filter_0_UK3CB_TKA_O = true;
+zen_faction_filter_0_UK3CB_TKC_O = true;
+zen_faction_filter_0_UK3CB_TKM_O = true;
+zen_faction_filter_0_UK3CB_TKP_O = true;
+zen_faction_filter_0_VS_Core_compositions = true;
+zen_faction_filter_0_vtf_kf_O_KS = true;
+zen_faction_filter_1_BLU_CTRG_F = true;
+zen_faction_filter_1_BLU_F = true;
+zen_faction_filter_1_BLU_G_F = true;
+zen_faction_filter_1_BLU_GEN_F = true;
+zen_faction_filter_1_BLU_T_F = true;
+zen_faction_filter_1_BLU_W_F = true;
+zen_faction_filter_1_rhs_faction_socom = true;
+zen_faction_filter_1_rhs_faction_usaf = true;
+zen_faction_filter_1_rhs_faction_usarmy_d = true;
+zen_faction_filter_1_rhs_faction_usarmy_wd = true;
+zen_faction_filter_1_rhs_faction_usmc_d = true;
+zen_faction_filter_1_rhs_faction_usmc_wd = true;
+zen_faction_filter_1_rhs_faction_usn = true;
+zen_faction_filter_1_rhsgref_faction_cdf_air_b = true;
+zen_faction_filter_1_rhsgref_faction_cdf_ground_b = true;
+zen_faction_filter_1_rhsgref_faction_cdf_ground_b_groups = true;
+zen_faction_filter_1_rhsgref_faction_cdf_ng_b = true;
+zen_faction_filter_1_rhsgref_faction_hidf = true;
+zen_faction_filter_1_UK3CB_AAF_B = true;
+zen_faction_filter_1_UK3CB_ADA_B = true;
+zen_faction_filter_1_UK3CB_ADC_B = true;
+zen_faction_filter_1_UK3CB_ADG_B = true;
+zen_faction_filter_1_UK3CB_ADM_B = true;
+zen_faction_filter_1_UK3CB_ADP_B = true;
+zen_faction_filter_1_UK3CB_ADR_B = true;
+zen_faction_filter_1_UK3CB_ANA_B = true;
+zen_faction_filter_1_UK3CB_ANP_B = true;
+zen_faction_filter_1_UK3CB_APD_B = true;
+zen_faction_filter_1_UK3CB_ARD_B = true;
+zen_faction_filter_1_UK3CB_BAF_Faction_Airforce_Arctic = true;
+zen_faction_filter_1_UK3CB_BAF_Faction_Airforce_Desert = true;
+zen_faction_filter_1_UK3CB_BAF_Faction_Airforce_MTP = true;
+zen_faction_filter_1_UK3CB_BAF_Faction_Airforce_Temperate = true;
+zen_faction_filter_1_UK3CB_BAF_Faction_Airforce_Tropical = true;
+zen_faction_filter_1_UK3CB_BAF_Faction_Airforce_Woodland = true;
+zen_faction_filter_1_UK3CB_BAF_Faction_Army_Arctic = true;
+zen_faction_filter_1_UK3CB_BAF_Faction_Army_Desert = true;
+zen_faction_filter_1_UK3CB_BAF_Faction_Army_MTP = true;
+zen_faction_filter_1_UK3CB_BAF_Faction_Army_Temperate = true;
+zen_faction_filter_1_UK3CB_BAF_Faction_Army_Tropical = true;
+zen_faction_filter_1_UK3CB_BAF_Faction_Army_Woodland = true;
+zen_faction_filter_1_UK3CB_BAF_Faction_Navy_Arctic = true;
+zen_faction_filter_1_UK3CB_BAF_Faction_Navy_Desert = true;
+zen_faction_filter_1_UK3CB_BAF_Faction_Navy_MTP = true;
+zen_faction_filter_1_UK3CB_BAF_Faction_Navy_Temperate = true;
+zen_faction_filter_1_UK3CB_BAF_Faction_Navy_Tropical = true;
+zen_faction_filter_1_UK3CB_BAF_Faction_Navy_Woodland = true;
+zen_faction_filter_1_UK3CB_CCM_B = true;
+zen_faction_filter_1_UK3CB_CHC_B = true;
+zen_faction_filter_1_UK3CB_CHD_B = true;
+zen_faction_filter_1_UK3CB_CHD_B_groups = true;
+zen_faction_filter_1_UK3CB_CHD_W_B = true;
+zen_faction_filter_1_UK3CB_CHD_W_B_groups = true;
+zen_faction_filter_1_UK3CB_CPD_B = true;
+zen_faction_filter_1_UK3CB_CW_US_B_EARLY = true;
+zen_faction_filter_1_UK3CB_CW_US_B_LATE = true;
+zen_faction_filter_1_UK3CB_FIA_B = true;
+zen_faction_filter_1_UK3CB_GAF_B = true;
+zen_faction_filter_1_UK3CB_ION_B_Desert = true;
+zen_faction_filter_1_UK3CB_ION_B_Urban = true;
+zen_faction_filter_1_UK3CB_ION_B_Winter = true;
+zen_faction_filter_1_UK3CB_ION_B_Woodland = true;
+zen_faction_filter_1_UK3CB_KDF_B = true;
+zen_faction_filter_1_UK3CB_KRG_B = true;
+zen_faction_filter_1_UK3CB_LDF_B = true;
+zen_faction_filter_1_UK3CB_LDF_B_groups = true;
+zen_faction_filter_1_UK3CB_LFR_B = true;
+zen_faction_filter_1_UK3CB_LNM_B = true;
+zen_faction_filter_1_UK3CB_LNM_B_groups = true;
+zen_faction_filter_1_UK3CB_LSM_B = true;
+zen_faction_filter_1_UK3CB_MDF_B = true;
+zen_faction_filter_1_UK3CB_MEC_B = true;
+zen_faction_filter_1_UK3CB_MEI_B = true;
+zen_faction_filter_1_UK3CB_NAP_B = true;
+zen_faction_filter_1_UK3CB_NAP_B_groups = true;
+zen_faction_filter_1_UK3CB_NFA_B = true;
+zen_faction_filter_1_UK3CB_NFA_B_groups = true;
+zen_faction_filter_1_UK3CB_NPD_B = true;
+zen_faction_filter_1_UK3CB_TKA_B = true;
+zen_faction_filter_1_UK3CB_TKC_B = true;
+zen_faction_filter_1_UK3CB_TKM_B = true;
+zen_faction_filter_1_UK3CB_TKP_B = true;
+zen_faction_filter_1_UK3CB_UN_B = true;
+zen_faction_filter_1_USAF = true;
+zen_faction_filter_1_vtf_kf_B_KDF = true;
+zen_faction_filter_1_vtf_kf_B_KFL = true;
+zen_faction_filter_2_IND_C_F = true;
+zen_faction_filter_2_IND_E_F = true;
+zen_faction_filter_2_IND_F = true;
+zen_faction_filter_2_IND_G_F = true;
+zen_faction_filter_2_IND_L_F = true;
+zen_faction_filter_2_rhsgref_faction_cdf_air = true;
+zen_faction_filter_2_rhsgref_faction_cdf_ground = true;
+zen_faction_filter_2_rhsgref_faction_cdf_ground_groups = true;
+zen_faction_filter_2_rhsgref_faction_cdf_ng = true;
+zen_faction_filter_2_rhsgref_faction_cdf_ng_groups = true;
+zen_faction_filter_2_rhsgref_faction_chdkz_g = true;
+zen_faction_filter_2_rhsgref_faction_chdkz_g_groups = true;
+zen_faction_filter_2_rhsgref_faction_nationalist = true;
+zen_faction_filter_2_rhsgref_faction_nationalist_groups = true;
+zen_faction_filter_2_rhsgref_faction_tla_g = true;
+zen_faction_filter_2_rhsgref_faction_un = true;
+zen_faction_filter_2_rhssaf_faction_airforce = true;
+zen_faction_filter_2_rhssaf_faction_army = true;
+zen_faction_filter_2_rhssaf_faction_un = true;
+zen_faction_filter_2_UK3CB_AAF_I = true;
+zen_faction_filter_2_UK3CB_ADA_I = true;
+zen_faction_filter_2_UK3CB_ADC_I = true;
+zen_faction_filter_2_UK3CB_ADE_I = true;
+zen_faction_filter_2_UK3CB_ADG_I = true;
+zen_faction_filter_2_UK3CB_ADM_I = true;
+zen_faction_filter_2_UK3CB_ADP_I = true;
+zen_faction_filter_2_UK3CB_ADR_I = true;
+zen_faction_filter_2_UK3CB_APD_I = true;
+zen_faction_filter_2_UK3CB_ARD_I = true;
+zen_faction_filter_2_UK3CB_CCM_I = true;
+zen_faction_filter_2_UK3CB_CHC_I = true;
+zen_faction_filter_2_UK3CB_CHD_I = true;
+zen_faction_filter_2_UK3CB_CHD_I_groups = true;
+zen_faction_filter_2_UK3CB_CHD_W_I = true;
+zen_faction_filter_2_UK3CB_CHD_W_I_groups = true;
+zen_faction_filter_2_UK3CB_CPD_I = true;
+zen_faction_filter_2_UK3CB_FIA_I = true;
+zen_faction_filter_2_UK3CB_GAF_I = true;
+zen_faction_filter_2_UK3CB_ION_I_Desert = true;
+zen_faction_filter_2_UK3CB_ION_I_Urban = true;
+zen_faction_filter_2_UK3CB_ION_I_Winter = true;
+zen_faction_filter_2_UK3CB_ION_I_Woodland = true;
+zen_faction_filter_2_UK3CB_KDF_I = true;
+zen_faction_filter_2_UK3CB_KRG_I = true;
+zen_faction_filter_2_UK3CB_LDF_I = true;
+zen_faction_filter_2_UK3CB_LDF_I_groups = true;
+zen_faction_filter_2_UK3CB_LFR_I = true;
+zen_faction_filter_2_UK3CB_LNM_I = true;
+zen_faction_filter_2_UK3CB_LNM_I_groups = true;
+zen_faction_filter_2_UK3CB_LSM_I = true;
+zen_faction_filter_2_UK3CB_MDF_I = true;
+zen_faction_filter_2_UK3CB_MEC_I = true;
+zen_faction_filter_2_UK3CB_MEE_I = true;
+zen_faction_filter_2_UK3CB_MEI_I = true;
+zen_faction_filter_2_UK3CB_NAP_I = true;
+zen_faction_filter_2_UK3CB_NAP_I_groups = true;
+zen_faction_filter_2_UK3CB_NFA_I = true;
+zen_faction_filter_2_UK3CB_NFA_I_groups = true;
+zen_faction_filter_2_UK3CB_NPD_I = true;
+zen_faction_filter_2_UK3CB_TKA_I = true;
+zen_faction_filter_2_UK3CB_TKC_I = true;
+zen_faction_filter_2_UK3CB_TKM_I = true;
+zen_faction_filter_2_UK3CB_TKP_I = true;
+zen_faction_filter_2_UK3CB_UN_I = true;
+zen_faction_filter_2_VS_C_BAPMC = true;
+zen_faction_filter_2_vtf_kf_I_KAL = true;
+zen_faction_filter_3_CIV_F = true;
+zen_faction_filter_3_CIV_IDAP_F = true;
+zen_faction_filter_3_EdCat_jbad_vehicles = true;
+zen_faction_filter_3_IND_L_F = true;
+zen_faction_filter_3_UK3CB_ADC_C = true;
+zen_faction_filter_3_UK3CB_CHC_C = true;
+zen_faction_filter_3_UK3CB_MEC_C = true;
+zen_faction_filter_3_UK3CB_TKC_C = true;
